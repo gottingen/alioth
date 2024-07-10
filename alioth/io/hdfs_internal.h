@@ -20,10 +20,10 @@
 #include <cstddef>
 #include <cstdint>
 
-#include <hdfs.h>
+#include <alioth/3rd/hdfs.h>
 
-#include "arrow/util/visibility.h"
-#include "arrow/util/windows_compatibility.h"  // IWYU pragma: keep
+#include "alioth/util/visibility.h"
+#include "alioth/util/windows_compatibility.h"  // IWYU pragma: keep
 
 using std::size_t;
 

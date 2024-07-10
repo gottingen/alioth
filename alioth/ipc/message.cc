@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/ipc/message.h"
+#include "alioth/ipc/message.h"
 
 #include <algorithm>
 #include <cstddef>
@@ -25,21 +25,21 @@
 #include <utility>
 #include <vector>
 
-#include "arrow/buffer.h"
-#include "arrow/device.h"
-#include "arrow/io/interfaces.h"
-#include "arrow/ipc/metadata_internal.h"
-#include "arrow/ipc/options.h"
-#include "arrow/ipc/reader.h"
-#include "arrow/ipc/reader_internal.h"
-#include "arrow/ipc/util.h"
-#include "arrow/status.h"
-#include "arrow/util/endian.h"
-#include "arrow/util/future.h"
-#include "arrow/util/logging.h"
-#include "arrow/util/ubsan.h"
+#include "alioth/buffer.h"
+#include "alioth/device.h"
+#include "alioth/io/interfaces.h"
+#include "alioth/ipc/metadata_internal.h"
+#include "alioth/ipc/options.h"
+#include "alioth/ipc/reader.h"
+#include "alioth/ipc/reader_internal.h"
+#include "alioth/ipc/util.h"
+#include "alioth/status.h"
+#include "alioth/util/endian.h"
+#include "alioth/util/future.h"
+#include "alioth/util/logging.h"
+#include "alioth/util/ubsan.h"
 
-#include "generated/Message_generated.h"
+#include "alioth/generated/Message_generated.h"
 
 namespace arrow {
 

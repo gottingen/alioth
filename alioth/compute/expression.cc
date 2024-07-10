@@ -15,28 +15,28 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/compute/expression.h"
+#include "alioth/compute/expression.h"
 
 #include <algorithm>
 #include <optional>
 #include <unordered_map>
 #include <unordered_set>
 
-#include "arrow/chunked_array.h"
-#include "arrow/compute/api_vector.h"
-#include "arrow/compute/exec_internal.h"
-#include "arrow/compute/expression_internal.h"
-#include "arrow/compute/function_internal.h"
-#include "arrow/compute/util.h"
-#include "arrow/io/memory.h"
-#include "arrow/ipc/reader.h"
-#include "arrow/ipc/writer.h"
-#include "arrow/util/hash_util.h"
-#include "arrow/util/key_value_metadata.h"
-#include "arrow/util/logging.h"
-#include "arrow/util/string.h"
-#include "arrow/util/value_parsing.h"
-#include "arrow/util/vector.h"
+#include "alioth/chunked_array.h"
+#include "alioth/compute/api_vector.h"
+#include "alioth/compute/exec_internal.h"
+#include "alioth/compute/expression_internal.h"
+#include "alioth/compute/function_internal.h"
+#include "alioth/compute/util.h"
+#include "alioth/io/memory.h"
+#include "alioth/ipc/reader.h"
+#include "alioth/ipc/writer.h"
+#include "alioth/util/hash_util.h"
+#include "alioth/util/key_value_metadata.h"
+#include "alioth/util/logging.h"
+#include "alioth/util/string.h"
+#include "alioth/util/value_parsing.h"
+#include "alioth/util/vector.h"
 
 namespace arrow {
 

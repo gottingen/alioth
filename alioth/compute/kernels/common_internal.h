@@ -27,22 +27,22 @@
 #include <utility>
 #include <vector>
 
-#include "arrow/array/data.h"
-#include "arrow/buffer.h"
-#include "arrow/chunked_array.h"
+#include "alioth/array/data.h"
+#include "alioth/buffer.h"
+#include "alioth/chunked_array.h"
 
-#include "arrow/compute/function.h"
-#include "arrow/compute/kernel.h"
-#include "arrow/compute/kernels/codegen_internal.h"
-#include "arrow/compute/registry.h"
-#include "arrow/datum.h"
-#include "arrow/memory_pool.h"
-#include "arrow/status.h"
-#include "arrow/type.h"
-#include "arrow/type_traits.h"
-#include "arrow/util/checked_cast.h"
-#include "arrow/util/logging.h"
-#include "arrow/util/macros.h"
+#include "alioth/compute/function.h"
+#include "alioth/compute/kernel.h"
+#include "alioth/compute/kernels/codegen_internal.h"
+#include "alioth/compute/registry.h"
+#include "alioth/datum.h"
+#include "alioth/memory_pool.h"
+#include "alioth/status.h"
+#include "alioth/type.h"
+#include "alioth/type_traits.h"
+#include "alioth/util/checked_cast.h"
+#include "alioth/util/logging.h"
+#include "alioth/util/macros.h"
 
 // IWYU pragma: end_exports
 

@@ -15,11 +15,11 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/util/formatting.h"
-#include "arrow/util/config.h"
-#include "arrow/util/double_conversion.h"
-#include "arrow/util/float16.h"
-#include "arrow/util/logging.h"
+#include "alioth/util/formatting.h"
+#include "alioth/util/config.h"
+#include "alioth/util/double_conversion.h"
+#include "alioth/util/float16.h"
+#include "alioth/util/logging.h"
 
 namespace arrow {
 

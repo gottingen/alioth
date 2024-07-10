@@ -17,7 +17,7 @@
 
 #pragma once
 
-#include "arrow/array/data.h"
+#include "alioth/array/data.h"
 
 namespace arrow {
 namespace dict_util {

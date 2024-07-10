@@ -29,8 +29,8 @@
 #include <charconv>
 #endif
 
-#include "arrow/result.h"
-#include "arrow/util/visibility.h"
+#include "alioth/result.h"
+#include "alioth/util/visibility.h"
 
 namespace arrow {
 

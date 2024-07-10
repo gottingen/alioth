@@ -19,14 +19,14 @@
 #include <queue>
 #include <utility>
 
-#include "arrow/compute/api_aggregate.h"
-#include "arrow/compute/kernels/aggregate_internal.h"
-#include "arrow/compute/kernels/common_internal.h"
-#include "arrow/compute/kernels/util_internal.h"
-#include "arrow/result.h"
-#include "arrow/stl_allocator.h"
-#include "arrow/type_traits.h"
-#include "arrow/util/bit_util.h"
+#include "alioth/compute/api_aggregate.h"
+#include "alioth/compute/kernels/aggregate_internal.h"
+#include "alioth/compute/kernels/common_internal.h"
+#include "alioth/compute/kernels/util_internal.h"
+#include "alioth/result.h"
+#include "alioth/stl_allocator.h"
+#include "alioth/type_traits.h"
+#include "alioth/util/bit_util.h"
 
 namespace arrow {
 namespace compute {

@@ -15,22 +15,22 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/datum.h"
+#include "alioth/datum.h"
 
 #include <cstddef>
 #include <memory>
 #include <sstream>
 #include <vector>
 
-#include "arrow/array/array_base.h"
-#include "arrow/array/util.h"
-#include "arrow/chunked_array.h"
-#include "arrow/record_batch.h"
-#include "arrow/scalar.h"
-#include "arrow/table.h"
-#include "arrow/util/byte_size.h"
-#include "arrow/util/logging.h"
-#include "arrow/util/memory.h"
+#include "alioth/array/array_base.h"
+#include "alioth/array/util.h"
+#include "alioth/chunked_array.h"
+#include "alioth/record_batch.h"
+#include "alioth/scalar.h"
+#include "alioth/table.h"
+#include "alioth/util/byte_size.h"
+#include "alioth/util/logging.h"
+#include "alioth/util/memory.h"
 
 namespace arrow {
 

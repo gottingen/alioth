@@ -23,17 +23,17 @@
 #include <type_traits>
 #include <utility>
 
-#include "arrow/array/data.h"
-#include "arrow/compute/api_vector.h"
-#include "arrow/compute/kernels/common_internal.h"
-#include "arrow/compute/kernels/util_internal.h"
-#include "arrow/compute/kernels/vector_sort_internal.h"
-#include "arrow/type_traits.h"
-#include "arrow/util/bit_block_counter.h"
-#include "arrow/util/bitmap.h"
-#include "arrow/util/bitmap_ops.h"
-#include "arrow/util/checked_cast.h"
-#include "arrow/visit_type_inline.h"
+#include "alioth/array/data.h"
+#include "alioth/compute/api_vector.h"
+#include "alioth/compute/kernels/common_internal.h"
+#include "alioth/compute/kernels/util_internal.h"
+#include "alioth/compute/kernels/vector_sort_internal.h"
+#include "alioth/type_traits.h"
+#include "alioth/util/bit_block_counter.h"
+#include "alioth/util/bitmap.h"
+#include "alioth/util/bitmap_ops.h"
+#include "alioth/util/checked_cast.h"
+#include "alioth/visit_type_inline.h"
 
 namespace arrow {
 

@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/util/counting_semaphore.h"
+#include "alioth/util/counting_semaphore.h"
 
 #include <chrono>
 #include <condition_variable>
@@ -23,7 +23,7 @@
 #include <iostream>
 #include <mutex>
 
-#include "arrow/status.h"
+#include "alioth/status.h"
 
 namespace arrow {
 namespace util {

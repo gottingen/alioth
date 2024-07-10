@@ -16,7 +16,7 @@
 // under the License.
 
 #pragma once
-
+#ifdef ARROW_HAVE_RUNTIME_AVX512
 #include <stdint.h>
 
 namespace arrow {
@@ -26,3 +26,4 @@ int unpack32_neon(const uint32_t* in, uint32_t* out, int batch_size, int num_bit
 
 }  // namespace internal
 }  // namespace arrow
+#endif

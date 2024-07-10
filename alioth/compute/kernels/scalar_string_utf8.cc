@@ -19,9 +19,9 @@
 #include <mutex>
 #include <string>
 
-#include "arrow/compute/kernels/scalar_string_internal.h"
-#include "arrow/util/config.h"
-#include "arrow/util/utf8_internal.h"
+#include "alioth/compute/kernels/scalar_string_internal.h"
+#include "alioth/util/config.h"
+#include "alioth/util/utf8_internal.h"
 
 #ifdef ARROW_WITH_UTF8PROC
 #include <utf8proc.h>

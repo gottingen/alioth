@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/array/data.h"
+#include "alioth/array/data.h"
 
 #include <algorithm>
 #include <cstddef>
@@ -25,22 +25,22 @@
 #include <utility>
 #include <vector>
 
-#include "arrow/array/util.h"
-#include "arrow/buffer.h"
-#include "arrow/device.h"
-#include "arrow/scalar.h"
-#include "arrow/status.h"
-#include "arrow/type.h"
-#include "arrow/type_traits.h"
-#include "arrow/util/binary_view_util.h"
-#include "arrow/util/bitmap_ops.h"
-#include "arrow/util/dict_util.h"
-#include "arrow/util/logging.h"
-#include "arrow/util/macros.h"
-#include "arrow/util/range.h"
-#include "arrow/util/ree_util.h"
-#include "arrow/util/slice_util_internal.h"
-#include "arrow/util/union_util.h"
+#include "alioth/array/util.h"
+#include "alioth/buffer.h"
+#include "alioth/device.h"
+#include "alioth/scalar.h"
+#include "alioth/status.h"
+#include "alioth/type.h"
+#include "alioth/type_traits.h"
+#include "alioth/util/binary_view_util.h"
+#include "alioth/util/bitmap_ops.h"
+#include "alioth/util/dict_util.h"
+#include "alioth/util/logging.h"
+#include "alioth/util/macros.h"
+#include "alioth/util/range.h"
+#include "alioth/util/ree_util.h"
+#include "alioth/util/slice_util_internal.h"
+#include "alioth/util/union_util.h"
 
 namespace arrow {
 

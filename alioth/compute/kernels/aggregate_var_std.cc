@@ -17,12 +17,12 @@
 
 #include <cmath>
 
-#include "arrow/compute/api_aggregate.h"
-#include "arrow/compute/kernels/aggregate_internal.h"
-#include "arrow/compute/kernels/aggregate_var_std_internal.h"
-#include "arrow/compute/kernels/common_internal.h"
-#include "arrow/util/bit_run_reader.h"
-#include "arrow/util/int128_internal.h"
+#include "alioth/compute/api_aggregate.h"
+#include "alioth/compute/kernels/aggregate_internal.h"
+#include "alioth/compute/kernels/aggregate_var_std_internal.h"
+#include "alioth/compute/kernels/common_internal.h"
+#include "alioth/util/bit_run_reader.h"
+#include "alioth/util/int128_internal.h"
 
 namespace arrow {
 namespace compute {

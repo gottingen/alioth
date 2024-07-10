@@ -28,15 +28,15 @@
 #include <string>
 #include <type_traits>
 
-#include "arrow/type.h"
-#include "arrow/type_traits.h"
-#include "arrow/util/checked_cast.h"
-#include "arrow/util/config.h"
-#include "arrow/util/macros.h"
-#include "arrow/util/time.h"
-#include "arrow/util/visibility.h"
-#include "arrow/vendored/datetime.h"
-#include "arrow/vendored/strptime.h"
+#include "alioth/type.h"
+#include "alioth/type_traits.h"
+#include "alioth/util/checked_cast.h"
+#include "alioth/util/config.h"
+#include "alioth/util/macros.h"
+#include "alioth/util/time.h"
+#include "alioth/util/visibility.h"
+#include "alioth/vendored/datetime.h"
+#include "alioth/vendored/strptime.h"
 
 namespace arrow {
 

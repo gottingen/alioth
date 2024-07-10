@@ -14,12 +14,12 @@
 // KIND, either express or implied.  See the License for the
 // specific language governing permissions and limitations
 // under the License.
-
+#if ARROW_HAVE_RUNTIME_BMI2
 #include <immintrin.h>
 #include <cstring>
 
-#include "arrow/util/bit_util.h"
-#include "arrow/util/logging.h"
+#include "alioth/util/bit_util.h"
+#include "alioth/util/logging.h"
 
 namespace arrow::util::bit_util::avx2 {
 
@@ -210,3 +210,4 @@ bool are_all_bytes_zero_avx2(const uint8_t* bytes, uint32_t num_bytes) {
 }
 
 }  // namespace arrow::util::bit_util::avx2
+#endif

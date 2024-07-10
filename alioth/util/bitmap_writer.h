@@ -20,9 +20,9 @@
 #include <cstdint>
 #include <cstring>
 
-#include "arrow/util/bit_util.h"
-#include "arrow/util/endian.h"
-#include "arrow/util/macros.h"
+#include "alioth/util/bit_util.h"
+#include "alioth/util/endian.h"
+#include "alioth/util/macros.h"
 
 namespace arrow {
 namespace internal {

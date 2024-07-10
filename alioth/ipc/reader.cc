@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/ipc/reader.h"
+#include "alioth/ipc/reader.h"
 
 #include <algorithm>
 #include <cstdint>
@@ -31,40 +31,40 @@
 
 #include <flatbuffers/flatbuffers.h>  // IWYU pragma: export
 
-#include "arrow/array.h"
-#include "arrow/buffer.h"
-#include "arrow/extension_type.h"
-#include "arrow/io/caching.h"
-#include "arrow/io/interfaces.h"
-#include "arrow/io/memory.h"
-#include "arrow/ipc/message.h"
-#include "arrow/ipc/metadata_internal.h"
-#include "arrow/ipc/reader_internal.h"
-#include "arrow/ipc/writer.h"
-#include "arrow/record_batch.h"
-#include "arrow/sparse_tensor.h"
-#include "arrow/status.h"
-#include "arrow/table.h"
-#include "arrow/type.h"
-#include "arrow/type_traits.h"
-#include "arrow/util/bit_util.h"
-#include "arrow/util/bitmap_ops.h"
-#include "arrow/util/checked_cast.h"
-#include "arrow/util/compression.h"
-#include "arrow/util/endian.h"
-#include "arrow/util/key_value_metadata.h"
-#include "arrow/util/logging.h"
-#include "arrow/util/parallel.h"
-#include "arrow/util/string.h"
-#include "arrow/util/thread_pool.h"
-#include "arrow/util/ubsan.h"
-#include "arrow/util/vector.h"
-#include "arrow/visit_type_inline.h"
+#include "alioth/array.h"
+#include "alioth/buffer.h"
+#include "alioth/extension_type.h"
+#include "alioth/io/caching.h"
+#include "alioth/io/interfaces.h"
+#include "alioth/io/memory.h"
+#include "alioth/ipc/message.h"
+#include "alioth/ipc/metadata_internal.h"
+#include "alioth/ipc/reader_internal.h"
+#include "alioth/ipc/writer.h"
+#include "alioth/record_batch.h"
+#include "alioth/sparse_tensor.h"
+#include "alioth/status.h"
+#include "alioth/table.h"
+#include "alioth/type.h"
+#include "alioth/type_traits.h"
+#include "alioth/util/bit_util.h"
+#include "alioth/util/bitmap_ops.h"
+#include "alioth/util/checked_cast.h"
+#include "alioth/util/compression.h"
+#include "alioth/util/endian.h"
+#include "alioth/util/key_value_metadata.h"
+#include "alioth/util/logging.h"
+#include "alioth/util/parallel.h"
+#include "alioth/util/string.h"
+#include "alioth/util/thread_pool.h"
+#include "alioth/util/ubsan.h"
+#include "alioth/util/vector.h"
+#include "alioth/visit_type_inline.h"
 
-#include "generated/File_generated.h"  // IWYU pragma: export
-#include "generated/Message_generated.h"
-#include "generated/Schema_generated.h"
-#include "generated/SparseTensor_generated.h"
+#include "alioth/generated/File_generated.h"  // IWYU pragma: export
+#include "alioth/generated/Message_generated.h"
+#include "alioth/generated/Schema_generated.h"
+#include "alioth/generated/SparseTensor_generated.h"
 
 namespace arrow {
 

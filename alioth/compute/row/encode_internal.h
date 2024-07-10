@@ -21,15 +21,15 @@
 #include <memory>
 #include <vector>
 
-#include "arrow/array/data.h"
-#include "arrow/compute/key_map_internal.h"
-#include "arrow/compute/light_array_internal.h"
-#include "arrow/compute/row/row_internal.h"
-#include "arrow/compute/util.h"
-#include "arrow/memory_pool.h"
-#include "arrow/result.h"
-#include "arrow/status.h"
-#include "arrow/util/bit_util.h"
+#include "alioth/array/data.h"
+#include "alioth/compute/key_map_internal.h"
+#include "alioth/compute/light_array_internal.h"
+#include "alioth/compute/row/row_internal.h"
+#include "alioth/compute/util.h"
+#include "alioth/memory_pool.h"
+#include "alioth/result.h"
+#include "alioth/status.h"
+#include "alioth/util/bit_util.h"
 
 namespace arrow {
 namespace compute {

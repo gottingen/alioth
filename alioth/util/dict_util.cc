@@ -15,10 +15,10 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/util/dict_util.h"
-#include "arrow/array/array_dict.h"
-#include "arrow/util/bit_util.h"
-#include "arrow/util/checked_cast.h"
+#include "alioth/util/dict_util.h"
+#include "alioth/array/array_dict.h"
+#include "alioth/util/bit_util.h"
+#include "alioth/util/checked_cast.h"
 
 namespace arrow {
 namespace dict_util {

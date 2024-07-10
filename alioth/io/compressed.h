@@ -22,9 +22,9 @@
 #include <memory>
 #include <string>
 
-#include "arrow/io/concurrency.h"
-#include "arrow/io/interfaces.h"
-#include "arrow/util/visibility.h"
+#include "alioth/io/concurrency.h"
+#include "alioth/io/interfaces.h"
+#include "alioth/util/visibility.h"
 
 namespace arrow {
 

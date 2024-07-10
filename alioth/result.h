@@ -24,9 +24,9 @@
 #include <type_traits>
 #include <utility>
 
-#include "arrow/status.h"
-#include "arrow/util/aligned_storage.h"
-#include "arrow/util/compare.h"
+#include "alioth/status.h"
+#include "alioth/util/aligned_storage.h"
+#include "alioth/util/compare.h"
 
 namespace arrow {
 

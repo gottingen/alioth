@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/tensor/converter_internal.h"
+#include "alioth/tensor/converter_internal.h"
 
 #include <algorithm>
 #include <cstdint>
@@ -23,12 +23,12 @@
 #include <numeric>
 #include <vector>
 
-#include "arrow/buffer.h"
-#include "arrow/status.h"
-#include "arrow/type.h"
-#include "arrow/util/checked_cast.h"
-#include "arrow/util/macros.h"
-#include "arrow/visit_type_inline.h"
+#include "alioth/buffer.h"
+#include "alioth/status.h"
+#include "alioth/type.h"
+#include "alioth/util/checked_cast.h"
+#include "alioth/util/macros.h"
+#include "alioth/visit_type_inline.h"
 
 namespace arrow {
 

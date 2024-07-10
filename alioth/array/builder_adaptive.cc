@@ -15,19 +15,19 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/array/builder_adaptive.h"
+#include "alioth/array/builder_adaptive.h"
 
 #include <algorithm>
 #include <cstdint>
 
-#include "arrow/array/data.h"
-#include "arrow/buffer.h"
-#include "arrow/buffer_builder.h"
-#include "arrow/result.h"
-#include "arrow/status.h"
-#include "arrow/type.h"
-#include "arrow/util/int_util.h"
-#include "arrow/util/logging.h"
+#include "alioth/array/data.h"
+#include "alioth/buffer.h"
+#include "alioth/buffer_builder.h"
+#include "alioth/result.h"
+#include "alioth/status.h"
+#include "alioth/type.h"
+#include "alioth/util/int_util.h"
+#include "alioth/util/logging.h"
 
 namespace arrow {
 

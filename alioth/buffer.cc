@@ -15,19 +15,19 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/buffer.h"
+#include "alioth/buffer.h"
 
 #include <algorithm>
 #include <cstdint>
 #include <utility>
 
-#include "arrow/memory_pool_internal.h"
-#include "arrow/result.h"
-#include "arrow/status.h"
-#include "arrow/util/bit_util.h"
-#include "arrow/util/logging.h"
-#include "arrow/util/slice_util_internal.h"
-#include "arrow/util/string.h"
+#include "alioth/memory_pool_internal.h"
+#include "alioth/result.h"
+#include "alioth/status.h"
+#include "alioth/util/bit_util.h"
+#include "alioth/util/logging.h"
+#include "alioth/util/slice_util_internal.h"
+#include "alioth/util/string.h"
 
 namespace arrow {
 

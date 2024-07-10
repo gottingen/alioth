@@ -20,13 +20,13 @@
 #include <cstdint>
 #include <memory>
 
-#include "arrow/array/array_base.h"
-#include "arrow/array/data.h"
-#include "arrow/result.h"
-#include "arrow/status.h"
-#include "arrow/type.h"
-#include "arrow/util/macros.h"
-#include "arrow/util/visibility.h"
+#include "alioth/array/array_base.h"
+#include "alioth/array/data.h"
+#include "alioth/result.h"
+#include "alioth/status.h"
+#include "alioth/type.h"
+#include "alioth/util/macros.h"
+#include "alioth/util/visibility.h"
 
 namespace arrow {
 

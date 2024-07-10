@@ -23,12 +23,12 @@
 #include <memory>
 #include <vector>
 
-#include "arrow/ipc/dictionary.h"  // IWYU pragma: export
-#include "arrow/ipc/message.h"
-#include "arrow/ipc/options.h"
-#include "arrow/result.h"
-#include "arrow/util/macros.h"
-#include "arrow/util/visibility.h"
+#include "alioth/ipc/dictionary.h"  // IWYU pragma: export
+#include "alioth/ipc/message.h"
+#include "alioth/ipc/options.h"
+#include "alioth/result.h"
+#include "alioth/util/macros.h"
+#include "alioth/util/visibility.h"
 
 namespace arrow {
 

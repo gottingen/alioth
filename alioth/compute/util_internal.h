@@ -17,7 +17,7 @@
 
 #pragma once
 
-#include "arrow/util/logging.h"
+#include "alioth/util/logging.h"
 
 namespace arrow {
 namespace util {

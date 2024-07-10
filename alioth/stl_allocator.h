@@ -23,9 +23,9 @@
 #include <string>
 #include <utility>
 
-#include "arrow/memory_pool.h"
-#include "arrow/type_fwd.h"
-#include "arrow/util/macros.h"
+#include "alioth/memory_pool.h"
+#include "alioth/type_fwd.h"
+#include "alioth/util/macros.h"
 
 namespace arrow {
 namespace stl {

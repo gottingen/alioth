@@ -26,9 +26,9 @@
 #include <utility>
 #include <vector>
 
-#include "arrow/util/functional.h"
-#include "arrow/util/logging.h"
-#include "arrow/util/macros.h"
+#include "alioth/util/functional.h"
+#include "alioth/util/logging.h"
+#include "alioth/util/macros.h"
 
 namespace arrow {
 namespace internal {

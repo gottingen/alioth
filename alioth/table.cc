@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/table.h"
+#include "alioth/table.h"
 
 #include <algorithm>
 #include <cstdlib>
@@ -24,23 +24,23 @@
 #include <sstream>
 #include <utility>
 
-#include "arrow/array/array_base.h"
-#include "arrow/array/array_binary.h"
-#include "arrow/array/array_nested.h"
-#include "arrow/array/concatenate.h"
-#include "arrow/array/util.h"
-#include "arrow/chunked_array.h"
-#include "arrow/compute/cast.h"
-#include "arrow/pretty_print.h"
-#include "arrow/record_batch.h"
-#include "arrow/result.h"
-#include "arrow/status.h"
-#include "arrow/type.h"
-#include "arrow/type_fwd.h"
-#include "arrow/type_traits.h"
-#include "arrow/util/checked_cast.h"
-#include "arrow/util/logging.h"
-#include "arrow/util/vector.h"
+#include "alioth/array/array_base.h"
+#include "alioth/array/array_binary.h"
+#include "alioth/array/array_nested.h"
+#include "alioth/array/concatenate.h"
+#include "alioth/array/util.h"
+#include "alioth/chunked_array.h"
+#include "alioth/compute/cast.h"
+#include "alioth/pretty_print.h"
+#include "alioth/record_batch.h"
+#include "alioth/result.h"
+#include "alioth/status.h"
+#include "alioth/type.h"
+#include "alioth/type_fwd.h"
+#include "alioth/type_traits.h"
+#include "alioth/util/checked_cast.h"
+#include "alioth/util/logging.h"
+#include "alioth/util/vector.h"
 
 namespace arrow {
 

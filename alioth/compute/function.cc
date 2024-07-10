@@ -15,24 +15,24 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/compute/function.h"
+#include "alioth/compute/function.h"
 
 #include <cstddef>
 #include <memory>
 #include <sstream>
 
-#include "arrow/compute/api_scalar.h"
-#include "arrow/compute/cast.h"
-#include "arrow/compute/exec.h"
-#include "arrow/compute/exec_internal.h"
-#include "arrow/compute/function_internal.h"
-#include "arrow/compute/function_options.h"
-#include "arrow/compute/kernels/common_internal.h"
-#include "arrow/compute/registry.h"
-#include "arrow/datum.h"
-#include "arrow/util/cpu_info.h"
-#include "arrow/util/logging.h"
-#include "arrow/util/tracing_internal.h"
+#include "alioth/compute/api_scalar.h"
+#include "alioth/compute/cast.h"
+#include "alioth/compute/exec.h"
+#include "alioth/compute/exec_internal.h"
+#include "alioth/compute/function_internal.h"
+#include "alioth/compute/function_options.h"
+#include "alioth/compute/kernels/common_internal.h"
+#include "alioth/compute/registry.h"
+#include "alioth/datum.h"
+#include "alioth/util/cpu_info.h"
+#include "alioth/util/logging.h"
+#include "alioth/util/tracing_internal.h"
 
 namespace arrow {
 

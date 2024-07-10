@@ -28,17 +28,17 @@
 #include <string_view>
 #include <utility>
 
-#include "arrow/buffer.h"
-#include "arrow/util/bit_util.h"
-#include "arrow/util/bitmap_ops.h"
-#include "arrow/util/bitmap_reader.h"
-#include "arrow/util/bitmap_writer.h"
-#include "arrow/util/compare.h"
-#include "arrow/util/endian.h"
-#include "arrow/util/functional.h"
-#include "arrow/util/span.h"
-#include "arrow/util/string_builder.h"
-#include "arrow/util/visibility.h"
+#include "alioth/buffer.h"
+#include "alioth/util/bit_util.h"
+#include "alioth/util/bitmap_ops.h"
+#include "alioth/util/bitmap_reader.h"
+#include "alioth/util/bitmap_writer.h"
+#include "alioth/util/compare.h"
+#include "alioth/util/endian.h"
+#include "alioth/util/functional.h"
+#include "alioth/util/span.h"
+#include "alioth/util/string_builder.h"
+#include "alioth/util/visibility.h"
 
 namespace arrow {
 

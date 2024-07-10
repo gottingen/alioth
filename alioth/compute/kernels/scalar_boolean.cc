@@ -17,10 +17,10 @@
 
 #include <array>
 
-#include "arrow/compute/kernels/common_internal.h"
-#include "arrow/util/bit_util.h"
-#include "arrow/util/bitmap.h"
-#include "arrow/util/bitmap_ops.h"
+#include "alioth/compute/kernels/common_internal.h"
+#include "alioth/util/bit_util.h"
+#include "alioth/util/bitmap.h"
+#include "alioth/util/bitmap_ops.h"
 
 namespace arrow {
 

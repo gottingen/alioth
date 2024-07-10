@@ -17,7 +17,7 @@
 
 // Functions for comparing Arrow data structures
 
-#include "arrow/compare.h"
+#include "alioth/compare.h"
 
 #include <climits>
 #include <cmath>
@@ -29,29 +29,29 @@
 #include <utility>
 #include <vector>
 
-#include "arrow/array.h"
-#include "arrow/array/diff.h"
-#include "arrow/buffer.h"
-#include "arrow/scalar.h"
-#include "arrow/sparse_tensor.h"
-#include "arrow/status.h"
-#include "arrow/tensor.h"
-#include "arrow/type.h"
-#include "arrow/type_traits.h"
-#include "arrow/util/binary_view_util.h"
-#include "arrow/util/bit_run_reader.h"
-#include "arrow/util/bit_util.h"
-#include "arrow/util/bitmap_ops.h"
-#include "arrow/util/bitmap_reader.h"
-#include "arrow/util/checked_cast.h"
-#include "arrow/util/float16.h"
-#include "arrow/util/key_value_metadata.h"
-#include "arrow/util/logging.h"
-#include "arrow/util/macros.h"
-#include "arrow/util/memory.h"
-#include "arrow/util/ree_util.h"
-#include "arrow/visit_scalar_inline.h"
-#include "arrow/visit_type_inline.h"
+#include "alioth/array.h"
+#include "alioth/array/diff.h"
+#include "alioth/buffer.h"
+#include "alioth/scalar.h"
+#include "alioth/sparse_tensor.h"
+#include "alioth/status.h"
+#include "alioth/tensor.h"
+#include "alioth/type.h"
+#include "alioth/type_traits.h"
+#include "alioth/util/binary_view_util.h"
+#include "alioth/util/bit_run_reader.h"
+#include "alioth/util/bit_util.h"
+#include "alioth/util/bitmap_ops.h"
+#include "alioth/util/bitmap_reader.h"
+#include "alioth/util/checked_cast.h"
+#include "alioth/util/float16.h"
+#include "alioth/util/key_value_metadata.h"
+#include "alioth/util/logging.h"
+#include "alioth/util/macros.h"
+#include "alioth/util/memory.h"
+#include "alioth/util/ree_util.h"
+#include "alioth/visit_scalar_inline.h"
+#include "alioth/visit_type_inline.h"
 
 namespace arrow {
 

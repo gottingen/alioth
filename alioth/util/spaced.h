@@ -21,7 +21,7 @@
 #include <cstdint>
 #include <cstring>
 
-#include "arrow/util/bit_run_reader.h"
+#include "alioth/util/bit_run_reader.h"
 
 namespace arrow {
 namespace util {

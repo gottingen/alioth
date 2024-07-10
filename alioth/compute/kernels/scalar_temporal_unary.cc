@@ -19,14 +19,14 @@
 #include <initializer_list>
 #include <sstream>
 
-#include "arrow/builder.h"
-#include "arrow/compute/api_scalar.h"
-#include "arrow/compute/kernels/common_internal.h"
-#include "arrow/compute/kernels/temporal_internal.h"
-#include "arrow/util/checked_cast.h"
-#include "arrow/util/time.h"
-#include "arrow/util/value_parsing.h"
-#include "arrow/vendored/datetime.h"
+#include "alioth/builder.h"
+#include "alioth/compute/api_scalar.h"
+#include "alioth/compute/kernels/common_internal.h"
+#include "alioth/compute/kernels/temporal_internal.h"
+#include "alioth/util/checked_cast.h"
+#include "alioth/util/time.h"
+#include "alioth/util/value_parsing.h"
+#include "alioth/vendored/datetime.h"
 
 namespace arrow {
 

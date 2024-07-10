@@ -25,15 +25,15 @@
 #include <optional>
 #include <queue>
 
-#include "arrow/util/async_generator_fwd.h"
-#include "arrow/util/async_util.h"
-#include "arrow/util/functional.h"
-#include "arrow/util/future.h"
-#include "arrow/util/io_util.h"
-#include "arrow/util/iterator.h"
-#include "arrow/util/mutex.h"
-#include "arrow/util/queue.h"
-#include "arrow/util/thread_pool.h"
+#include "alioth/util/async_generator_fwd.h"
+#include "alioth/util/async_util.h"
+#include "alioth/util/functional.h"
+#include "alioth/util/future.h"
+#include "alioth/util/io_util.h"
+#include "alioth/util/iterator.h"
+#include "alioth/util/mutex.h"
+#include "alioth/util/queue.h"
+#include "alioth/util/thread_pool.h"
 
 namespace arrow {
 

@@ -21,8 +21,8 @@
 #include <tuple>
 #include <type_traits>
 
-#include "arrow/result.h"
-#include "arrow/util/macros.h"
+#include "alioth/result.h"
+#include "alioth/util/macros.h"
 
 namespace arrow {
 namespace internal {

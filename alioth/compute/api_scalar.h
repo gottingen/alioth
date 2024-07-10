@@ -24,12 +24,12 @@
 #include <string>
 #include <utility>
 
-#include "arrow/compute/function_options.h"
-#include "arrow/compute/type_fwd.h"
-#include "arrow/datum.h"
-#include "arrow/result.h"
-#include "arrow/util/macros.h"
-#include "arrow/util/visibility.h"
+#include "alioth/compute/function_options.h"
+#include "alioth/compute/type_fwd.h"
+#include "alioth/datum.h"
+#include "alioth/result.h"
+#include "alioth/util/macros.h"
+#include "alioth/util/visibility.h"
 
 namespace arrow {
 namespace compute {

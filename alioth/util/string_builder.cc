@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/util/string_builder.h"
+#include "alioth/util/string_builder.h"
 
 #include <memory>
 #include <sstream>

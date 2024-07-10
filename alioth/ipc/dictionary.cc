@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/ipc/dictionary.h"
+#include "alioth/ipc/dictionary.h"
 
 #include <algorithm>
 #include <cstdint>
@@ -25,15 +25,15 @@
 #include <utility>
 #include <vector>
 
-#include "arrow/array.h"
-#include "arrow/array/concatenate.h"
-#include "arrow/array/validate.h"
-#include "arrow/extension_type.h"
-#include "arrow/record_batch.h"
-#include "arrow/status.h"
-#include "arrow/type.h"
-#include "arrow/util/checked_cast.h"
-#include "arrow/util/logging.h"
+#include "alioth/array.h"
+#include "alioth/array/concatenate.h"
+#include "alioth/array/validate.h"
+#include "alioth/extension_type.h"
+#include "alioth/record_batch.h"
+#include "alioth/status.h"
+#include "alioth/type.h"
+#include "alioth/util/checked_cast.h"
+#include "alioth/util/logging.h"
 
 namespace arrow {
 

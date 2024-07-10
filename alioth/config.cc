@@ -15,13 +15,13 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/config.h"
+#include "alioth/config.h"
 
 #include <cstdint>
 
-#include "arrow/util/config.h"
-#include "arrow/util/cpu_info.h"
-#include "arrow/vendored/datetime.h"
+#include "alioth/util/config.h"
+#include "alioth/util/cpu_info.h"
+#include "alioth/vendored/datetime.h"
 
 namespace arrow {
 

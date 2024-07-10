@@ -15,14 +15,14 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/util/bit_block_counter.h"
+#include "alioth/util/bit_block_counter.h"
 
 #include <algorithm>
 #include <cstdint>
 #include <type_traits>
 
-#include "arrow/buffer.h"
-#include "arrow/util/bitmap_ops.h"
+#include "alioth/buffer.h"
+#include "alioth/util/bitmap_ops.h"
 
 namespace arrow {
 namespace internal {

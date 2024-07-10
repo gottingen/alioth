@@ -20,9 +20,9 @@
 #include <optional>
 #include <string>
 
-#include "arrow/status.h"
-#include "arrow/util/config.h"  // IWYU pragma: export
-#include "arrow/util/visibility.h"
+#include "alioth/status.h"
+#include "alioth/util/config.h"  // IWYU pragma: export
+#include "alioth/util/visibility.h"
 
 namespace arrow {
 

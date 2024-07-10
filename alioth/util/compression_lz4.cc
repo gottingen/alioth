@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/util/compression_internal.h"
+#include "alioth/util/compression_internal.h"
 
 #include <cstdint>
 #include <cstring>
@@ -25,13 +25,13 @@
 #include <lz4frame.h>
 #include <lz4hc.h>
 
-#include "arrow/result.h"
-#include "arrow/status.h"
-#include "arrow/util/bit_util.h"
-#include "arrow/util/endian.h"
-#include "arrow/util/logging.h"
-#include "arrow/util/macros.h"
-#include "arrow/util/ubsan.h"
+#include "alioth/result.h"
+#include "alioth/status.h"
+#include "alioth/util/bit_util.h"
+#include "alioth/util/endian.h"
+#include "alioth/util/logging.h"
+#include "alioth/util/macros.h"
+#include "alioth/util/ubsan.h"
 
 #ifndef LZ4F_HEADER_SIZE_MAX
 #define LZ4F_HEADER_SIZE_MAX 19

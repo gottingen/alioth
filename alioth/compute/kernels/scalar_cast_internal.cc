@@ -15,13 +15,13 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/compute/kernels/scalar_cast_internal.h"
-#include "arrow/compute/cast_internal.h"
-#include "arrow/compute/kernels/common_internal.h"
-#include "arrow/extension_type.h"
-#include "arrow/type_traits.h"
-#include "arrow/util/checked_cast.h"
-#include "arrow/util/float16.h"
+#include "alioth/compute/kernels/scalar_cast_internal.h"
+#include "alioth/compute/cast_internal.h"
+#include "alioth/compute/kernels/common_internal.h"
+#include "alioth/extension_type.h"
+#include "alioth/type_traits.h"
+#include "alioth/util/checked_cast.h"
+#include "alioth/util/float16.h"
 
 namespace arrow {
 

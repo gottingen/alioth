@@ -19,9 +19,9 @@
 
 #include <algorithm>
 
-#include "arrow/memory_pool.h"
-#include "arrow/type_fwd.h"
-#include "arrow/util/bit_util.h"
+#include "alioth/memory_pool.h"
+#include "alioth/type_fwd.h"
+#include "alioth/util/bit_util.h"
 
 namespace arrow {
 namespace internal {

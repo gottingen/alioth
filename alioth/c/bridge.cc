@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/c/bridge.h"
+#include "alioth/c/bridge.h"
 
 #include <algorithm>
 #include <cerrno>
@@ -26,27 +26,27 @@
 #include <utility>
 #include <vector>
 
-#include "arrow/array.h"
-#include "arrow/buffer.h"
-#include "arrow/c/helpers.h"
-#include "arrow/c/util_internal.h"
-#include "arrow/extension_type.h"
-#include "arrow/memory_pool.h"
-#include "arrow/memory_pool_internal.h"  // for kZeroSizeArea
-#include "arrow/record_batch.h"
-#include "arrow/result.h"
-#include "arrow/stl_allocator.h"
-#include "arrow/type_traits.h"
-#include "arrow/util/bit_util.h"
-#include "arrow/util/checked_cast.h"
-#include "arrow/util/key_value_metadata.h"
-#include "arrow/util/logging.h"
-#include "arrow/util/macros.h"
-#include "arrow/util/range.h"
-#include "arrow/util/small_vector.h"
-#include "arrow/util/string.h"
-#include "arrow/util/value_parsing.h"
-#include "arrow/visit_type_inline.h"
+#include "alioth/array.h"
+#include "alioth/buffer.h"
+#include "alioth/c/helpers.h"
+#include "alioth/c/util_internal.h"
+#include "alioth/extension_type.h"
+#include "alioth/memory_pool.h"
+#include "alioth/memory_pool_internal.h"  // for kZeroSizeArea
+#include "alioth/record_batch.h"
+#include "alioth/result.h"
+#include "alioth/stl_allocator.h"
+#include "alioth/type_traits.h"
+#include "alioth/util/bit_util.h"
+#include "alioth/util/checked_cast.h"
+#include "alioth/util/key_value_metadata.h"
+#include "alioth/util/logging.h"
+#include "alioth/util/macros.h"
+#include "alioth/util/range.h"
+#include "alioth/util/small_vector.h"
+#include "alioth/util/string.h"
+#include "alioth/util/value_parsing.h"
+#include "alioth/visit_type_inline.h"
 
 namespace arrow {
 

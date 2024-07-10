@@ -21,16 +21,16 @@
 #include <type_traits>
 #include <utility>
 
-#include "arrow/compute/api_aggregate.h"
-#include "arrow/compute/kernels/aggregate_internal.h"
-#include "arrow/compute/kernels/codegen_internal.h"
-#include "arrow/compute/kernels/common_internal.h"
-#include "arrow/compute/kernels/util_internal.h"
-#include "arrow/type.h"
-#include "arrow/type_traits.h"
-#include "arrow/util/align_util.h"
-#include "arrow/util/bit_block_counter.h"
-#include "arrow/util/decimal.h"
+#include "alioth/compute/api_aggregate.h"
+#include "alioth/compute/kernels/aggregate_internal.h"
+#include "alioth/compute/kernels/codegen_internal.h"
+#include "alioth/compute/kernels/common_internal.h"
+#include "alioth/compute/kernels/util_internal.h"
+#include "alioth/type.h"
+#include "alioth/type_traits.h"
+#include "alioth/util/align_util.h"
+#include "alioth/util/bit_block_counter.h"
+#include "alioth/util/decimal.h"
 
 namespace arrow::compute::internal {
 

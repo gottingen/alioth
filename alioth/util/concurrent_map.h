@@ -20,7 +20,7 @@
 #include <unordered_map>
 #include <utility>
 
-#include "arrow/util/mutex.h"
+#include "alioth/util/mutex.h"
 
 namespace arrow {
 namespace util {

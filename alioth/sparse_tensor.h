@@ -24,15 +24,15 @@
 #include <utility>
 #include <vector>
 
-#include "arrow/buffer.h"
-#include "arrow/compare.h"
-#include "arrow/result.h"
-#include "arrow/status.h"
-#include "arrow/tensor.h"  // IWYU pragma: export
-#include "arrow/type.h"
-#include "arrow/util/checked_cast.h"
-#include "arrow/util/macros.h"
-#include "arrow/util/visibility.h"
+#include "alioth/buffer.h"
+#include "alioth/compare.h"
+#include "alioth/result.h"
+#include "alioth/status.h"
+#include "alioth/tensor.h"  // IWYU pragma: export
+#include "alioth/type.h"
+#include "alioth/util/checked_cast.h"
+#include "alioth/util/macros.h"
+#include "alioth/util/visibility.h"
 
 namespace arrow {
 

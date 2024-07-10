@@ -20,8 +20,8 @@
 #include <chrono>
 #include <cstdint>
 
-#include "arrow/compute/api_scalar.h"
-#include "arrow/vendored/datetime.h"
+#include "alioth/compute/api_scalar.h"
+#include "alioth/vendored/datetime.h"
 
 namespace arrow {
 

@@ -22,12 +22,12 @@
 #include <cstdint>
 #include <functional>
 
-#include "arrow/array.h"
-#include "arrow/compute/api_vector.h"
-#include "arrow/compute/kernels/chunked_internal.h"
-#include "arrow/table.h"
-#include "arrow/type.h"
-#include "arrow/type_traits.h"
+#include "alioth/array.h"
+#include "alioth/compute/api_vector.h"
+#include "alioth/compute/kernels/chunked_internal.h"
+#include "alioth/table.h"
+#include "alioth/type.h"
+#include "alioth/type_traits.h"
 
 namespace arrow {
 namespace compute {

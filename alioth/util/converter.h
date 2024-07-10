@@ -20,13 +20,13 @@
 #include <utility>
 #include <vector>
 
-#include "arrow/array.h"
-#include "arrow/chunked_array.h"
-#include "arrow/status.h"
-#include "arrow/type.h"
-#include "arrow/type_traits.h"
-#include "arrow/util/checked_cast.h"
-#include "arrow/visit_type_inline.h"
+#include "alioth/array.h"
+#include "alioth/chunked_array.h"
+#include "alioth/status.h"
+#include "alioth/type.h"
+#include "alioth/type_traits.h"
+#include "alioth/util/checked_cast.h"
+#include "alioth/visit_type_inline.h"
 
 namespace arrow {
 namespace internal {

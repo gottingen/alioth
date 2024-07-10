@@ -22,12 +22,12 @@
 #include <iosfwd>
 #include <memory>
 
-#include "arrow/array/array_base.h"
-#include "arrow/array/array_nested.h"
-#include "arrow/result.h"
-#include "arrow/status.h"
-#include "arrow/type.h"
-#include "arrow/util/visibility.h"
+#include "alioth/array/array_base.h"
+#include "alioth/array/array_nested.h"
+#include "alioth/result.h"
+#include "alioth/status.h"
+#include "alioth/type.h"
+#include "alioth/util/visibility.h"
 
 namespace arrow {
 

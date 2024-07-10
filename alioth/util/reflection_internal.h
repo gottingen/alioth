@@ -22,7 +22,7 @@
 #include <tuple>
 #include <utility>
 
-#include "arrow/type_traits.h"
+#include "alioth/type_traits.h"
 
 namespace arrow {
 namespace internal {

@@ -22,9 +22,9 @@
 #include <memory>
 #include <vector>
 
-#include "arrow/array.h"
-#include "arrow/chunk_resolver.h"
-#include "arrow/compute/kernels/codegen_internal.h"
+#include "alioth/array.h"
+#include "alioth/chunk_resolver.h"
+#include "alioth/compute/kernels/codegen_internal.h"
 
 namespace arrow {
 namespace compute {

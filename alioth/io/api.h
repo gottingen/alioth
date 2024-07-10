@@ -17,9 +17,9 @@
 
 #pragma once
 
-#include "arrow/io/buffered.h"
-#include "arrow/io/compressed.h"
-#include "arrow/io/file.h"
-#include "arrow/io/hdfs.h"
-#include "arrow/io/interfaces.h"
-#include "arrow/io/memory.h"
+#include "alioth/io/buffered.h"
+#include "alioth/io/compressed.h"
+#include "alioth/io/file.h"
+#include "alioth/io/hdfs.h"
+#include "alioth/io/interfaces.h"
+#include "alioth/io/memory.h"

@@ -15,22 +15,22 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/array/builder_base.h"
+#include "alioth/array/builder_base.h"
 
 #include <cstdint>
 #include <type_traits>
 #include <vector>
 
-#include "arrow/array/array_base.h"
-#include "arrow/array/builder_dict.h"
-#include "arrow/array/data.h"
-#include "arrow/array/util.h"
-#include "arrow/buffer.h"
-#include "arrow/builder.h"
-#include "arrow/scalar.h"
-#include "arrow/status.h"
-#include "arrow/util/logging.h"
-#include "arrow/visit_type_inline.h"
+#include "alioth/array/array_base.h"
+#include "alioth/array/builder_dict.h"
+#include "alioth/array/data.h"
+#include "alioth/array/util.h"
+#include "alioth/buffer.h"
+#include "alioth/builder.h"
+#include "alioth/scalar.h"
+#include "alioth/status.h"
+#include "alioth/util/logging.h"
+#include "alioth/visit_type_inline.h"
 
 namespace arrow {
 

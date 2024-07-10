@@ -15,14 +15,14 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/array/builder_union.h"
+#include "alioth/array/builder_union.h"
 
 #include <cstddef>
 #include <utility>
 
-#include "arrow/buffer.h"
-#include "arrow/util/checked_cast.h"
-#include "arrow/util/logging.h"
+#include "alioth/buffer.h"
+#include "alioth/util/checked_cast.h"
+#include "alioth/util/logging.h"
 
 namespace arrow {
 

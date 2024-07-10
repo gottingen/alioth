@@ -24,14 +24,14 @@
 #include <utility>
 #include <vector>
 
-#include "arrow/compute/kernel.h"
-#include "arrow/compute/type_fwd.h"
-#include "arrow/datum.h"
-#include "arrow/result.h"
-#include "arrow/status.h"
-#include "arrow/util/compare.h"
-#include "arrow/util/macros.h"
-#include "arrow/util/visibility.h"
+#include "alioth/compute/kernel.h"
+#include "alioth/compute/type_fwd.h"
+#include "alioth/datum.h"
+#include "alioth/result.h"
+#include "alioth/status.h"
+#include "alioth/util/compare.h"
+#include "alioth/util/macros.h"
+#include "alioth/util/visibility.h"
 
 namespace arrow {
 namespace compute {

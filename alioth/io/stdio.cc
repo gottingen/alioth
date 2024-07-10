@@ -15,12 +15,12 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/io/stdio.h"
+#include "alioth/io/stdio.h"
 
 #include <iostream>
 
-#include "arrow/buffer.h"
-#include "arrow/result.h"
+#include "alioth/buffer.h"
+#include "alioth/result.h"
 
 namespace arrow {
 namespace io {

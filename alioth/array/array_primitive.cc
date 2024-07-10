@@ -15,16 +15,16 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/array/array_primitive.h"
+#include "alioth/array/array_primitive.h"
 
 #include <cstdint>
 #include <memory>
 
-#include "arrow/array/array_base.h"
-#include "arrow/type.h"
-#include "arrow/util/bit_block_counter.h"
-#include "arrow/util/bitmap_ops.h"
-#include "arrow/util/logging.h"
+#include "alioth/array/array_base.h"
+#include "alioth/type.h"
+#include "alioth/util/bit_block_counter.h"
+#include "alioth/util/bitmap_ops.h"
+#include "alioth/util/logging.h"
 
 namespace arrow {
 

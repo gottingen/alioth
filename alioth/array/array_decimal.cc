@@ -15,18 +15,18 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/array/array_decimal.h"
+#include "alioth/array/array_decimal.h"
 
 #include <cstdint>
 #include <memory>
 #include <string>
 
-#include "arrow/array/array_binary.h"
-#include "arrow/array/data.h"
-#include "arrow/type.h"
-#include "arrow/util/checked_cast.h"
-#include "arrow/util/decimal.h"
-#include "arrow/util/logging.h"
+#include "alioth/array/array_binary.h"
+#include "alioth/array/data.h"
+#include "alioth/type.h"
+#include "alioth/util/checked_cast.h"
+#include "alioth/util/decimal.h"
+#include "alioth/util/logging.h"
 
 namespace arrow {
 

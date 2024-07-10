@@ -23,11 +23,11 @@
 #include <cstdint>
 #include <cstring>
 
-#include "arrow/util/bit_util.h"
-#include "arrow/util/bpacking.h"
-#include "arrow/util/logging.h"
-#include "arrow/util/macros.h"
-#include "arrow/util/ubsan.h"
+#include "alioth/util/bit_util.h"
+#include "alioth/util/bpacking.h"
+#include "alioth/util/logging.h"
+#include "alioth/util/macros.h"
+#include "alioth/util/ubsan.h"
 
 namespace arrow {
 namespace bit_util {

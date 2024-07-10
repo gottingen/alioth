@@ -15,12 +15,12 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/util/bit_util.h"
+#include "alioth/util/bit_util.h"
 
 #include <cstdint>
 #include <cstring>
 
-#include "arrow/util/logging.h"
+#include "alioth/util/logging.h"
 
 namespace arrow {
 namespace bit_util {

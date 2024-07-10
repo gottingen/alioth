@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/scalar.h"
+#include "alioth/scalar.h"
 
 #include <memory>
 #include <ostream>
@@ -23,23 +23,23 @@
 #include <string>
 #include <utility>
 
-#include "arrow/array.h"
-#include "arrow/array/util.h"
-#include "arrow/buffer.h"
-#include "arrow/compare.h"
-#include "arrow/pretty_print.h"
-#include "arrow/type.h"
-#include "arrow/util/bitmap_ops.h"
-#include "arrow/util/checked_cast.h"
-#include "arrow/util/decimal.h"
-#include "arrow/util/formatting.h"
-#include "arrow/util/hashing.h"
-#include "arrow/util/logging.h"
-#include "arrow/util/time.h"
-#include "arrow/util/unreachable.h"
-#include "arrow/util/utf8.h"
-#include "arrow/util/value_parsing.h"
-#include "arrow/visit_scalar_inline.h"
+#include "alioth/array.h"
+#include "alioth/array/util.h"
+#include "alioth/buffer.h"
+#include "alioth/compare.h"
+#include "alioth/pretty_print.h"
+#include "alioth/type.h"
+#include "alioth/util/bitmap_ops.h"
+#include "alioth/util/checked_cast.h"
+#include "alioth/util/decimal.h"
+#include "alioth/util/formatting.h"
+#include "alioth/util/hashing.h"
+#include "alioth/util/logging.h"
+#include "alioth/util/time.h"
+#include "alioth/util/unreachable.h"
+#include "alioth/util/utf8.h"
+#include "alioth/util/value_parsing.h"
+#include "alioth/visit_scalar_inline.h"
 
 namespace arrow {
 

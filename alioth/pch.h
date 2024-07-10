@@ -20,11 +20,11 @@
 // before checking in.  Adding headers which are not used extremely often
 // may incur a slowdown, since it makes the precompiled header heavier to load.
 
-#include "arrow/array.h"
-#include "arrow/buffer.h"
-#include "arrow/record_batch.h"
-#include "arrow/result.h"
-#include "arrow/status.h"
-#include "arrow/table.h"
-#include "arrow/type.h"
-#include "arrow/type_traits.h"
+#include "alioth/array.h"
+#include "alioth/buffer.h"
+#include "alioth/record_batch.h"
+#include "alioth/result.h"
+#include "alioth/status.h"
+#include "alioth/table.h"
+#include "alioth/type.h"
+#include "alioth/type_traits.h"

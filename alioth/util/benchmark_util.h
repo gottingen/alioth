@@ -21,10 +21,10 @@
 
 #include "benchmark/benchmark.h"
 
-#include "arrow/memory_pool.h"
-#include "arrow/type_fwd.h"
-#include "arrow/util/cpu_info.h"
-#include "arrow/util/logging.h"  // IWYU pragma: keep
+#include "alioth/memory_pool.h"
+#include "alioth/type_fwd.h"
+#include "alioth/util/cpu_info.h"
+#include "alioth/util/logging.h"  // IWYU pragma: keep
 
 namespace arrow {
 

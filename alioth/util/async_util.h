@@ -22,15 +22,15 @@
 #include <list>
 #include <memory>
 
-#include "arrow/result.h"
-#include "arrow/status.h"
-#include "arrow/util/cancel.h"
-#include "arrow/util/functional.h"
-#include "arrow/util/future.h"
-#include "arrow/util/iterator.h"
-#include "arrow/util/mutex.h"
-#include "arrow/util/thread_pool.h"
-#include "arrow/util/tracing.h"
+#include "alioth/result.h"
+#include "alioth/status.h"
+#include "alioth/util/cancel.h"
+#include "alioth/util/functional.h"
+#include "alioth/util/future.h"
+#include "alioth/util/iterator.h"
+#include "alioth/util/mutex.h"
+#include "alioth/util/thread_pool.h"
+#include "alioth/util/tracing.h"
 
 namespace arrow {
 

@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/pretty_print.h"
+#include "alioth/pretty_print.h"
 
 #include <algorithm>
 #include <chrono>
@@ -30,20 +30,20 @@
 #include <type_traits>
 #include <vector>
 
-#include "arrow/array.h"
-#include "arrow/chunked_array.h"
-#include "arrow/record_batch.h"
-#include "arrow/status.h"
-#include "arrow/table.h"
-#include "arrow/type.h"
-#include "arrow/type_traits.h"
-#include "arrow/util/checked_cast.h"
-#include "arrow/util/formatting.h"
-#include "arrow/util/int_util_overflow.h"
-#include "arrow/util/key_value_metadata.h"
-#include "arrow/util/string.h"
-#include "arrow/vendored/datetime.h"
-#include "arrow/visit_array_inline.h"
+#include "alioth/array.h"
+#include "alioth/chunked_array.h"
+#include "alioth/record_batch.h"
+#include "alioth/status.h"
+#include "alioth/table.h"
+#include "alioth/type.h"
+#include "alioth/type_traits.h"
+#include "alioth/util/checked_cast.h"
+#include "alioth/util/formatting.h"
+#include "alioth/util/int_util_overflow.h"
+#include "alioth/util/key_value_metadata.h"
+#include "alioth/util/string.h"
+#include "alioth/vendored/datetime.h"
+#include "alioth/visit_array_inline.h"
 
 namespace arrow {
 

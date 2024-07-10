@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/array/array_nested.h"
+#include "alioth/array/array_nested.h"
 
 #include <atomic>
 #include <cstddef>
@@ -25,23 +25,23 @@
 #include <utility>
 #include <vector>
 
-#include "arrow/array/array_base.h"
-#include "arrow/array/array_primitive.h"
-#include "arrow/array/builder_base.h"
-#include "arrow/array/builder_nested.h"
-#include "arrow/array/concatenate.h"
-#include "arrow/array/util.h"
-#include "arrow/buffer.h"
-#include "arrow/status.h"
-#include "arrow/type.h"
-#include "arrow/type_fwd.h"
-#include "arrow/type_traits.h"
-#include "arrow/util/bit_util.h"
-#include "arrow/util/bitmap_generate.h"
-#include "arrow/util/bitmap_ops.h"
-#include "arrow/util/checked_cast.h"
-#include "arrow/util/list_util.h"
-#include "arrow/util/logging.h"
+#include "alioth/array/array_base.h"
+#include "alioth/array/array_primitive.h"
+#include "alioth/array/builder_base.h"
+#include "alioth/array/builder_nested.h"
+#include "alioth/array/concatenate.h"
+#include "alioth/array/util.h"
+#include "alioth/buffer.h"
+#include "alioth/status.h"
+#include "alioth/type.h"
+#include "alioth/type_fwd.h"
+#include "alioth/type_traits.h"
+#include "alioth/util/bit_util.h"
+#include "alioth/util/bitmap_generate.h"
+#include "alioth/util/bitmap_ops.h"
+#include "alioth/util/checked_cast.h"
+#include "alioth/util/list_util.h"
+#include "alioth/util/logging.h"
 
 namespace arrow {
 

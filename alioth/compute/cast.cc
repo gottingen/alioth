@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/compute/cast.h"
+#include "alioth/compute/cast.h"
 
 #include <mutex>
 #include <sstream>
@@ -25,14 +25,14 @@
 #include <utility>
 #include <vector>
 
-#include "arrow/compute/cast_internal.h"
-#include "arrow/compute/exec.h"
-#include "arrow/compute/function_internal.h"
-#include "arrow/compute/kernel.h"
-#include "arrow/compute/kernels/codegen_internal.h"
-#include "arrow/compute/registry.h"
-#include "arrow/util/logging.h"
-#include "arrow/util/reflection_internal.h"
+#include "alioth/compute/cast_internal.h"
+#include "alioth/compute/exec.h"
+#include "alioth/compute/function_internal.h"
+#include "alioth/compute/kernel.h"
+#include "alioth/compute/kernels/codegen_internal.h"
+#include "alioth/compute/registry.h"
+#include "alioth/util/logging.h"
+#include "alioth/util/reflection_internal.h"
 
 namespace arrow {
 

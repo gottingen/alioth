@@ -28,16 +28,16 @@
 #include <sstream>
 #include <string>
 
-#include "arrow/status.h"
-#include "arrow/util/decimal.h"
-#include "arrow/util/decimal_internal.h"
-#include "arrow/util/endian.h"
-#include "arrow/util/formatting.h"
-#include "arrow/util/int128_internal.h"
-#include "arrow/util/int_util_overflow.h"
-#include "arrow/util/logging.h"
-#include "arrow/util/macros.h"
-#include "arrow/util/value_parsing.h"
+#include "alioth/status.h"
+#include "alioth/util/decimal.h"
+#include "alioth/util/decimal_internal.h"
+#include "alioth/util/endian.h"
+#include "alioth/util/formatting.h"
+#include "alioth/util/int128_internal.h"
+#include "alioth/util/int_util_overflow.h"
+#include "alioth/util/logging.h"
+#include "alioth/util/macros.h"
+#include "alioth/util/value_parsing.h"
 
 namespace arrow {
 

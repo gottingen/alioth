@@ -64,8 +64,8 @@ print('''// Licensed to the Apache Software Foundation (ASF) under one
 
 #pragma once
 
-#include "arrow/util/bit_util.h"
-#include "arrow/util/ubsan.h"
+#include "alioth/util/bit_util.h"
+#include "alioth/util/ubsan.h"
 
 namespace arrow {
 namespace internal {

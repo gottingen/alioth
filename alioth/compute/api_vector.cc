@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/compute/api_vector.h"
+#include "alioth/compute/api_vector.h"
 
 #include <algorithm>
 #include <memory>
@@ -23,19 +23,19 @@
 #include <utility>
 #include <vector>
 
-#include "arrow/array/array_nested.h"
-#include "arrow/array/builder_primitive.h"
-#include "arrow/compute/exec.h"
-#include "arrow/compute/function.h"
-#include "arrow/compute/function_internal.h"
-#include "arrow/compute/kernels/vector_sort_internal.h"
-#include "arrow/compute/registry.h"
-#include "arrow/datum.h"
-#include "arrow/record_batch.h"
-#include "arrow/result.h"
-#include "arrow/util/checked_cast.h"
-#include "arrow/util/logging.h"
-#include "arrow/util/reflection_internal.h"
+#include "alioth/array/array_nested.h"
+#include "alioth/array/builder_primitive.h"
+#include "alioth/compute/exec.h"
+#include "alioth/compute/function.h"
+#include "alioth/compute/function_internal.h"
+#include "alioth/compute/kernels/vector_sort_internal.h"
+#include "alioth/compute/registry.h"
+#include "alioth/datum.h"
+#include "alioth/record_batch.h"
+#include "alioth/result.h"
+#include "alioth/util/checked_cast.h"
+#include "alioth/util/logging.h"
+#include "alioth/util/reflection_internal.h"
 
 namespace arrow {
 

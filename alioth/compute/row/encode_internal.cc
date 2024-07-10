@@ -15,8 +15,8 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/compute/row/encode_internal.h"
-#include "arrow/util/checked_cast.h"
+#include "alioth/compute/row/encode_internal.h"
+#include "alioth/util/checked_cast.h"
 
 namespace arrow {
 namespace compute {

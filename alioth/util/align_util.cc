@@ -15,16 +15,16 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/util/align_util.h"
+#include "alioth/util/align_util.h"
 
-#include "arrow/array.h"
-#include "arrow/chunked_array.h"
-#include "arrow/record_batch.h"
-#include "arrow/table.h"
-#include "arrow/type_fwd.h"
-#include "arrow/type_traits.h"
-#include "arrow/util/checked_cast.h"
-#include "arrow/util/logging.h"
+#include "alioth/array.h"
+#include "alioth/chunked_array.h"
+#include "alioth/record_batch.h"
+#include "alioth/table.h"
+#include "alioth/type_fwd.h"
+#include "alioth/type_traits.h"
+#include "alioth/util/checked_cast.h"
+#include "alioth/util/logging.h"
 
 namespace arrow {
 

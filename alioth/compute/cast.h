@@ -21,14 +21,14 @@
 #include <string>
 #include <vector>
 
-#include "arrow/compute/function.h"
-#include "arrow/compute/function_options.h"
-#include "arrow/compute/type_fwd.h"
-#include "arrow/result.h"
-#include "arrow/status.h"
-#include "arrow/type.h"
-#include "arrow/util/macros.h"
-#include "arrow/util/visibility.h"
+#include "alioth/compute/function.h"
+#include "alioth/compute/function_options.h"
+#include "alioth/compute/type_fwd.h"
+#include "alioth/result.h"
+#include "alioth/status.h"
+#include "alioth/type.h"
+#include "alioth/util/macros.h"
+#include "alioth/util/visibility.h"
 
 namespace arrow {
 

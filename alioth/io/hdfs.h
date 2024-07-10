@@ -23,9 +23,9 @@
 #include <unordered_map>
 #include <vector>
 
-#include "arrow/io/interfaces.h"
-#include "arrow/util/macros.h"
-#include "arrow/util/visibility.h"
+#include "alioth/io/interfaces.h"
+#include "alioth/util/macros.h"
+#include "alioth/util/visibility.h"
 
 namespace arrow {
 

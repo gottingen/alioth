@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/util/bitmap_builders.h"
+#include "alioth/util/bitmap_builders.h"
 
 #include <cstdint>
 #include <cstring>
@@ -23,10 +23,10 @@
 #include <type_traits>
 #include <utility>
 
-#include "arrow/buffer.h"
-#include "arrow/result.h"
-#include "arrow/status.h"
-#include "arrow/util/bit_util.h"
+#include "alioth/buffer.h"
+#include "alioth/result.h"
+#include "alioth/status.h"
+#include "alioth/util/bit_util.h"
 
 namespace arrow {
 namespace internal {

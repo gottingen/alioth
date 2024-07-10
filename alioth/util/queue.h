@@ -17,7 +17,7 @@
 
 #pragma once
 
-#include "arrow/vendored/ProducerConsumerQueue.h"
+#include "alioth/vendored/ProducerConsumerQueue.h"
 
 namespace arrow {
 namespace util {

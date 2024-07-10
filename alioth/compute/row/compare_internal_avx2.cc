@@ -17,9 +17,9 @@
 
 #include <immintrin.h>
 
-#include "arrow/compute/row/compare_internal.h"
-#include "arrow/compute/util.h"
-#include "arrow/util/bit_util.h"
+#include "alioth/compute/row/compare_internal.h"
+#include "alioth/compute/util.h"
+#include "alioth/util/bit_util.h"
 
 namespace arrow {
 namespace compute {

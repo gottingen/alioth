@@ -25,11 +25,11 @@
 #include <limits>
 #include <vector>
 
-#include "arrow/util/bit_block_counter.h"
-#include "arrow/util/bit_run_reader.h"
-#include "arrow/util/bit_stream_utils.h"
-#include "arrow/util/bit_util.h"
-#include "arrow/util/macros.h"
+#include "alioth/util/bit_block_counter.h"
+#include "alioth/util/bit_run_reader.h"
+#include "alioth/util/bit_stream_utils.h"
+#include "alioth/util/bit_util.h"
+#include "alioth/util/macros.h"
 
 namespace arrow {
 namespace util {

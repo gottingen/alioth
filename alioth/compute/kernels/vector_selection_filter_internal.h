@@ -20,9 +20,9 @@
 #include <cstdint>
 #include <memory>
 
-#include "arrow/array/data.h"
-#include "arrow/compute/api_vector.h"
-#include "arrow/compute/kernels/vector_selection_internal.h"
+#include "alioth/array/data.h"
+#include "alioth/compute/api_vector.h"
+#include "alioth/compute/kernels/vector_selection_internal.h"
 
 namespace arrow {
 namespace compute {

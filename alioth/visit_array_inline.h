@@ -17,9 +17,9 @@
 
 #pragma once
 
-#include "arrow/array.h"
-#include "arrow/extension_type.h"
-#include "arrow/visitor_generate.h"
+#include "alioth/array.h"
+#include "alioth/extension_type.h"
+#include "alioth/visitor_generate.h"
 
 namespace arrow {
 

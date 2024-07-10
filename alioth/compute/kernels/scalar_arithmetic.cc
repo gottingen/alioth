@@ -22,20 +22,20 @@
 #include <utility>
 #include <vector>
 
-#include "arrow/compare.h"
-#include "arrow/compute/api_scalar.h"
-#include "arrow/compute/cast.h"
-#include "arrow/compute/kernels/base_arithmetic_internal.h"
-#include "arrow/compute/kernels/codegen_internal.h"
-#include "arrow/compute/kernels/common_internal.h"
-#include "arrow/compute/kernels/util_internal.h"
-#include "arrow/type.h"
-#include "arrow/type_fwd.h"
-#include "arrow/type_traits.h"
-#include "arrow/util/decimal.h"
-#include "arrow/util/int_util_overflow.h"
-#include "arrow/util/macros.h"
-#include "arrow/visit_scalar_inline.h"
+#include "alioth/compare.h"
+#include "alioth/compute/api_scalar.h"
+#include "alioth/compute/cast.h"
+#include "alioth/compute/kernels/base_arithmetic_internal.h"
+#include "alioth/compute/kernels/codegen_internal.h"
+#include "alioth/compute/kernels/common_internal.h"
+#include "alioth/compute/kernels/util_internal.h"
+#include "alioth/type.h"
+#include "alioth/type_fwd.h"
+#include "alioth/type_traits.h"
+#include "alioth/util/decimal.h"
+#include "alioth/util/int_util_overflow.h"
+#include "alioth/util/macros.h"
+#include "alioth/visit_scalar_inline.h"
 
 namespace arrow {
 

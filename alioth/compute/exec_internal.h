@@ -23,12 +23,12 @@
 #include <string>
 #include <vector>
 
-#include "arrow/array.h"
-#include "arrow/buffer.h"
-#include "arrow/compute/exec.h"
-#include "arrow/compute/kernel.h"
-#include "arrow/status.h"
-#include "arrow/util/visibility.h"
+#include "alioth/array.h"
+#include "alioth/buffer.h"
+#include "alioth/compute/exec.h"
+#include "alioth/compute/kernel.h"
+#include "alioth/status.h"
+#include "alioth/util/visibility.h"
 
 namespace arrow {
 namespace compute {

@@ -15,9 +15,9 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/util/logging.h"
+#include "alioth/util/logging.h"
 
-#include "arrow/util/config.h"
+#include "alioth/util/config.h"
 
 #ifdef ARROW_WITH_BACKTRACE
 #include <execinfo.h>

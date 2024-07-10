@@ -19,11 +19,11 @@
 #include <cstdint>
 #include <vector>
 
-#include "arrow/buffer.h"
-#include "arrow/compute/light_array_internal.h"
-#include "arrow/memory_pool.h"
-#include "arrow/status.h"
-#include "arrow/util/logging.h"
+#include "alioth/buffer.h"
+#include "alioth/compute/light_array_internal.h"
+#include "alioth/memory_pool.h"
+#include "alioth/status.h"
+#include "alioth/util/logging.h"
 
 namespace arrow {
 namespace compute {

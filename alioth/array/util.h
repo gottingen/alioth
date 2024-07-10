@@ -21,13 +21,13 @@
 #include <memory>
 #include <vector>
 
-#include "arrow/array/data.h"
-#include "arrow/compare.h"
-#include "arrow/result.h"
-#include "arrow/status.h"
-#include "arrow/type.h"
-#include "arrow/util/macros.h"
-#include "arrow/util/visibility.h"
+#include "alioth/array/data.h"
+#include "alioth/compare.h"
+#include "alioth/result.h"
+#include "alioth/status.h"
+#include "alioth/type.h"
+#include "alioth/util/macros.h"
+#include "alioth/util/visibility.h"
 
 namespace arrow {
 

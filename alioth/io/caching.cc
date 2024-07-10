@@ -22,12 +22,12 @@
 #include <utility>
 #include <vector>
 
-#include "arrow/buffer.h"
-#include "arrow/io/caching.h"
-#include "arrow/io/util_internal.h"
-#include "arrow/result.h"
-#include "arrow/util/future.h"
-#include "arrow/util/logging.h"
+#include "alioth/buffer.h"
+#include "alioth/io/caching.h"
+#include "alioth/io/util_internal.h"
+#include "alioth/result.h"
+#include "alioth/util/future.h"
+#include "alioth/util/logging.h"
 
 namespace arrow {
 namespace io {

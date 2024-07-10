@@ -28,17 +28,17 @@
 #include <utility>
 #include <vector>
 
-#include "arrow/compare.h"
-#include "arrow/extension_type.h"
-#include "arrow/result.h"
-#include "arrow/status.h"
-#include "arrow/type.h"
-#include "arrow/type_fwd.h"
-#include "arrow/type_traits.h"
-#include "arrow/util/compare.h"
-#include "arrow/util/decimal.h"
-#include "arrow/util/visibility.h"
-#include "arrow/visit_type_inline.h"
+#include "alioth/compare.h"
+#include "alioth/extension_type.h"
+#include "alioth/result.h"
+#include "alioth/status.h"
+#include "alioth/type.h"
+#include "alioth/type_fwd.h"
+#include "alioth/type_traits.h"
+#include "alioth/util/compare.h"
+#include "alioth/util/decimal.h"
+#include "alioth/util/visibility.h"
+#include "alioth/visit_type_inline.h"
 
 namespace arrow {
 

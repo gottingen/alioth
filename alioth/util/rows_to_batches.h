@@ -17,11 +17,11 @@
 
 #pragma once
 
-#include "arrow/record_batch.h"
-#include "arrow/result.h"
-#include "arrow/status.h"
-#include "arrow/table_builder.h"
-#include "arrow/util/iterator.h"
+#include "alioth/record_batch.h"
+#include "alioth/result.h"
+#include "alioth/status.h"
+#include "alioth/table_builder.h"
+#include "alioth/util/iterator.h"
 
 #include <type_traits>
 

@@ -27,7 +27,7 @@
 
 #include <limits>
 
-#include <arrow/util/bit_util.h>
+#include <alioth/util/bit_util.h>
 
 namespace arrow {
 namespace random {

@@ -32,11 +32,11 @@
 #include <csignal>  // Needed for struct sigaction
 #endif
 
-#include "arrow/result.h"
-#include "arrow/status.h"
-#include "arrow/type_fwd.h"
-#include "arrow/util/macros.h"
-#include "arrow/util/windows_fixup.h"
+#include "alioth/result.h"
+#include "alioth/status.h"
+#include "alioth/type_fwd.h"
+#include "alioth/util/macros.h"
+#include "alioth/util/windows_fixup.h"
 
 namespace arrow::internal {
 

@@ -19,8 +19,8 @@
 
 #include <cstdint>
 
-#include "arrow/compute/kernels/codegen_internal.h"
-#include "arrow/visit_data_inline.h"
+#include "alioth/compute/kernels/codegen_internal.h"
+#include "alioth/visit_data_inline.h"
 
 namespace arrow {
 

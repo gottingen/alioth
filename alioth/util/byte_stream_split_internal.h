@@ -17,10 +17,10 @@
 
 #pragma once
 
-#include "arrow/util/endian.h"
-#include "arrow/util/simd.h"
-#include "arrow/util/small_vector.h"
-#include "arrow/util/ubsan.h"
+#include "alioth/util/endian.h"
+#include "alioth/util/simd.h"
+#include "alioth/util/small_vector.h"
+#include "alioth/util/ubsan.h"
 
 #include <algorithm>
 #include <array>
@@ -29,7 +29,7 @@
 #include <cstring>
 
 #if defined(ARROW_HAVE_NEON) || defined(ARROW_HAVE_SSE4_2)
-#include <xsimd/xsimd.hpp>
+#include <collie/simd/simd.h>
 #define ARROW_HAVE_SIMD_SPLIT
 #endif
 
@@ -43,7 +43,7 @@ namespace arrow::util::internal {
 template <int kNumStreams>
 void ByteStreamSplitDecodeSimd128(const uint8_t* data, int width, int64_t num_values,
                                   int64_t stride, uint8_t* out) {
-  using simd_batch = xsimd::make_sized_batch_t<int8_t, 16>;
+  using simd_batch = collie::simd::make_sized_batch_t<int8_t, 16>;
 
   assert(width == kNumStreams);
   static_assert(kNumStreams == 4 || kNumStreams == 8, "Invalid number of streams.");
@@ -82,13 +82,13 @@ void ByteStreamSplitDecodeSimd128(const uint8_t* data, int width, int64_t num_va
     for (int step = 0; step < kNumStreamsLog2; ++step) {
       for (int j = 0; j < kNumStreamsHalf; ++j) {
         stage[step + 1U][j * 2] =
-            xsimd::zip_lo(stage[step][j], stage[step][kNumStreamsHalf + j]);
+            collie::simd::zip_lo(stage[step][j], stage[step][kNumStreamsHalf + j]);
         stage[step + 1U][j * 2 + 1U] =
-            xsimd::zip_hi(stage[step][j], stage[step][kNumStreamsHalf + j]);
+            collie::simd::zip_hi(stage[step][j], stage[step][kNumStreamsHalf + j]);
       }
     }
     for (int j = 0; j < kNumStreams; ++j) {
-      xsimd::store_unaligned(
+      collie::simd::store_unaligned(
           reinterpret_cast<int8_t*>(out + (i * kNumStreams + j) * sizeof(simd_batch)),
           stage[kNumStreamsLog2][j]);
     }
@@ -98,7 +98,7 @@ void ByteStreamSplitDecodeSimd128(const uint8_t* data, int width, int64_t num_va
 template <int kNumStreams>
 void ByteStreamSplitEncodeSimd128(const uint8_t* raw_values, int width,
                                   const int64_t num_values, uint8_t* output_buffer_raw) {
-  using simd_batch = xsimd::make_sized_batch_t<int8_t, 16>;
+  using simd_batch = collie::simd::make_sized_batch_t<int8_t, 16>;
 
   assert(width == kNumStreams);
   static_assert(kNumStreams == 4 || kNumStreams == 8, "Invalid number of streams.");
@@ -151,15 +151,15 @@ void ByteStreamSplitEncodeSimd128(const uint8_t* raw_values, int width,
     for (int stage_lvl = 0; stage_lvl < 2; ++stage_lvl) {
       for (int i = 0; i < kNumStreams / 2; ++i) {
         stage[stage_lvl + 1][i * 2] =
-            xsimd::zip_lo(stage[stage_lvl][i * 2], stage[stage_lvl][i * 2 + 1]);
+            collie::simd::zip_lo(stage[stage_lvl][i * 2], stage[stage_lvl][i * 2 + 1]);
         stage[stage_lvl + 1][i * 2 + 1] =
-            xsimd::zip_hi(stage[stage_lvl][i * 2], stage[stage_lvl][i * 2 + 1]);
+            collie::simd::zip_hi(stage[stage_lvl][i * 2], stage[stage_lvl][i * 2 + 1]);
       }
     }
     if constexpr (kNumStreams == 8) {
       // This is the path for 64bits data.
       simd_batch tmp[8];
-      using int32_batch = xsimd::make_sized_batch_t<int32_t, 4>;
+      using int32_batch = collie::simd::make_sized_batch_t<int32_t, 4>;
       // This is a workaround, see: https://github.com/xtensor-stack/xsimd/issues/735
       auto from_int32_batch = [](int32_batch from) -> simd_batch {
         simd_batch dest;
@@ -173,19 +173,19 @@ void ByteStreamSplitEncodeSimd128(const uint8_t* raw_values, int width,
       };
       for (int i = 0; i < 4; ++i) {
         tmp[i * 2] = from_int32_batch(
-            xsimd::zip_lo(to_int32_batch(stage[2][i]), to_int32_batch(stage[2][i + 4])));
+            collie::simd::zip_lo(to_int32_batch(stage[2][i]), to_int32_batch(stage[2][i + 4])));
         tmp[i * 2 + 1] = from_int32_batch(
-            xsimd::zip_hi(to_int32_batch(stage[2][i]), to_int32_batch(stage[2][i + 4])));
+            collie::simd::zip_hi(to_int32_batch(stage[2][i]), to_int32_batch(stage[2][i + 4])));
       }
       for (int i = 0; i < 4; ++i) {
         final_result[i * 2] = from_int32_batch(
-            xsimd::zip_lo(to_int32_batch(tmp[i]), to_int32_batch(tmp[i + 4])));
+            collie::simd::zip_lo(to_int32_batch(tmp[i]), to_int32_batch(tmp[i + 4])));
         final_result[i * 2 + 1] = from_int32_batch(
-            xsimd::zip_hi(to_int32_batch(tmp[i]), to_int32_batch(tmp[i + 4])));
+            collie::simd::zip_hi(to_int32_batch(tmp[i]), to_int32_batch(tmp[i + 4])));
       }
     } else {
       // This is the path for 32bits data.
-      using int64_batch = xsimd::make_sized_batch_t<int64_t, 2>;
+      using int64_batch = collie::simd::make_sized_batch_t<int64_t, 2>;
       // This is a workaround, see: https://github.com/xtensor-stack/xsimd/issues/735
       auto from_int64_batch = [](int64_batch from) -> simd_batch {
         simd_batch dest;
@@ -199,18 +199,18 @@ void ByteStreamSplitEncodeSimd128(const uint8_t* raw_values, int width,
       };
       simd_batch tmp[4];
       for (int i = 0; i < 2; ++i) {
-        tmp[i * 2] = xsimd::zip_lo(stage[2][i * 2], stage[2][i * 2 + 1]);
-        tmp[i * 2 + 1] = xsimd::zip_hi(stage[2][i * 2], stage[2][i * 2 + 1]);
+        tmp[i * 2] = collie::simd::zip_lo(stage[2][i * 2], stage[2][i * 2 + 1]);
+        tmp[i * 2 + 1] = collie::simd::zip_hi(stage[2][i * 2], stage[2][i * 2 + 1]);
       }
       for (int i = 0; i < 2; ++i) {
         final_result[i * 2] = from_int64_batch(
-            xsimd::zip_lo(to_int64_batch(tmp[i]), to_int64_batch(tmp[i + 2])));
+            collie::simd::zip_lo(to_int64_batch(tmp[i]), to_int64_batch(tmp[i + 2])));
         final_result[i * 2 + 1] = from_int64_batch(
-            xsimd::zip_hi(to_int64_batch(tmp[i]), to_int64_batch(tmp[i + 2])));
+            collie::simd::zip_hi(to_int64_batch(tmp[i]), to_int64_batch(tmp[i + 2])));
       }
     }
     for (int i = 0; i < kNumStreams; ++i) {
-      xsimd::store_unaligned(&output_buffer_streams[i][block_index * sizeof(simd_batch)],
+      collie::simd::store_unaligned(&output_buffer_streams[i][block_index * sizeof(simd_batch)],
                              final_result[i]);
     }
   }

@@ -20,10 +20,10 @@
 #include <utility>
 #include <vector>
 
-#include "arrow/status.h"
-#include "arrow/util/functional.h"
-#include "arrow/util/thread_pool.h"
-#include "arrow/util/vector.h"
+#include "alioth/status.h"
+#include "alioth/util/functional.h"
+#include "alioth/util/thread_pool.h"
+#include "alioth/util/vector.h"
 
 namespace arrow {
 namespace internal {

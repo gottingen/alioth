@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/extension_type.h"
+#include "alioth/extension_type.h"
 
 #include <memory>
 #include <mutex>
@@ -24,16 +24,16 @@
 #include <unordered_map>
 #include <utility>
 
-#include "arrow/array/util.h"
-#include "arrow/chunked_array.h"
-#include "arrow/config.h"
+#include "alioth/array/util.h"
+#include "alioth/chunked_array.h"
+#include "alioth/config.h"
 #ifdef ARROW_JSON
-#include "arrow/extension/fixed_shape_tensor.h"
+#include "alioth/extension/fixed_shape_tensor.h"
 #endif
-#include "arrow/status.h"
-#include "arrow/type.h"
-#include "arrow/util/checked_cast.h"
-#include "arrow/util/logging.h"
+#include "alioth/status.h"
+#include "alioth/type.h"
+#include "alioth/util/checked_cast.h"
+#include "alioth/util/logging.h"
 
 namespace arrow {
 

@@ -21,7 +21,7 @@
 #include <type_traits>
 #include <utility>
 
-#include "arrow/util/macros.h"
+#include "alioth/util/macros.h"
 
 namespace arrow {
 namespace util {

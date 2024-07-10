@@ -18,8 +18,8 @@
 #include <ostream>
 #include <type_traits>
 
-#include "arrow/util/float16.h"
-#include "arrow/util/ubsan.h"
+#include "alioth/util/float16.h"
+#include "alioth/util/ubsan.h"
 
 namespace arrow {
 namespace util {

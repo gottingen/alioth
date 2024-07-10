@@ -22,10 +22,10 @@
 #include <string>
 #include <vector>
 
-#include "arrow/status.h"
-#include "arrow/type_fwd.h"
-#include "arrow/util/macros.h"
-#include "arrow/util/visibility.h"
+#include "alioth/status.h"
+#include "alioth/type_fwd.h"
+#include "alioth/util/macros.h"
+#include "alioth/util/visibility.h"
 
 namespace arrow {
 

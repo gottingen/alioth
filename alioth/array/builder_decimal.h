@@ -19,13 +19,13 @@
 
 #include <memory>
 
-#include "arrow/array/array_decimal.h"
-#include "arrow/array/builder_base.h"
-#include "arrow/array/builder_binary.h"
-#include "arrow/array/data.h"
-#include "arrow/status.h"
-#include "arrow/type.h"
-#include "arrow/util/visibility.h"
+#include "alioth/array/array_decimal.h"
+#include "alioth/array/builder_base.h"
+#include "alioth/array/builder_binary.h"
+#include "alioth/array/data.h"
+#include "alioth/status.h"
+#include "alioth/type.h"
+#include "alioth/util/visibility.h"
 
 namespace arrow {
 

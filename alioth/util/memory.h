@@ -20,7 +20,7 @@
 #include <cstdint>
 #include <memory>
 
-#include "arrow/util/macros.h"
+#include "alioth/util/macros.h"
 
 namespace arrow {
 namespace internal {

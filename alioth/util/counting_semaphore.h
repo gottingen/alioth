@@ -20,7 +20,7 @@
 
 #include <memory>
 
-#include "arrow/status.h"
+#include "alioth/status.h"
 
 namespace arrow {
 namespace util {

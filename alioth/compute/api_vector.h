@@ -20,10 +20,10 @@
 #include <memory>
 #include <utility>
 
-#include "arrow/compute/function_options.h"
-#include "arrow/compute/ordering.h"
-#include "arrow/result.h"
-#include "arrow/type_fwd.h"
+#include "alioth/compute/function_options.h"
+#include "alioth/compute/ordering.h"
+#include "alioth/result.h"
+#include "alioth/type_fwd.h"
 
 namespace arrow {
 namespace compute {

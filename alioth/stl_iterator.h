@@ -23,11 +23,11 @@
 #include <optional>
 #include <utility>
 
-#include "arrow/chunked_array.h"
-#include "arrow/type.h"
-#include "arrow/type_fwd.h"
-#include "arrow/type_traits.h"
-#include "arrow/util/macros.h"
+#include "alioth/chunked_array.h"
+#include "alioth/type.h"
+#include "alioth/type_fwd.h"
+#include "alioth/type_traits.h"
+#include "alioth/util/macros.h"
 
 namespace arrow {
 namespace stl {

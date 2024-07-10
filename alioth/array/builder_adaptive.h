@@ -22,12 +22,12 @@
 #include <memory>
 #include <type_traits>
 
-#include "arrow/array/builder_base.h"
-#include "arrow/buffer.h"
-#include "arrow/status.h"
-#include "arrow/type.h"
-#include "arrow/util/macros.h"
-#include "arrow/util/visibility.h"
+#include "alioth/array/builder_base.h"
+#include "alioth/buffer.h"
+#include "alioth/status.h"
+#include "alioth/type.h"
+#include "alioth/util/macros.h"
+#include "alioth/util/visibility.h"
 
 namespace arrow {
 

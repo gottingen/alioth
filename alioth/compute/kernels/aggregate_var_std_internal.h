@@ -17,7 +17,7 @@
 
 #pragma once
 
-#include "arrow/util/int128_internal.h"
+#include "alioth/util/int128_internal.h"
 
 namespace arrow {
 namespace compute {

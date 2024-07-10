@@ -20,11 +20,11 @@
 #include <cstdint>
 #include <memory>
 
-#include "arrow/buffer.h"
-#include "arrow/memory_pool.h"
-#include "arrow/result.h"
-#include "arrow/util/bit_util.h"
-#include "arrow/util/visibility.h"
+#include "alioth/buffer.h"
+#include "alioth/memory_pool.h"
+#include "alioth/result.h"
+#include "alioth/util/bit_util.h"
+#include "alioth/util/visibility.h"
 
 namespace arrow {
 namespace internal {

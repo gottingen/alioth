@@ -25,16 +25,16 @@
 #include <utility>
 #include <vector>
 
-#include "arrow/io/caching.h"
-#include "arrow/io/type_fwd.h"
-#include "arrow/ipc/message.h"
-#include "arrow/ipc/options.h"
-#include "arrow/record_batch.h"
-#include "arrow/result.h"
-#include "arrow/type_fwd.h"
-#include "arrow/util/async_generator.h"
-#include "arrow/util/macros.h"
-#include "arrow/util/visibility.h"
+#include "alioth/io/caching.h"
+#include "alioth/io/type_fwd.h"
+#include "alioth/ipc/message.h"
+#include "alioth/ipc/options.h"
+#include "alioth/record_batch.h"
+#include "alioth/result.h"
+#include "alioth/type_fwd.h"
+#include "alioth/util/async_generator.h"
+#include "alioth/util/macros.h"
+#include "alioth/util/visibility.h"
 
 namespace arrow {
 namespace ipc {

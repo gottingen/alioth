@@ -24,14 +24,14 @@
 #include <limits>
 #include <memory>
 
-#include "arrow/array/data.h"
-#include "arrow/compute/exec.h"
-#include "arrow/compute/kernel.h"
-#include "arrow/result.h"
-#include "arrow/status.h"
-#include "arrow/type_traits.h"
-#include "arrow/util/bit_util.h"
-#include "arrow/util/logging.h"
+#include "alioth/array/data.h"
+#include "alioth/compute/exec.h"
+#include "alioth/compute/kernel.h"
+#include "alioth/result.h"
+#include "alioth/status.h"
+#include "alioth/type_traits.h"
+#include "alioth/util/bit_util.h"
+#include "alioth/util/logging.h"
 
 namespace arrow {
 namespace compute {

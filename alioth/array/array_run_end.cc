@@ -15,11 +15,11 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/array/array_run_end.h"
-#include "arrow/array/builder_primitive.h"
-#include "arrow/array/util.h"
-#include "arrow/util/logging.h"
-#include "arrow/util/ree_util.h"
+#include "alioth/array/array_run_end.h"
+#include "alioth/array/builder_primitive.h"
+#include "alioth/array/util.h"
+#include "alioth/util/logging.h"
+#include "alioth/util/ree_util.h"
 
 namespace arrow {
 

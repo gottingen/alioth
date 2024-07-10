@@ -28,7 +28,7 @@
 // This software may be modified and distributed under the terms
 // of the BSD license. See the LICENSE file for details.
 
-#include "arrow/io/hdfs_internal.h"
+#include "alioth/io/hdfs_internal.h"
 
 #include <cstdint>
 #include <cstdlib>
@@ -37,16 +37,16 @@
 #include <string>
 #include <utility>
 #include <vector>
-#include "arrow/util/basic_decimal.h"
+#include "alioth/util/basic_decimal.h"
 
 #ifndef _WIN32
 #include <dlfcn.h>
 #endif
 
-#include "arrow/result.h"
-#include "arrow/status.h"
-#include "arrow/util/io_util.h"
-#include "arrow/util/logging.h"
+#include "alioth/result.h"
+#include "alioth/status.h"
+#include "alioth/util/io_util.h"
+#include "alioth/util/logging.h"
 
 namespace arrow {
 

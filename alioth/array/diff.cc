@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/array/diff.h"
+#include "alioth/array/diff.h"
 
 #include <algorithm>
 #include <chrono>
@@ -29,27 +29,27 @@
 #include <utility>
 #include <vector>
 
-#include "arrow/array/array_base.h"
-#include "arrow/array/array_decimal.h"
-#include "arrow/array/array_nested.h"
-#include "arrow/array/array_primitive.h"
-#include "arrow/array/array_run_end.h"
-#include "arrow/buffer.h"
-#include "arrow/buffer_builder.h"
-#include "arrow/extension_type.h"
-#include "arrow/memory_pool.h"
-#include "arrow/status.h"
-#include "arrow/type.h"
-#include "arrow/type_traits.h"
-#include "arrow/util/bit_util.h"
-#include "arrow/util/checked_cast.h"
-#include "arrow/util/logging.h"
-#include "arrow/util/range.h"
-#include "arrow/util/ree_util.h"
-#include "arrow/util/string.h"
-#include "arrow/util/unreachable.h"
-#include "arrow/vendored/datetime.h"
-#include "arrow/visit_type_inline.h"
+#include "alioth/array/array_base.h"
+#include "alioth/array/array_decimal.h"
+#include "alioth/array/array_nested.h"
+#include "alioth/array/array_primitive.h"
+#include "alioth/array/array_run_end.h"
+#include "alioth/buffer.h"
+#include "alioth/buffer_builder.h"
+#include "alioth/extension_type.h"
+#include "alioth/memory_pool.h"
+#include "alioth/status.h"
+#include "alioth/type.h"
+#include "alioth/type_traits.h"
+#include "alioth/util/bit_util.h"
+#include "alioth/util/checked_cast.h"
+#include "alioth/util/logging.h"
+#include "alioth/util/range.h"
+#include "alioth/util/ree_util.h"
+#include "alioth/util/string.h"
+#include "alioth/util/unreachable.h"
+#include "alioth/vendored/datetime.h"
+#include "alioth/visit_type_inline.h"
 
 namespace arrow {
 

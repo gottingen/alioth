@@ -15,15 +15,15 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/chunk_resolver.h"
+#include "alioth/chunk_resolver.h"
 
 #include <algorithm>
 #include <cstdint>
 #include <memory>
 #include <vector>
 
-#include "arrow/array.h"
-#include "arrow/record_batch.h"
+#include "alioth/array.h"
+#include "alioth/record_batch.h"
 
 namespace arrow {
 namespace internal {

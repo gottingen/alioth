@@ -17,8 +17,8 @@
 
 #pragma once
 
-#include "arrow/util/endian.h"
-#include "arrow/util/visibility.h"
+#include "alioth/util/endian.h"
+#include "alioth/util/visibility.h"
 
 #include <stdint.h>
 

@@ -15,11 +15,11 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/util/bit_run_reader.h"
+#include "alioth/util/bit_run_reader.h"
 
 #include <cstdint>
 
-#include "arrow/util/bit_util.h"
+#include "alioth/util/bit_util.h"
 
 namespace arrow {
 namespace internal {

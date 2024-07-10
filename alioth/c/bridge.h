@@ -21,13 +21,13 @@
 #include <memory>
 #include <string>
 
-#include "arrow/c/abi.h"
-#include "arrow/device.h"
-#include "arrow/result.h"
-#include "arrow/status.h"
-#include "arrow/type_fwd.h"
-#include "arrow/util/macros.h"
-#include "arrow/util/visibility.h"
+#include "alioth/c/abi.h"
+#include "alioth/device.h"
+#include "alioth/result.h"
+#include "alioth/status.h"
+#include "alioth/type_fwd.h"
+#include "alioth/util/macros.h"
+#include "alioth/util/visibility.h"
 
 namespace arrow {
 

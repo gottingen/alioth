@@ -29,15 +29,15 @@
 #include <utility>
 #include <vector>
 
-#include "arrow/array/data.h"
-#include "arrow/compute/expression.h"
-#include "arrow/compute/type_fwd.h"
-#include "arrow/datum.h"
-#include "arrow/result.h"
-#include "arrow/type_fwd.h"
-#include "arrow/util/macros.h"
-#include "arrow/util/type_fwd.h"
-#include "arrow/util/visibility.h"
+#include "alioth/array/data.h"
+#include "alioth/compute/expression.h"
+#include "alioth/compute/type_fwd.h"
+#include "alioth/datum.h"
+#include "alioth/result.h"
+#include "alioth/type_fwd.h"
+#include "alioth/util/macros.h"
+#include "alioth/util/type_fwd.h"
+#include "alioth/util/visibility.h"
 
 namespace arrow {
 namespace compute {

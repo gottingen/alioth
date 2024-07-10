@@ -14,11 +14,11 @@
 // KIND, either express or implied.  See the License for the
 // specific language governing permissions and limitations
 // under the License.
-
-#include "arrow/util/tracing_internal.h"
-#include "arrow/io/interfaces.h"
-#include "arrow/util/thread_pool.h"
-#include "arrow/util/tracing.h"
+#if defined(ARROW_WITH_OPENTELEMETRY)
+#include "alioth/util/tracing_internal.h"
+#include "alioth/io/interfaces.h"
+#include "alioth/util/thread_pool.h"
+#include "alioth/util/tracing.h"
 
 #include <iostream>
 #include <memory>
@@ -47,8 +47,8 @@
 #pragma warning(pop)
 #endif
 
-#include "arrow/util/io_util.h"
-#include "arrow/util/logging.h"
+#include "alioth/util/io_util.h"
+#include "alioth/util/logging.h"
 
 namespace arrow {
 namespace internal {
@@ -238,3 +238,4 @@ opentelemetry::trace::StartSpanOptions SpanOptionsWithParent(
 }  // namespace tracing
 }  // namespace internal
 }  // namespace arrow
+#endif

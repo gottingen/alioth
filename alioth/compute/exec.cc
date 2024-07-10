@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/compute/exec.h"
+#include "alioth/compute/exec.h"
 
 #include <algorithm>
 #include <cstddef>
@@ -25,31 +25,31 @@
 #include <utility>
 #include <vector>
 
-#include "arrow/array/array_base.h"
-#include "arrow/array/array_primitive.h"
-#include "arrow/array/data.h"
-#include "arrow/array/util.h"
-#include "arrow/buffer.h"
-#include "arrow/chunked_array.h"
-#include "arrow/compute/exec_internal.h"
-#include "arrow/compute/function.h"
-#include "arrow/compute/function_internal.h"
-#include "arrow/compute/kernel.h"
-#include "arrow/compute/registry.h"
-#include "arrow/datum.h"
-#include "arrow/pretty_print.h"
-#include "arrow/record_batch.h"
-#include "arrow/scalar.h"
-#include "arrow/status.h"
-#include "arrow/type.h"
-#include "arrow/type_traits.h"
-#include "arrow/util/bit_util.h"
-#include "arrow/util/bitmap_ops.h"
-#include "arrow/util/checked_cast.h"
-#include "arrow/util/cpu_info.h"
-#include "arrow/util/logging.h"
-#include "arrow/util/thread_pool.h"
-#include "arrow/util/vector.h"
+#include "alioth/array/array_base.h"
+#include "alioth/array/array_primitive.h"
+#include "alioth/array/data.h"
+#include "alioth/array/util.h"
+#include "alioth/buffer.h"
+#include "alioth/chunked_array.h"
+#include "alioth/compute/exec_internal.h"
+#include "alioth/compute/function.h"
+#include "alioth/compute/function_internal.h"
+#include "alioth/compute/kernel.h"
+#include "alioth/compute/registry.h"
+#include "alioth/datum.h"
+#include "alioth/pretty_print.h"
+#include "alioth/record_batch.h"
+#include "alioth/scalar.h"
+#include "alioth/status.h"
+#include "alioth/type.h"
+#include "alioth/type_traits.h"
+#include "alioth/util/bit_util.h"
+#include "alioth/util/bitmap_ops.h"
+#include "alioth/util/checked_cast.h"
+#include "alioth/util/cpu_info.h"
+#include "alioth/util/logging.h"
+#include "alioth/util/thread_pool.h"
+#include "alioth/util/vector.h"
 
 namespace arrow {
 

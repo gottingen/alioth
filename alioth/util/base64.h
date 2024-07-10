@@ -20,7 +20,7 @@
 #include <string>
 #include <string_view>
 
-#include "arrow/util/visibility.h"
+#include "alioth/util/visibility.h"
 
 namespace arrow {
 namespace util {

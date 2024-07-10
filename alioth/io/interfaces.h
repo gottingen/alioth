@@ -23,12 +23,12 @@
 #include <string_view>
 #include <vector>
 
-#include "arrow/io/type_fwd.h"
-#include "arrow/type_fwd.h"
-#include "arrow/util/cancel.h"
-#include "arrow/util/macros.h"
-#include "arrow/util/type_fwd.h"
-#include "arrow/util/visibility.h"
+#include "alioth/io/type_fwd.h"
+#include "alioth/type_fwd.h"
+#include "alioth/util/cancel.h"
+#include "alioth/util/macros.h"
+#include "alioth/util/type_fwd.h"
+#include "alioth/util/visibility.h"
 
 namespace arrow {
 namespace io {

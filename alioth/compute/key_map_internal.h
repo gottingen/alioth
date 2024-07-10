@@ -20,10 +20,10 @@
 #include <cassert>
 #include <functional>
 
-#include "arrow/compute/util.h"
-#include "arrow/result.h"
-#include "arrow/status.h"
-#include "arrow/type_fwd.h"
+#include "alioth/compute/util.h"
+#include "alioth/result.h"
+#include "alioth/status.h"
+#include "alioth/type_fwd.h"
 
 namespace arrow {
 namespace compute {

@@ -20,11 +20,11 @@
 #include <limits>
 #include <optional>
 
-#include "arrow/compute/api_scalar.h"
-#include "arrow/compute/kernels/common_internal.h"
-#include "arrow/type.h"
-#include "arrow/util/bit_util.h"
-#include "arrow/util/bitmap_ops.h"
+#include "alioth/compute/api_scalar.h"
+#include "alioth/compute/kernels/common_internal.h"
+#include "alioth/type.h"
+#include "alioth/util/bit_util.h"
+#include "alioth/util/bitmap_ops.h"
 
 namespace arrow {
 

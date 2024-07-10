@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/array/array_base.h"
+#include "alioth/array/array_base.h"
 
 #include <cstdint>
 #include <memory>
@@ -24,24 +24,24 @@
 #include <type_traits>
 #include <utility>
 
-#include "arrow/array/array_binary.h"
-#include "arrow/array/array_dict.h"
-#include "arrow/array/array_nested.h"
-#include "arrow/array/array_primitive.h"
-#include "arrow/array/util.h"
-#include "arrow/array/validate.h"
-#include "arrow/buffer.h"
-#include "arrow/compare.h"
-#include "arrow/pretty_print.h"
-#include "arrow/scalar.h"
-#include "arrow/status.h"
-#include "arrow/type.h"
-#include "arrow/type_fwd.h"
-#include "arrow/type_traits.h"
-#include "arrow/util/logging.h"
-#include "arrow/util/ree_util.h"
-#include "arrow/visit_array_inline.h"
-#include "arrow/visitor.h"
+#include "alioth/array/array_binary.h"
+#include "alioth/array/array_dict.h"
+#include "alioth/array/array_nested.h"
+#include "alioth/array/array_primitive.h"
+#include "alioth/array/util.h"
+#include "alioth/array/validate.h"
+#include "alioth/buffer.h"
+#include "alioth/compare.h"
+#include "alioth/pretty_print.h"
+#include "alioth/scalar.h"
+#include "alioth/status.h"
+#include "alioth/type.h"
+#include "alioth/type_fwd.h"
+#include "alioth/type_traits.h"
+#include "alioth/util/logging.h"
+#include "alioth/util/ree_util.h"
+#include "alioth/visit_array_inline.h"
+#include "alioth/visitor.h"
 
 namespace arrow {
 

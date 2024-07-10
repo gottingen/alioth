@@ -19,8 +19,8 @@
 
 #include <cstdint>
 
-#include "arrow/util/bit_util.h"
-#include "arrow/util/bitmap_reader.h"
+#include "alioth/util/bit_util.h"
+#include "alioth/util/bitmap_reader.h"
 
 namespace arrow {
 namespace internal {

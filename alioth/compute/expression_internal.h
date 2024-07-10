@@ -15,19 +15,19 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/compute/expression.h"
+#include "alioth/compute/expression.h"
 
 #include <unordered_map>
 #include <unordered_set>
 #include <vector>
 
-#include "arrow/compute/api_scalar.h"
-#include "arrow/compute/cast.h"
-#include "arrow/compute/cast_internal.h"
-#include "arrow/compute/registry.h"
-#include "arrow/record_batch.h"
-#include "arrow/table.h"
-#include "arrow/util/logging.h"
+#include "alioth/compute/api_scalar.h"
+#include "alioth/compute/cast.h"
+#include "alioth/compute/cast_internal.h"
+#include "alioth/compute/registry.h"
+#include "alioth/record_batch.h"
+#include "alioth/table.h"
+#include "alioth/util/logging.h"
 
 namespace arrow {
 namespace compute {

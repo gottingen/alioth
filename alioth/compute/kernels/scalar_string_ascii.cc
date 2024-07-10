@@ -21,13 +21,13 @@
 #include <memory>
 #include <string>
 
-#include "arrow/array/builder_nested.h"
-#include "arrow/compute/kernels/scalar_string_internal.h"
-#include "arrow/result.h"
-#include "arrow/util/config.h"
-#include "arrow/util/macros.h"
-#include "arrow/util/string.h"
-#include "arrow/util/value_parsing.h"
+#include "alioth/array/builder_nested.h"
+#include "alioth/compute/kernels/scalar_string_internal.h"
+#include "alioth/result.h"
+#include "alioth/util/config.h"
+#include "alioth/util/macros.h"
+#include "alioth/util/string.h"
+#include "alioth/util/value_parsing.h"
 
 #ifdef ARROW_WITH_RE2
 #include <re2/re2.h>

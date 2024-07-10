@@ -19,21 +19,21 @@
 #include <memory>
 #include <mutex>
 
-#include "arrow/array/array_base.h"
-#include "arrow/array/array_dict.h"
-#include "arrow/array/array_nested.h"
-#include "arrow/array/builder_primitive.h"
-#include "arrow/array/concatenate.h"
-#include "arrow/array/dict_internal.h"
-#include "arrow/array/util.h"
-#include "arrow/buffer.h"
-#include "arrow/compute/api_vector.h"
-#include "arrow/compute/cast.h"
-#include "arrow/compute/kernels/common_internal.h"
-#include "arrow/result.h"
-#include "arrow/util/hashing.h"
-#include "arrow/util/int_util.h"
-#include "arrow/util/unreachable.h"
+#include "alioth/array/array_base.h"
+#include "alioth/array/array_dict.h"
+#include "alioth/array/array_nested.h"
+#include "alioth/array/builder_primitive.h"
+#include "alioth/array/concatenate.h"
+#include "alioth/array/dict_internal.h"
+#include "alioth/array/util.h"
+#include "alioth/buffer.h"
+#include "alioth/compute/api_vector.h"
+#include "alioth/compute/cast.h"
+#include "alioth/compute/kernels/common_internal.h"
+#include "alioth/result.h"
+#include "alioth/util/hashing.h"
+#include "alioth/util/int_util.h"
+#include "alioth/util/unreachable.h"
 
 namespace arrow {
 

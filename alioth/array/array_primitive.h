@@ -23,15 +23,15 @@
 #include <cstdint>
 #include <memory>
 
-#include "arrow/array/array_base.h"
-#include "arrow/array/data.h"
-#include "arrow/stl_iterator.h"
-#include "arrow/type.h"
-#include "arrow/type_fwd.h"  // IWYU pragma: export
-#include "arrow/type_traits.h"
-#include "arrow/util/bit_util.h"
-#include "arrow/util/macros.h"
-#include "arrow/util/visibility.h"
+#include "alioth/array/array_base.h"
+#include "alioth/array/data.h"
+#include "alioth/stl_iterator.h"
+#include "alioth/type.h"
+#include "alioth/type_fwd.h"  // IWYU pragma: export
+#include "alioth/type_traits.h"
+#include "alioth/util/bit_util.h"
+#include "alioth/util/macros.h"
+#include "alioth/util/visibility.h"
 
 namespace arrow {
 

@@ -15,17 +15,17 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/table_builder.h"
+#include "alioth/table_builder.h"
 
 #include <memory>
 #include <utility>
 
-#include "arrow/array/array_base.h"
-#include "arrow/array/builder_base.h"
-#include "arrow/record_batch.h"
-#include "arrow/status.h"
-#include "arrow/type.h"
-#include "arrow/util/logging.h"
+#include "alioth/array/array_base.h"
+#include "alioth/array/builder_base.h"
+#include "alioth/record_batch.h"
+#include "alioth/status.h"
+#include "alioth/type.h"
+#include "alioth/util/logging.h"
 
 namespace arrow {
 

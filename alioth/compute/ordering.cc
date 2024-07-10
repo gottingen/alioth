@@ -17,8 +17,8 @@
 
 #include <sstream>
 
-#include "arrow/compute/ordering.h"
-#include "arrow/util/unreachable.h"
+#include "alioth/compute/ordering.h"
+#include "alioth/util/unreachable.h"
 
 namespace arrow {
 namespace compute {

@@ -29,13 +29,13 @@
 #include <variant>
 #include <vector>
 
-#include "arrow/result.h"
-#include "arrow/type_fwd.h"  // IWYU pragma: export
-#include "arrow/util/checked_cast.h"
-#include "arrow/util/endian.h"
-#include "arrow/util/macros.h"
-#include "arrow/util/visibility.h"
-#include "arrow/visitor.h"  // IWYU pragma: keep
+#include "alioth/result.h"
+#include "alioth/type_fwd.h"  // IWYU pragma: export
+#include "alioth/util/checked_cast.h"
+#include "alioth/util/endian.h"
+#include "alioth/util/macros.h"
+#include "alioth/util/visibility.h"
+#include "alioth/visitor.h"  // IWYU pragma: keep
 
 namespace arrow {
 namespace detail {

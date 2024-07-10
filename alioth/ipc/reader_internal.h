@@ -20,9 +20,9 @@
 #include <memory>
 #include <vector>
 
-#include "arrow/io/type_fwd.h"
-#include "arrow/result.h"
-#include "arrow/type_fwd.h"
+#include "alioth/io/type_fwd.h"
+#include "alioth/result.h"
+#include "alioth/type_fwd.h"
 
 namespace arrow {
 namespace io {

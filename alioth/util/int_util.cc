@@ -15,25 +15,25 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/util/int_util.h"
+#include "alioth/util/int_util.h"
 
 #include <algorithm>
 #include <cstring>
 #include <limits>
 
-#include "arrow/array/data.h"
-#include "arrow/datum.h"
-#include "arrow/type.h"
-#include "arrow/type_traits.h"
-#include "arrow/util/bit_block_counter.h"
-#include "arrow/util/bit_run_reader.h"
-#include "arrow/util/bit_util.h"
-#include "arrow/util/checked_cast.h"
-#include "arrow/util/logging.h"
-#include "arrow/util/macros.h"
-#include "arrow/util/string.h"
-#include "arrow/util/ubsan.h"
-#include "arrow/visit_type_inline.h"
+#include "alioth/array/data.h"
+#include "alioth/datum.h"
+#include "alioth/type.h"
+#include "alioth/type_traits.h"
+#include "alioth/util/bit_block_counter.h"
+#include "alioth/util/bit_run_reader.h"
+#include "alioth/util/bit_util.h"
+#include "alioth/util/checked_cast.h"
+#include "alioth/util/logging.h"
+#include "alioth/util/macros.h"
+#include "alioth/util/string.h"
+#include "alioth/util/ubsan.h"
+#include "alioth/visit_type_inline.h"
 
 namespace arrow {
 namespace internal {

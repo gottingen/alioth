@@ -15,9 +15,9 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/util/unreachable.h"
+#include "alioth/util/unreachable.h"
 
-#include "arrow/util/logging.h"
+#include "alioth/util/logging.h"
 
 #include <string_view>
 

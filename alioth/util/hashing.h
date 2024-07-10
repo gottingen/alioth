@@ -31,22 +31,22 @@
 #include <utility>
 #include <vector>
 
-#include "arrow/array/builder_binary.h"
-#include "arrow/buffer_builder.h"
-#include "arrow/result.h"
-#include "arrow/status.h"
-#include "arrow/type_fwd.h"
-#include "arrow/type_traits.h"
-#include "arrow/util/bit_util.h"
-#include "arrow/util/bitmap_builders.h"
-#include "arrow/util/endian.h"
-#include "arrow/util/logging.h"
-#include "arrow/util/macros.h"
-#include "arrow/util/ubsan.h"
+#include "alioth/array/builder_binary.h"
+#include "alioth/buffer_builder.h"
+#include "alioth/result.h"
+#include "alioth/status.h"
+#include "alioth/type_fwd.h"
+#include "alioth/type_traits.h"
+#include "alioth/util/bit_util.h"
+#include "alioth/util/bitmap_builders.h"
+#include "alioth/util/endian.h"
+#include "alioth/util/logging.h"
+#include "alioth/util/macros.h"
+#include "alioth/util/ubsan.h"
 
 #define XXH_INLINE_ALL
 
-#include "arrow/vendored/xxhash.h"  // IWYU pragma: keep
+#include "alioth/vendored/xxhash.h"  // IWYU pragma: keep
 
 namespace arrow {
 namespace internal {

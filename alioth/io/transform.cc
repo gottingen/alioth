@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/io/transform.h"
+#include "alioth/io/transform.h"
 
 #include <algorithm>
 #include <cstring>
@@ -24,11 +24,11 @@
 #include <thread>
 #include <utility>
 
-#include "arrow/buffer.h"
-#include "arrow/io/util_internal.h"
-#include "arrow/result.h"
-#include "arrow/status.h"
-#include "arrow/util/logging.h"
+#include "alioth/buffer.h"
+#include "alioth/io/util_internal.h"
+#include "alioth/result.h"
+#include "alioth/status.h"
+#include "alioth/util/logging.h"
 
 namespace arrow {
 namespace io {

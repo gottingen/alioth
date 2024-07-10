@@ -15,21 +15,21 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/util/bitmap_ops.h"
+#include "alioth/util/bitmap_ops.h"
 
 #include <cstdint>
 #include <cstring>
 #include <functional>
 #include <memory>
 
-#include "arrow/buffer.h"
-#include "arrow/result.h"
-#include "arrow/util/align_util.h"
-#include "arrow/util/bit_block_counter.h"
-#include "arrow/util/bit_util.h"
-#include "arrow/util/bitmap_reader.h"
-#include "arrow/util/bitmap_writer.h"
-#include "arrow/util/logging.h"
+#include "alioth/buffer.h"
+#include "alioth/result.h"
+#include "alioth/util/align_util.h"
+#include "alioth/util/bit_block_counter.h"
+#include "alioth/util/bit_util.h"
+#include "alioth/util/bitmap_reader.h"
+#include "alioth/util/bitmap_writer.h"
+#include "alioth/util/logging.h"
 
 namespace arrow {
 namespace internal {

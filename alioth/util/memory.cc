@@ -17,9 +17,9 @@
 
 #include <vector>
 
-#include "arrow/util/logging.h"
-#include "arrow/util/memory.h"
-#include "arrow/util/thread_pool.h"
+#include "alioth/util/logging.h"
+#include "alioth/util/memory.h"
+#include "alioth/util/thread_pool.h"
 
 namespace arrow {
 namespace internal {

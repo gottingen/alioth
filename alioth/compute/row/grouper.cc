@@ -15,29 +15,29 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/compute/row/grouper.h"
+#include "alioth/compute/row/grouper.h"
 
 #include <memory>
 #include <mutex>
 #include <type_traits>
 
-#include "arrow/array/builder_primitive.h"
+#include "alioth/array/builder_primitive.h"
 
-#include "arrow/compute/api_vector.h"
-#include "arrow/compute/function.h"
-#include "arrow/compute/kernels/row_encoder_internal.h"
-#include "arrow/compute/key_hash_internal.h"
-#include "arrow/compute/light_array_internal.h"
-#include "arrow/compute/registry.h"
-#include "arrow/compute/row/compare_internal.h"
-#include "arrow/compute/row/grouper_internal.h"
-#include "arrow/type.h"
-#include "arrow/type_traits.h"
-#include "arrow/util/bitmap_ops.h"
-#include "arrow/util/checked_cast.h"
-#include "arrow/util/cpu_info.h"
-#include "arrow/util/logging.h"
-#include "arrow/util/task_group.h"
+#include "alioth/compute/api_vector.h"
+#include "alioth/compute/function.h"
+#include "alioth/compute/kernels/row_encoder_internal.h"
+#include "alioth/compute/key_hash_internal.h"
+#include "alioth/compute/light_array_internal.h"
+#include "alioth/compute/registry.h"
+#include "alioth/compute/row/compare_internal.h"
+#include "alioth/compute/row/grouper_internal.h"
+#include "alioth/type.h"
+#include "alioth/type_traits.h"
+#include "alioth/util/bitmap_ops.h"
+#include "alioth/util/checked_cast.h"
+#include "alioth/util/cpu_info.h"
+#include "alioth/util/logging.h"
+#include "alioth/util/task_group.h"
 
 namespace arrow {
 

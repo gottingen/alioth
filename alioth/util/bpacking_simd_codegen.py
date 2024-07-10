@@ -162,10 +162,10 @@ def main(simd_width):
         #include <cstdint>
         #include <cstring>
 
-        #include <xsimd/xsimd.hpp>
+        #include <collie/simd/simd.h>
 
-        #include "arrow/util/dispatch.h"
-        #include "arrow/util/ubsan.h"
+        #include "alioth/util/dispatch.h"
+        #include "alioth/util/ubsan.h"
 
         namespace arrow {{
         namespace internal {{
@@ -176,7 +176,7 @@ def main(simd_width):
         template <DispatchLevel level>
         struct {struct_name} {{
 
-        using simd_batch = xsimd::make_sized_batch_t<uint32_t, {simd_width//32}>;
+        using simd_batch = collie::simd::make_sized_batch_t<uint32_t, {simd_width//32}>;
         """))
 
     gen = UnpackGenerator(simd_width)

@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/array/concatenate.h"
+#include "alioth/array/concatenate.h"
 
 #include <algorithm>
 #include <cstddef>
@@ -25,29 +25,29 @@
 #include <utility>
 #include <vector>
 
-#include "arrow/array.h"
-#include "arrow/array/builder_primitive.h"
-#include "arrow/array/builder_run_end.h"
-#include "arrow/array/data.h"
-#include "arrow/array/util.h"
-#include "arrow/buffer.h"
-#include "arrow/result.h"
-#include "arrow/status.h"
-#include "arrow/type.h"
-#include "arrow/type_fwd.h"
-#include "arrow/util/bit_block_counter.h"
-#include "arrow/util/bit_run_reader.h"
-#include "arrow/util/bit_util.h"
-#include "arrow/util/bitmap_ops.h"
-#include "arrow/util/checked_cast.h"
-#include "arrow/util/int_util.h"
-#include "arrow/util/int_util_overflow.h"
-#include "arrow/util/list_util.h"
-#include "arrow/util/logging.h"
-#include "arrow/util/ree_util.h"
-#include "arrow/util/slice_util_internal.h"
-#include "arrow/visit_data_inline.h"
-#include "arrow/visit_type_inline.h"
+#include "alioth/array.h"
+#include "alioth/array/builder_primitive.h"
+#include "alioth/array/builder_run_end.h"
+#include "alioth/array/data.h"
+#include "alioth/array/util.h"
+#include "alioth/buffer.h"
+#include "alioth/result.h"
+#include "alioth/status.h"
+#include "alioth/type.h"
+#include "alioth/type_fwd.h"
+#include "alioth/util/bit_block_counter.h"
+#include "alioth/util/bit_run_reader.h"
+#include "alioth/util/bit_util.h"
+#include "alioth/util/bitmap_ops.h"
+#include "alioth/util/checked_cast.h"
+#include "alioth/util/int_util.h"
+#include "alioth/util/int_util_overflow.h"
+#include "alioth/util/list_util.h"
+#include "alioth/util/logging.h"
+#include "alioth/util/ree_util.h"
+#include "alioth/util/slice_util_internal.h"
+#include "alioth/visit_data_inline.h"
+#include "alioth/visit_type_inline.h"
 
 namespace arrow {
 

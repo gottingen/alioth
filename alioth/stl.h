@@ -26,19 +26,19 @@
 #include <utility>
 #include <vector>
 
-#include "arrow/array.h"
-#include "arrow/array/builder_base.h"
-#include "arrow/array/builder_binary.h"
-#include "arrow/array/builder_nested.h"
-#include "arrow/array/builder_primitive.h"
-#include "arrow/chunked_array.h"
-#include "arrow/compute/api.h"
-#include "arrow/status.h"
-#include "arrow/table.h"
-#include "arrow/type_fwd.h"
-#include "arrow/type_traits.h"
-#include "arrow/util/checked_cast.h"
-#include "arrow/util/macros.h"
+#include "alioth/array.h"
+#include "alioth/array/builder_base.h"
+#include "alioth/array/builder_binary.h"
+#include "alioth/array/builder_nested.h"
+#include "alioth/array/builder_primitive.h"
+#include "alioth/chunked_array.h"
+#include "alioth/compute/api.h"
+#include "alioth/status.h"
+#include "alioth/table.h"
+#include "alioth/type_fwd.h"
+#include "alioth/type_traits.h"
+#include "alioth/util/checked_cast.h"
+#include "alioth/util/macros.h"
 
 namespace arrow {
 

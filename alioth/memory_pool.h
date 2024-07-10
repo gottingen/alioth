@@ -23,10 +23,10 @@
 #include <memory>
 #include <string>
 
-#include "arrow/result.h"
-#include "arrow/status.h"
-#include "arrow/type_fwd.h"
-#include "arrow/util/visibility.h"
+#include "alioth/result.h"
+#include "alioth/status.h"
+#include "alioth/type_fwd.h"
+#include "alioth/util/visibility.h"
 
 namespace arrow {
 

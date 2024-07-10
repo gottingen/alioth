@@ -17,7 +17,7 @@
 
 #pragma once
 
-#include "arrow/array/builder_dict.h"
+#include "alioth/array/builder_dict.h"
 
 #include <cstdint>
 #include <limits>
@@ -27,15 +27,15 @@
 #include <utility>
 #include <vector>
 
-#include "arrow/array.h"
-#include "arrow/buffer.h"
-#include "arrow/result.h"
-#include "arrow/status.h"
-#include "arrow/type.h"
-#include "arrow/type_traits.h"
-#include "arrow/util/checked_cast.h"
-#include "arrow/util/hashing.h"
-#include "arrow/util/logging.h"
+#include "alioth/array.h"
+#include "alioth/buffer.h"
+#include "alioth/result.h"
+#include "alioth/status.h"
+#include "alioth/type.h"
+#include "alioth/type_traits.h"
+#include "alioth/util/checked_cast.h"
+#include "alioth/util/hashing.h"
+#include "alioth/util/logging.h"
 
 namespace arrow {
 namespace internal {

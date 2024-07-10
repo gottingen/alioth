@@ -15,9 +15,9 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/util/delimiting.h"
-#include "arrow/buffer.h"
-#include "arrow/util/logging.h"
+#include "alioth/util/delimiting.h"
+#include "alioth/buffer.h"
+#include "alioth/util/logging.h"
 
 namespace arrow {
 

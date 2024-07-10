@@ -15,10 +15,10 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/util/hashing.h"
-#include "arrow/util/bit_util.h"
-#include "arrow/util/bitmap_reader.h"
-#include "arrow/util/macros.h"
+#include "alioth/util/hashing.h"
+#include "alioth/util/bit_util.h"
+#include "alioth/util/bitmap_reader.h"
+#include "alioth/util/macros.h"
 
 namespace arrow {
 namespace internal {

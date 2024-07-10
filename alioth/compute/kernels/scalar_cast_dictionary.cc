@@ -17,14 +17,14 @@
 
 // Implementation of casting to dictionary type
 
-#include <arrow/util/bitmap_ops.h>
-#include <arrow/util/checked_cast.h>
+#include <alioth/util/bitmap_ops.h>
+#include <alioth/util/checked_cast.h>
 
-#include "arrow/array/builder_primitive.h"
-#include "arrow/compute/cast_internal.h"
-#include "arrow/compute/kernels/scalar_cast_internal.h"
-#include "arrow/compute/kernels/util_internal.h"
-#include "arrow/util/int_util.h"
+#include "alioth/array/builder_primitive.h"
+#include "alioth/compute/cast_internal.h"
+#include "alioth/compute/kernels/scalar_cast_internal.h"
+#include "alioth/compute/kernels/util_internal.h"
+#include "alioth/util/int_util.h"
 
 namespace arrow {
 using internal::CopyBitmap;

@@ -17,11 +17,11 @@
 
 #pragma once
 
-#include "arrow/compute/api_vector.h"
-#include "arrow/compute/cast.h"           // IWYU pragma: export
-#include "arrow/compute/cast_internal.h"  // IWYU pragma: export
-#include "arrow/compute/kernels/common_internal.h"
-#include "arrow/compute/kernels/util_internal.h"
+#include "alioth/compute/api_vector.h"
+#include "alioth/compute/cast.h"           // IWYU pragma: export
+#include "alioth/compute/cast_internal.h"  // IWYU pragma: export
+#include "alioth/compute/kernels/common_internal.h"
+#include "alioth/compute/kernels/util_internal.h"
 
 namespace arrow {
 

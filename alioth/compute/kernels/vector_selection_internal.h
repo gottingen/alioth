@@ -21,12 +21,12 @@
 #include <string>
 #include <vector>
 
-#include "arrow/array/data.h"
-#include "arrow/compute/api_vector.h"
-#include "arrow/compute/exec.h"
-#include "arrow/compute/function.h"
-#include "arrow/compute/kernel.h"
-#include "arrow/compute/kernels/codegen_internal.h"
+#include "alioth/array/data.h"
+#include "alioth/compute/api_vector.h"
+#include "alioth/compute/exec.h"
+#include "alioth/compute/function.h"
+#include "alioth/compute/kernel.h"
+#include "alioth/compute/kernels/codegen_internal.h"
 
 namespace arrow::compute::internal {
 

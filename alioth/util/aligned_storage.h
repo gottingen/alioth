@@ -21,8 +21,8 @@
 #include <type_traits>
 #include <utility>
 
-#include "arrow/util/launder.h"
-#include "arrow/util/macros.h"
+#include "alioth/util/launder.h"
+#include "alioth/util/macros.h"
 
 namespace arrow {
 namespace internal {

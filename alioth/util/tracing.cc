@@ -15,10 +15,10 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/util/tracing.h"
+#include "alioth/util/tracing.h"
 
-#include "arrow/util/config.h"
-#include "arrow/util/tracing_internal.h"
+#include "alioth/util/config.h"
+#include "alioth/util/tracing_internal.h"
 
 #include <memory>
 

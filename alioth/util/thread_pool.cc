@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/util/thread_pool.h"
+#include "alioth/util/thread_pool.h"
 
 #include <algorithm>
 #include <condition_variable>
@@ -26,13 +26,13 @@
 #include <thread>
 #include <vector>
 
-#include "arrow/util/atfork_internal.h"
-#include "arrow/util/config.h"
-#include "arrow/util/io_util.h"
-#include "arrow/util/logging.h"
-#include "arrow/util/mutex.h"
+#include "alioth/util/atfork_internal.h"
+#include "alioth/util/config.h"
+#include "alioth/util/io_util.h"
+#include "alioth/util/logging.h"
+#include "alioth/util/mutex.h"
 
-#include "arrow/util/tracing_internal.h"
+#include "alioth/util/tracing_internal.h"
 
 namespace arrow {
 namespace internal {

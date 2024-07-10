@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/array/array_dict.h"
+#include "alioth/array/array_dict.h"
 
 #include <algorithm>
 #include <climits>
@@ -24,24 +24,24 @@
 #include <utility>
 #include <vector>
 
-#include "arrow/array/array_primitive.h"
-#include "arrow/array/data.h"
-#include "arrow/array/dict_internal.h"
-#include "arrow/array/util.h"
-#include "arrow/buffer.h"
-#include "arrow/chunked_array.h"
-#include "arrow/compute/api.h"
-#include "arrow/datum.h"
-#include "arrow/status.h"
-#include "arrow/table.h"
-#include "arrow/type.h"
-#include "arrow/type_traits.h"
-#include "arrow/util/bit_util.h"
-#include "arrow/util/bitmap_ops.h"
-#include "arrow/util/checked_cast.h"
-#include "arrow/util/int_util.h"
-#include "arrow/util/logging.h"
-#include "arrow/visit_type_inline.h"
+#include "alioth/array/array_primitive.h"
+#include "alioth/array/data.h"
+#include "alioth/array/dict_internal.h"
+#include "alioth/array/util.h"
+#include "alioth/buffer.h"
+#include "alioth/chunked_array.h"
+#include "alioth/compute/api.h"
+#include "alioth/datum.h"
+#include "alioth/status.h"
+#include "alioth/table.h"
+#include "alioth/type.h"
+#include "alioth/type_traits.h"
+#include "alioth/util/bit_util.h"
+#include "alioth/util/bitmap_ops.h"
+#include "alioth/util/checked_cast.h"
+#include "alioth/util/int_util.h"
+#include "alioth/util/logging.h"
+#include "alioth/visit_type_inline.h"
 
 namespace arrow {
 

@@ -16,8 +16,8 @@
 // under the License.
 #pragma once
 
-#include "arrow/util/config.h"
-#include "arrow/util/macros.h"
+#include "alioth/util/config.h"
+#include "alioth/util/macros.h"
 
 #ifndef ARROW_USE_NATIVE_INT128
 #include <boost/multiprecision/cpp_int.hpp>

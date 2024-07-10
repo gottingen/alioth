@@ -19,9 +19,9 @@
 
 #include <memory>
 
-#include "arrow/type_fwd.h"
-#include "arrow/util/macros.h"
-#include "arrow/util/visibility.h"
+#include "alioth/type_fwd.h"
+#include "alioth/util/macros.h"
+#include "alioth/util/visibility.h"
 
 namespace arrow {
 

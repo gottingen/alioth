@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/ipc/feather.h"
+#include "alioth/ipc/feather.h"
 
 #include <algorithm>
 #include <cstdint>
@@ -29,26 +29,26 @@
 
 #include <flatbuffers/flatbuffers.h>
 
-#include "arrow/array.h"
-#include "arrow/buffer.h"
-#include "arrow/chunked_array.h"
-#include "arrow/io/interfaces.h"
-#include "arrow/ipc/metadata_internal.h"
-#include "arrow/ipc/options.h"
-#include "arrow/ipc/reader.h"
-#include "arrow/ipc/util.h"
-#include "arrow/ipc/writer.h"
-#include "arrow/result.h"
-#include "arrow/status.h"
-#include "arrow/table.h"
-#include "arrow/type.h"
-#include "arrow/type_traits.h"
-#include "arrow/util/bit_util.h"
-#include "arrow/util/checked_cast.h"
-#include "arrow/util/logging.h"
-#include "arrow/visit_type_inline.h"
+#include "alioth/array.h"
+#include "alioth/buffer.h"
+#include "alioth/chunked_array.h"
+#include "alioth/io/interfaces.h"
+#include "alioth/ipc/metadata_internal.h"
+#include "alioth/ipc/options.h"
+#include "alioth/ipc/reader.h"
+#include "alioth/ipc/util.h"
+#include "alioth/ipc/writer.h"
+#include "alioth/result.h"
+#include "alioth/status.h"
+#include "alioth/table.h"
+#include "alioth/type.h"
+#include "alioth/type_traits.h"
+#include "alioth/util/bit_util.h"
+#include "alioth/util/checked_cast.h"
+#include "alioth/util/logging.h"
+#include "alioth/visit_type_inline.h"
 
-#include "generated/feather_generated.h"
+#include "alioth/generated/feather_generated.h"
 
 namespace arrow {
 

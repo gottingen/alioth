@@ -15,15 +15,15 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/compute/key_map_internal.h"
+#include "alioth/compute/key_map_internal.h"
 
 #include <algorithm>
 #include <cstdint>
 
-#include "arrow/util/bit_util.h"
-#include "arrow/util/bitmap_ops.h"
-#include "arrow/util/logging.h"
-#include "arrow/util/ubsan.h"
+#include "alioth/util/bit_util.h"
+#include "alioth/util/bitmap_ops.h"
+#include "alioth/util/logging.h"
+#include "alioth/util/ubsan.h"
 
 namespace arrow {
 

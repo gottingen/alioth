@@ -22,13 +22,13 @@
 #include <limits>
 #include <memory>
 
-#include "arrow/buffer.h"
-#include "arrow/status.h"
-#include "arrow/util/bit_util.h"
-#include "arrow/util/endian.h"
-#include "arrow/util/macros.h"
-#include "arrow/util/ubsan.h"
-#include "arrow/util/visibility.h"
+#include "alioth/buffer.h"
+#include "alioth/status.h"
+#include "alioth/util/bit_util.h"
+#include "alioth/util/endian.h"
+#include "alioth/util/macros.h"
+#include "alioth/util/ubsan.h"
+#include "alioth/util/visibility.h"
 
 namespace arrow {
 namespace internal {

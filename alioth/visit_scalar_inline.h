@@ -21,10 +21,10 @@
 
 #include <utility>
 
-#include "arrow/scalar.h"
-#include "arrow/status.h"
-#include "arrow/type.h"
-#include "arrow/visitor_generate.h"
+#include "alioth/scalar.h"
+#include "alioth/status.h"
+#include "alioth/type.h"
+#include "alioth/visitor_generate.h"
 
 namespace arrow {
 

@@ -14,11 +14,11 @@
 // KIND, either express or implied.  See the License for the
 // specific language governing permissions and limitations
 // under the License.
-
+#ifdef ARROW_HAVE_RUNTIME_BMI2
 #include <immintrin.h>
 
-#include "arrow/compute/key_map_internal.h"
-#include "arrow/util/logging.h"
+#include "alioth/compute/key_map_internal.h"
+#include "alioth/util/logging.h"
 
 namespace arrow {
 namespace compute {
@@ -412,3 +412,4 @@ int SwissTable::extract_group_ids_avx2(const int num_keys, const uint32_t* hashe
 
 }  // namespace compute
 }  // namespace arrow
+#endif

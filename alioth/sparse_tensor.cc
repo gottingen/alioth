@@ -15,19 +15,19 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/sparse_tensor.h"
-#include "arrow/tensor/converter.h"
+#include "alioth/sparse_tensor.h"
+#include "alioth/tensor/converter.h"
 
 #include <algorithm>
 #include <functional>
 #include <memory>
 #include <numeric>
 
-#include "arrow/compare.h"
-#include "arrow/type_traits.h"
-#include "arrow/util/checked_cast.h"
-#include "arrow/util/logging.h"
-#include "arrow/visit_type_inline.h"
+#include "alioth/compare.h"
+#include "alioth/type_traits.h"
+#include "alioth/util/checked_cast.h"
+#include "alioth/util/logging.h"
+#include "alioth/visit_type_inline.h"
 
 namespace arrow {
 

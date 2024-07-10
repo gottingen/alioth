@@ -20,8 +20,8 @@
 #include <cstdint>
 #include <utility>
 
-#include "arrow/array/data.h"
-#include "arrow/result.h"
+#include "alioth/array/data.h"
+#include "alioth/result.h"
 
 namespace arrow {
 namespace list_util {

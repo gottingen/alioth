@@ -15,13 +15,13 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/util/string.h"
+#include "alioth/util/string.h"
 
 #include <algorithm>
 #include <cctype>
 #include <memory>
 
-#include "arrow/status.h"
+#include "alioth/status.h"
 
 namespace arrow {
 

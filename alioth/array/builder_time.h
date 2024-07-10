@@ -21,8 +21,8 @@
 
 #include <memory>
 
-#include "arrow/array/builder_base.h"
-#include "arrow/array/builder_primitive.h"
+#include "alioth/array/builder_base.h"
+#include "alioth/array/builder_primitive.h"
 
 namespace arrow {
 

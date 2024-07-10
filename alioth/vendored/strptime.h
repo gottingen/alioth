@@ -19,7 +19,7 @@
 
 #include <time.h>
 
-#include "arrow/util/visibility.h"
+#include "alioth/util/visibility.h"
 
 #ifdef __cplusplus
 extern "C" {

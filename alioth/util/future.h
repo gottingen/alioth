@@ -26,16 +26,16 @@
 #include <utility>
 #include <vector>
 
-#include "arrow/result.h"
-#include "arrow/status.h"
-#include "arrow/type_fwd.h"
-#include "arrow/type_traits.h"
-#include "arrow/util/config.h"
-#include "arrow/util/functional.h"
-#include "arrow/util/macros.h"
-#include "arrow/util/tracing.h"
-#include "arrow/util/type_fwd.h"
-#include "arrow/util/visibility.h"
+#include "alioth/result.h"
+#include "alioth/status.h"
+#include "alioth/type_fwd.h"
+#include "alioth/type_traits.h"
+#include "alioth/util/config.h"
+#include "alioth/util/functional.h"
+#include "alioth/util/macros.h"
+#include "alioth/util/tracing.h"
+#include "alioth/util/type_fwd.h"
+#include "alioth/util/visibility.h"
 
 namespace arrow {
 

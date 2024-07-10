@@ -21,10 +21,10 @@
 #include <utility>
 #include <vector>
 
-#include "arrow/result.h"
-#include "arrow/util/algorithm.h"
-#include "arrow/util/functional.h"
-#include "arrow/util/logging.h"
+#include "alioth/result.h"
+#include "alioth/util/algorithm.h"
+#include "alioth/util/functional.h"
+#include "alioth/util/logging.h"
 
 namespace arrow {
 namespace internal {

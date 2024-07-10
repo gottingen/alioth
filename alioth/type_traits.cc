@@ -15,9 +15,9 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/type_traits.h"
+#include "alioth/type_traits.h"
 
-#include "arrow/util/logging.h"
+#include "alioth/util/logging.h"
 
 namespace arrow {
 

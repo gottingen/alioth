@@ -16,18 +16,18 @@
 // under the License.
 
 #include <type_traits>
-#include "arrow/array/array_base.h"
-#include "arrow/array/builder_primitive.h"
-#include "arrow/compute/api_scalar.h"
-#include "arrow/compute/api_vector.h"
-#include "arrow/compute/cast.h"
-#include "arrow/compute/kernels/base_arithmetic_internal.h"
-#include "arrow/compute/kernels/codegen_internal.h"
-#include "arrow/compute/kernels/common_internal.h"
-#include "arrow/result.h"
-#include "arrow/type_traits.h"
-#include "arrow/util/bit_util.h"
-#include "arrow/visit_type_inline.h"
+#include "alioth/array/array_base.h"
+#include "alioth/array/builder_primitive.h"
+#include "alioth/compute/api_scalar.h"
+#include "alioth/compute/api_vector.h"
+#include "alioth/compute/cast.h"
+#include "alioth/compute/kernels/base_arithmetic_internal.h"
+#include "alioth/compute/kernels/codegen_internal.h"
+#include "alioth/compute/kernels/common_internal.h"
+#include "alioth/result.h"
+#include "alioth/type_traits.h"
+#include "alioth/util/bit_util.h"
+#include "alioth/visit_type_inline.h"
 
 namespace arrow::compute::internal {
 

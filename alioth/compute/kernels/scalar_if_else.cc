@@ -16,20 +16,20 @@
 // under the License.
 
 #include <cstring>
-#include "arrow/array/builder_nested.h"
-#include "arrow/array/builder_primitive.h"
-#include "arrow/array/builder_time.h"
-#include "arrow/array/builder_union.h"
-#include "arrow/compute/api.h"
-#include "arrow/compute/kernels/codegen_internal.h"
-#include "arrow/compute/kernels/copy_data_internal.h"
-#include "arrow/result.h"
-#include "arrow/status.h"
-#include "arrow/util/bit_block_counter.h"
-#include "arrow/util/bit_run_reader.h"
-#include "arrow/util/bitmap.h"
-#include "arrow/util/bitmap_ops.h"
-#include "arrow/util/bitmap_reader.h"
+#include "alioth/array/builder_nested.h"
+#include "alioth/array/builder_primitive.h"
+#include "alioth/array/builder_time.h"
+#include "alioth/array/builder_union.h"
+#include "alioth/compute/api.h"
+#include "alioth/compute/kernels/codegen_internal.h"
+#include "alioth/compute/kernels/copy_data_internal.h"
+#include "alioth/result.h"
+#include "alioth/status.h"
+#include "alioth/util/bit_block_counter.h"
+#include "alioth/util/bit_run_reader.h"
+#include "alioth/util/bitmap.h"
+#include "alioth/util/bitmap_ops.h"
+#include "alioth/util/bitmap_reader.h"
 
 namespace arrow {
 

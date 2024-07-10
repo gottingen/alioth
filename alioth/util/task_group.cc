@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/util/task_group.h"
+#include "alioth/util/task_group.h"
 
 #include <atomic>
 #include <condition_variable>
@@ -23,10 +23,10 @@
 #include <mutex>
 #include <utility>
 
-#include "arrow/util/checked_cast.h"
-#include "arrow/util/config.h"
-#include "arrow/util/logging.h"
-#include "arrow/util/thread_pool.h"
+#include "alioth/util/checked_cast.h"
+#include "alioth/util/config.h"
+#include "alioth/util/logging.h"
+#include "alioth/util/thread_pool.h"
 
 namespace arrow {
 namespace internal {

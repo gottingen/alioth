@@ -15,12 +15,12 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/util/trie.h"
+#include "alioth/util/trie.h"
 
 #include <iostream>
 #include <utility>
 
-#include "arrow/util/logging.h"
+#include "alioth/util/logging.h"
 
 namespace arrow {
 namespace internal {

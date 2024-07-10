@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/io/interfaces.h"
+#include "alioth/io/interfaces.h"
 
 #include <algorithm>
 #include <cstdint>
@@ -28,18 +28,18 @@
 #include <typeinfo>
 #include <utility>
 
-#include "arrow/buffer.h"
-#include "arrow/io/concurrency.h"
-#include "arrow/io/type_fwd.h"
-#include "arrow/io/util_internal.h"
-#include "arrow/result.h"
-#include "arrow/status.h"
-#include "arrow/util/checked_cast.h"
-#include "arrow/util/future.h"
-#include "arrow/util/io_util.h"
-#include "arrow/util/iterator.h"
-#include "arrow/util/logging.h"
-#include "arrow/util/thread_pool.h"
+#include "alioth/buffer.h"
+#include "alioth/io/concurrency.h"
+#include "alioth/io/type_fwd.h"
+#include "alioth/io/util_internal.h"
+#include "alioth/result.h"
+#include "alioth/status.h"
+#include "alioth/util/checked_cast.h"
+#include "alioth/util/future.h"
+#include "alioth/util/io_util.h"
+#include "alioth/util/iterator.h"
+#include "alioth/util/logging.h"
+#include "alioth/util/thread_pool.h"
 
 namespace arrow {
 

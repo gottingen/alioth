@@ -15,11 +15,11 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/compute/api_aggregate.h"
-#include "arrow/compute/kernels/aggregate_internal.h"
-#include "arrow/compute/kernels/common_internal.h"
-#include "arrow/util/bit_run_reader.h"
-#include "arrow/util/tdigest.h"
+#include "alioth/compute/api_aggregate.h"
+#include "alioth/compute/kernels/aggregate_internal.h"
+#include "alioth/compute/kernels/common_internal.h"
+#include "alioth/util/bit_run_reader.h"
+#include "alioth/util/tdigest.h"
 
 namespace arrow {
 namespace compute {

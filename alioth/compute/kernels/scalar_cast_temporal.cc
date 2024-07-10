@@ -19,13 +19,13 @@
 
 #include <limits>
 
-#include "arrow/array/builder_time.h"
-#include "arrow/compute/kernels/common_internal.h"
-#include "arrow/compute/kernels/scalar_cast_internal.h"
-#include "arrow/compute/kernels/temporal_internal.h"
-#include "arrow/util/bitmap_reader.h"
-#include "arrow/util/time.h"
-#include "arrow/util/value_parsing.h"
+#include "alioth/array/builder_time.h"
+#include "alioth/compute/kernels/common_internal.h"
+#include "alioth/compute/kernels/scalar_cast_internal.h"
+#include "alioth/compute/kernels/temporal_internal.h"
+#include "alioth/util/bitmap_reader.h"
+#include "alioth/util/time.h"
+#include "alioth/util/value_parsing.h"
 
 namespace arrow {
 

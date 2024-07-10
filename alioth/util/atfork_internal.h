@@ -22,7 +22,7 @@
 #include <memory>
 #include <utility>
 
-#include "arrow/util/visibility.h"
+#include "alioth/util/visibility.h"
 
 namespace arrow {
 namespace internal {

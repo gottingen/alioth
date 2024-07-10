@@ -15,14 +15,14 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/util/windows_compatibility.h"  // IWYU pragma: keep
+#include "alioth/util/windows_compatibility.h"  // IWYU pragma: keep
 
 // sys/mman.h not present in Visual Studio or Cygwin
 #ifdef _WIN32
 #ifndef NOMINMAX
 #define NOMINMAX
 #endif
-#include "arrow/io/mman.h"
+#include "alioth/io/mman.h"
 #undef Realloc
 #undef Free
 #else
@@ -46,16 +46,16 @@
 // ----------------------------------------------------------------------
 // Other Arrow includes
 
-#include "arrow/io/file.h"
-#include "arrow/io/interfaces.h"
-#include "arrow/io/util_internal.h"
+#include "alioth/io/file.h"
+#include "alioth/io/interfaces.h"
+#include "alioth/io/util_internal.h"
 
-#include "arrow/buffer.h"
-#include "arrow/memory_pool.h"
-#include "arrow/status.h"
-#include "arrow/util/future.h"
-#include "arrow/util/io_util.h"
-#include "arrow/util/logging.h"
+#include "alioth/buffer.h"
+#include "alioth/memory_pool.h"
+#include "alioth/status.h"
+#include "alioth/util/future.h"
+#include "alioth/util/io_util.h"
+#include "alioth/util/logging.h"
 
 namespace arrow {
 

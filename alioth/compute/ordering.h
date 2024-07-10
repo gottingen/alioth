@@ -20,9 +20,9 @@
 #include <string>
 #include <vector>
 
-#include "arrow/type.h"
-#include "arrow/util/compare.h"
-#include "arrow/util/visibility.h"
+#include "alioth/type.h"
+#include "alioth/util/compare.h"
+#include "alioth/util/visibility.h"
 
 namespace arrow {
 namespace compute {

@@ -24,10 +24,10 @@
 #include <string_view>
 #include <vector>
 
-#include "arrow/io/concurrency.h"
-#include "arrow/io/interfaces.h"
-#include "arrow/type_fwd.h"
-#include "arrow/util/visibility.h"
+#include "alioth/io/concurrency.h"
+#include "alioth/io/interfaces.h"
+#include "alioth/type_fwd.h"
+#include "alioth/util/visibility.h"
 
 namespace arrow {
 

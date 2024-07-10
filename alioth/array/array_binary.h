@@ -27,14 +27,14 @@
 #include <string_view>
 #include <vector>
 
-#include "arrow/array/array_base.h"
-#include "arrow/array/data.h"
-#include "arrow/buffer.h"
-#include "arrow/stl_iterator.h"
-#include "arrow/type.h"
-#include "arrow/util/checked_cast.h"
-#include "arrow/util/macros.h"
-#include "arrow/util/visibility.h"
+#include "alioth/array/array_base.h"
+#include "alioth/array/data.h"
+#include "alioth/buffer.h"
+#include "alioth/stl_iterator.h"
+#include "alioth/type.h"
+#include "alioth/util/checked_cast.h"
+#include "alioth/util/macros.h"
+#include "alioth/util/visibility.h"
 
 namespace arrow {
 

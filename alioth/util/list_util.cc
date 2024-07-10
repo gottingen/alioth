@@ -18,16 +18,16 @@
 #include <cstdint>
 #include <vector>
 
-#include "arrow/array/array_nested.h"
-#include "arrow/array/builder_nested.h"
-#include "arrow/array/data.h"
-#include "arrow/type.h"
-#include "arrow/type_traits.h"
-#include "arrow/util/bit_run_reader.h"
-#include "arrow/util/checked_cast.h"
-#include "arrow/util/list_util.h"
-#include "arrow/util/logging.h"
-#include "arrow/util/string.h"
+#include "alioth/array/array_nested.h"
+#include "alioth/array/builder_nested.h"
+#include "alioth/array/data.h"
+#include "alioth/type.h"
+#include "alioth/type_traits.h"
+#include "alioth/util/bit_run_reader.h"
+#include "alioth/util/checked_cast.h"
+#include "alioth/util/list_util.h"
+#include "alioth/util/logging.h"
+#include "alioth/util/string.h"
 
 namespace arrow::list_util {
 

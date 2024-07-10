@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/util/uri.h"
+#include "alioth/util/uri.h"
 
 #include <algorithm>
 #include <cstring>
@@ -23,9 +23,9 @@
 #include <string_view>
 #include <vector>
 
-#include "arrow/util/logging.h"
-#include "arrow/util/value_parsing.h"
-#include "arrow/vendored/uriparser/Uri.h"
+#include "alioth/util/logging.h"
+#include "alioth/util/value_parsing.h"
+#include "alioth/vendored/uriparser/Uri.h"
 
 namespace arrow::util {
 

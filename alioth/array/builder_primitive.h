@@ -21,11 +21,11 @@
 #include <memory>
 #include <vector>
 
-#include "arrow/array/builder_base.h"
-#include "arrow/array/data.h"
-#include "arrow/result.h"
-#include "arrow/type.h"
-#include "arrow/type_traits.h"
+#include "alioth/array/builder_base.h"
+#include "alioth/array/data.h"
+#include "alioth/result.h"
+#include "alioth/type.h"
+#include "alioth/type_traits.h"
 
 namespace arrow {
 

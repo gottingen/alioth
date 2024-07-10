@@ -21,7 +21,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "arrow/c/abi.h"
+#include "alioth/c/abi.h"
 
 #define ARROW_C_ASSERT(condition, msg)                          \
   do {                                                          \

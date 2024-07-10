@@ -21,20 +21,20 @@
 #include <string>
 #include <vector>
 
-#include "arrow/array/builder_base.h"
-#include "arrow/array/builder_binary.h"
-#include "arrow/array/builder_nested.h"
-#include "arrow/compute/api_vector.h"
-#include "arrow/compute/function.h"
-#include "arrow/compute/type_fwd.h"
-#include "arrow/result.h"
-#include "arrow/scalar.h"
-#include "arrow/status.h"
-#include "arrow/util/checked_cast.h"
-#include "arrow/util/key_value_metadata.h"
-#include "arrow/util/reflection_internal.h"
-#include "arrow/util/string.h"
-#include "arrow/util/visibility.h"
+#include "alioth/array/builder_base.h"
+#include "alioth/array/builder_binary.h"
+#include "alioth/array/builder_nested.h"
+#include "alioth/compute/api_vector.h"
+#include "alioth/compute/function.h"
+#include "alioth/compute/type_fwd.h"
+#include "alioth/result.h"
+#include "alioth/scalar.h"
+#include "alioth/status.h"
+#include "alioth/util/checked_cast.h"
+#include "alioth/util/key_value_metadata.h"
+#include "alioth/util/reflection_internal.h"
+#include "alioth/util/string.h"
+#include "alioth/util/visibility.h"
 
 namespace arrow {
 struct Scalar;

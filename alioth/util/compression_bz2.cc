@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/util/compression_internal.h"
+#include "alioth/util/compression_internal.h"
 
 #include <algorithm>
 #include <cstdint>
@@ -25,14 +25,14 @@
 #include <sstream>
 
 // Avoid defining max() macro
-#include "arrow/util/windows_compatibility.h"
+#include "alioth/util/windows_compatibility.h"
 
 #include <bzlib.h>
 
-#include "arrow/result.h"
-#include "arrow/status.h"
-#include "arrow/util/logging.h"
-#include "arrow/util/macros.h"
+#include "alioth/result.h"
+#include "alioth/status.h"
+#include "alioth/util/logging.h"
+#include "alioth/util/macros.h"
 
 namespace arrow {
 namespace util {

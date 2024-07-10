@@ -15,13 +15,13 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/compute/api_aggregate.h"
-#include "arrow/compute/kernels/aggregate_basic_internal.h"
-#include "arrow/compute/kernels/aggregate_internal.h"
-#include "arrow/compute/kernels/common_internal.h"
-#include "arrow/compute/kernels/util_internal.h"
-#include "arrow/util/cpu_info.h"
-#include "arrow/util/hashing.h"
+#include "alioth/compute/api_aggregate.h"
+#include "alioth/compute/kernels/aggregate_basic_internal.h"
+#include "alioth/compute/kernels/aggregate_internal.h"
+#include "alioth/compute/kernels/common_internal.h"
+#include "alioth/compute/kernels/util_internal.h"
+#include "alioth/util/cpu_info.h"
+#include "alioth/util/hashing.h"
 
 #include <memory>
 

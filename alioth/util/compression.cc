@@ -15,17 +15,17 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/util/compression.h"
+#include "alioth/util/compression.h"
 
 #include <memory>
 #include <string>
 #include <utility>
 
-#include "arrow/result.h"
-#include "arrow/status.h"
-#include "arrow/util/compression_internal.h"
-#include "arrow/util/config.h"
-#include "arrow/util/logging.h"
+#include "alioth/result.h"
+#include "alioth/status.h"
+#include "alioth/util/compression_internal.h"
+#include "alioth/util/config.h"
+#include "alioth/util/logging.h"
 
 namespace arrow {
 namespace util {

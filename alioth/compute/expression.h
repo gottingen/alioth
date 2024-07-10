@@ -25,10 +25,10 @@
 #include <variant>
 #include <vector>
 
-#include "arrow/compute/type_fwd.h"
-#include "arrow/datum.h"
-#include "arrow/type_fwd.h"
-#include "arrow/util/small_vector.h"
+#include "alioth/compute/type_fwd.h"
+#include "alioth/datum.h"
+#include "alioth/type_fwd.h"
+#include "alioth/util/small_vector.h"
 
 namespace arrow {
 namespace compute {

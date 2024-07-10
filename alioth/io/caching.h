@@ -23,9 +23,9 @@
 #include <utility>
 #include <vector>
 
-#include "arrow/io/interfaces.h"
-#include "arrow/util/type_fwd.h"
-#include "arrow/util/visibility.h"
+#include "alioth/io/interfaces.h"
+#include "alioth/util/type_fwd.h"
+#include "alioth/util/visibility.h"
 
 namespace arrow {
 namespace io {

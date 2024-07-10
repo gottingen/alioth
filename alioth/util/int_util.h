@@ -20,9 +20,9 @@
 #include <cstdint>
 #include <type_traits>
 
-#include "arrow/status.h"
+#include "alioth/status.h"
 
-#include "arrow/util/visibility.h"
+#include "alioth/util/visibility.h"
 
 namespace arrow {
 

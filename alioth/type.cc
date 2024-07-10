@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/type.h"
+#include "alioth/type.h"
 
 #include <algorithm>
 #include <climits>
@@ -32,23 +32,23 @@
 #include <utility>
 #include <vector>
 
-#include "arrow/array.h"
-#include "arrow/compare.h"
-#include "arrow/record_batch.h"
-#include "arrow/result.h"
-#include "arrow/status.h"
-#include "arrow/table.h"
-#include "arrow/util/checked_cast.h"
-#include "arrow/util/decimal.h"
-#include "arrow/util/hash_util.h"
-#include "arrow/util/hashing.h"
-#include "arrow/util/key_value_metadata.h"
-#include "arrow/util/logging.h"
-#include "arrow/util/range.h"
-#include "arrow/util/string.h"
-#include "arrow/util/unreachable.h"
-#include "arrow/util/vector.h"
-#include "arrow/visit_type_inline.h"
+#include "alioth/array.h"
+#include "alioth/compare.h"
+#include "alioth/record_batch.h"
+#include "alioth/result.h"
+#include "alioth/status.h"
+#include "alioth/table.h"
+#include "alioth/util/checked_cast.h"
+#include "alioth/util/decimal.h"
+#include "alioth/util/hash_util.h"
+#include "alioth/util/hashing.h"
+#include "alioth/util/key_value_metadata.h"
+#include "alioth/util/logging.h"
+#include "alioth/util/range.h"
+#include "alioth/util/string.h"
+#include "alioth/util/unreachable.h"
+#include "alioth/util/vector.h"
+#include "alioth/visit_type_inline.h"
 
 namespace arrow {
 

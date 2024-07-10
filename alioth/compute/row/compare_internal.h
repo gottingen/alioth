@@ -19,13 +19,13 @@
 
 #include <cstdint>
 
-#include "arrow/compute/light_array_internal.h"
-#include "arrow/compute/row/encode_internal.h"
-#include "arrow/compute/row/row_internal.h"
-#include "arrow/compute/util.h"
-#include "arrow/memory_pool.h"
-#include "arrow/result.h"
-#include "arrow/status.h"
+#include "alioth/compute/light_array_internal.h"
+#include "alioth/compute/row/encode_internal.h"
+#include "alioth/compute/row/row_internal.h"
+#include "alioth/compute/util.h"
+#include "alioth/memory_pool.h"
+#include "alioth/result.h"
+#include "alioth/status.h"
 
 namespace arrow {
 namespace compute {

@@ -15,12 +15,12 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/util/async_util.h"
+#include "alioth/util/async_util.h"
 
-#include "arrow/util/future.h"
-#include "arrow/util/logging.h"
-#include "arrow/util/string.h"
-#include "arrow/util/tracing_internal.h"
+#include "alioth/util/future.h"
+#include "alioth/util/logging.h"
+#include "alioth/util/string.h"
+#include "alioth/util/tracing_internal.h"
 
 #include <condition_variable>
 #include <list>

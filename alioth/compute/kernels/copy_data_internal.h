@@ -17,7 +17,7 @@
 
 #pragma once
 
-#include "arrow/compute/kernels/codegen_internal.h"
+#include "alioth/compute/kernels/codegen_internal.h"
 
 namespace arrow {
 namespace compute {

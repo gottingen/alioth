@@ -15,9 +15,9 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/ipc/options.h"
+#include "alioth/ipc/options.h"
 
-#include "arrow/status.h"
+#include "alioth/status.h"
 
 namespace arrow {
 namespace ipc {

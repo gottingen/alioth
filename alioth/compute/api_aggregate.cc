@@ -15,13 +15,13 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/compute/api_aggregate.h"
+#include "alioth/compute/api_aggregate.h"
 
-#include "arrow/compute/exec.h"
-#include "arrow/compute/function_internal.h"
-#include "arrow/compute/registry.h"
-#include "arrow/util/checked_cast.h"
-#include "arrow/util/logging.h"
+#include "alioth/compute/exec.h"
+#include "alioth/compute/function_internal.h"
+#include "alioth/compute/registry.h"
+#include "alioth/util/checked_cast.h"
+#include "alioth/util/logging.h"
 
 namespace arrow {
 

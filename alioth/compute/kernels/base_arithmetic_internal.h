@@ -18,14 +18,14 @@
 #pragma once
 
 #include <limits>
-#include "arrow/compute/api_scalar.h"
-#include "arrow/compute/kernels/common_internal.h"
-#include "arrow/compute/kernels/util_internal.h"
-#include "arrow/type.h"
-#include "arrow/type_traits.h"
-#include "arrow/util/decimal.h"
-#include "arrow/util/int_util_overflow.h"
-#include "arrow/util/macros.h"
+#include "alioth/compute/api_scalar.h"
+#include "alioth/compute/kernels/common_internal.h"
+#include "alioth/compute/kernels/util_internal.h"
+#include "alioth/type.h"
+#include "alioth/type_traits.h"
+#include "alioth/util/decimal.h"
+#include "alioth/util/int_util_overflow.h"
+#include "alioth/util/macros.h"
 
 namespace arrow {
 

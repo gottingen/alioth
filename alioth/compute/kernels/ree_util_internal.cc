@@ -18,14 +18,14 @@
 #include <cstdint>
 #include <memory>
 
-#include "arrow/compute/kernels/ree_util_internal.h"
+#include "alioth/compute/kernels/ree_util_internal.h"
 
-#include "arrow/buffer.h"
-#include "arrow/memory_pool.h"
-#include "arrow/result.h"
-#include "arrow/type.h"
-#include "arrow/type_traits.h"
-#include "arrow/util/logging.h"
+#include "alioth/buffer.h"
+#include "alioth/memory_pool.h"
+#include "alioth/result.h"
+#include "alioth/type.h"
+#include "alioth/type_traits.h"
+#include "alioth/util/logging.h"
 
 namespace arrow {
 namespace compute {

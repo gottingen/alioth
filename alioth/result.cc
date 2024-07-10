@@ -15,11 +15,11 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/result.h"
+#include "alioth/result.h"
 
 #include <string>
 
-#include "arrow/util/logging.h"
+#include "alioth/util/logging.h"
 
 namespace arrow {
 

@@ -17,13 +17,13 @@
 
 #define FASTFLOAT_ALLOWS_LEADING_PLUS 1
 
-#include "arrow/util/value_parsing.h"
+#include "alioth/util/value_parsing.h"
 
 #include <string>
 #include <utility>
 
-#include "arrow/util/float16.h"
-#include "arrow/vendored/fast_float/fast_float.h"
+#include "alioth/util/float16.h"
+#include "alioth/vendored/fast_float/fast_float.h"
 
 using arrow::util::Float16;
 

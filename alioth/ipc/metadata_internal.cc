@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/ipc/metadata_internal.h"
+#include "alioth/ipc/metadata_internal.h"
 
 #include <cstdint>
 #include <memory>
@@ -25,28 +25,28 @@
 
 #include <flatbuffers/flatbuffers.h>
 
-#include "arrow/extension_type.h"
-#include "arrow/io/interfaces.h"
-#include "arrow/ipc/dictionary.h"
-#include "arrow/ipc/message.h"
-#include "arrow/ipc/options.h"
-#include "arrow/ipc/util.h"
-#include "arrow/sparse_tensor.h"
-#include "arrow/status.h"
-#include "arrow/type.h"
-#include "arrow/type_traits.h"
-#include "arrow/util/checked_cast.h"
-#include "arrow/util/key_value_metadata.h"
-#include "arrow/util/logging.h"
-#include "arrow/util/string.h"
-#include "arrow/util/ubsan.h"
-#include "arrow/visit_type_inline.h"
+#include "alioth/extension_type.h"
+#include "alioth/io/interfaces.h"
+#include "alioth/ipc/dictionary.h"
+#include "alioth/ipc/message.h"
+#include "alioth/ipc/options.h"
+#include "alioth/ipc/util.h"
+#include "alioth/sparse_tensor.h"
+#include "alioth/status.h"
+#include "alioth/type.h"
+#include "alioth/type_traits.h"
+#include "alioth/util/checked_cast.h"
+#include "alioth/util/key_value_metadata.h"
+#include "alioth/util/logging.h"
+#include "alioth/util/string.h"
+#include "alioth/util/ubsan.h"
+#include "alioth/visit_type_inline.h"
 
-#include "generated/File_generated.h"
-#include "generated/Message_generated.h"
-#include "generated/Schema_generated.h"
-#include "generated/SparseTensor_generated.h"
-#include "generated/Tensor_generated.h"
+#include "alioth/generated/File_generated.h"
+#include "alioth/generated/Message_generated.h"
+#include "alioth/generated/Schema_generated.h"
+#include "alioth/generated/SparseTensor_generated.h"
+#include "alioth/generated/Tensor_generated.h"
 
 namespace arrow {
 

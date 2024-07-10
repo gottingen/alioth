@@ -20,22 +20,22 @@
 #include <iostream>
 #include <memory>
 
-#include "arrow/array/builder_base.h"
-#include "arrow/compute/api_vector.h"
-#include "arrow/compute/exec.h"
-#include "arrow/compute/function.h"
-#include "arrow/compute/kernel.h"
-#include "arrow/compute/kernels/base_arithmetic_internal.h"
-#include "arrow/compute/kernels/codegen_internal.h"
-#include "arrow/compute/registry.h"
-#include "arrow/compute/util.h"
-#include "arrow/status.h"
-#include "arrow/type.h"
-#include "arrow/type_fwd.h"
-#include "arrow/type_traits.h"
-#include "arrow/util/bit_util.h"
-#include "arrow/util/checked_cast.h"
-#include "arrow/util/logging.h"
+#include "alioth/array/builder_base.h"
+#include "alioth/compute/api_vector.h"
+#include "alioth/compute/exec.h"
+#include "alioth/compute/function.h"
+#include "alioth/compute/kernel.h"
+#include "alioth/compute/kernels/base_arithmetic_internal.h"
+#include "alioth/compute/kernels/codegen_internal.h"
+#include "alioth/compute/registry.h"
+#include "alioth/compute/util.h"
+#include "alioth/status.h"
+#include "alioth/type.h"
+#include "alioth/type_fwd.h"
+#include "alioth/type_traits.h"
+#include "alioth/util/bit_util.h"
+#include "alioth/util/checked_cast.h"
+#include "alioth/util/logging.h"
 
 namespace arrow::compute::internal {
 namespace {

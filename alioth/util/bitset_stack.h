@@ -30,17 +30,17 @@
 #include <utility>
 #include <vector>
 
-#include "arrow/buffer.h"
-#include "arrow/memory_pool.h"
-#include "arrow/result.h"
-#include "arrow/type_fwd.h"
-#include "arrow/util/bit_util.h"
-#include "arrow/util/compare.h"
-#include "arrow/util/functional.h"
-#include "arrow/util/macros.h"
-#include "arrow/util/string_builder.h"
-#include "arrow/util/type_traits.h"
-#include "arrow/util/visibility.h"
+#include "alioth/buffer.h"
+#include "alioth/memory_pool.h"
+#include "alioth/result.h"
+#include "alioth/type_fwd.h"
+#include "alioth/util/bit_util.h"
+#include "alioth/util/compare.h"
+#include "alioth/util/functional.h"
+#include "alioth/util/macros.h"
+#include "alioth/util/string_builder.h"
+#include "alioth/util/type_traits.h"
+#include "alioth/util/visibility.h"
 
 namespace arrow {
 namespace internal {

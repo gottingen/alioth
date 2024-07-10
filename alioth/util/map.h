@@ -19,7 +19,7 @@
 
 #include <utility>
 
-#include "arrow/result.h"
+#include "alioth/result.h"
 
 namespace arrow {
 namespace internal {

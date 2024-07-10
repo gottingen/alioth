@@ -17,8 +17,8 @@
 
 #pragma once
 
-#include "arrow/memory_pool.h"
-#include "arrow/util/config.h"
+#include "alioth/memory_pool.h"
+#include "alioth/util/config.h"
 
 namespace arrow {
 

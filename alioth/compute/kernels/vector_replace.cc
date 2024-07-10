@@ -15,11 +15,11 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/compute/api_scalar.h"
-#include "arrow/compute/kernels/common_internal.h"
-#include "arrow/compute/kernels/copy_data_internal.h"
-#include "arrow/compute/kernels/util_internal.h"
-#include "arrow/util/bitmap_ops.h"
+#include "alioth/compute/api_scalar.h"
+#include "alioth/compute/kernels/common_internal.h"
+#include "alioth/compute/kernels/copy_data_internal.h"
+#include "alioth/compute/kernels/util_internal.h"
+#include "alioth/util/bitmap_ops.h"
 
 namespace arrow {
 namespace compute {

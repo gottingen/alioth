@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/util/mutex.h"
+#include "alioth/util/mutex.h"
 
 #include <mutex>
 
@@ -24,8 +24,8 @@
 #include <atomic>
 #endif
 
-#include "arrow/util/config.h"
-#include "arrow/util/logging.h"
+#include "alioth/util/config.h"
+#include "alioth/util/logging.h"
 
 namespace arrow {
 namespace util {

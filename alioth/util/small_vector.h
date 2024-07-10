@@ -27,8 +27,8 @@
 #include <type_traits>
 #include <utility>
 
-#include "arrow/util/aligned_storage.h"
-#include "arrow/util/macros.h"
+#include "alioth/util/aligned_storage.h"
+#include "alioth/util/macros.h"
 
 namespace arrow {
 namespace internal {

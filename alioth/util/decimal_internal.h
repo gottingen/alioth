@@ -22,11 +22,11 @@
 #include <limits>
 #include <type_traits>
 
-#include "arrow/type_fwd.h"
-#include "arrow/util/basic_decimal.h"
-#include "arrow/util/endian.h"
-#include "arrow/util/macros.h"
-#include "arrow/util/visibility.h"
+#include "alioth/type_fwd.h"
+#include "alioth/util/basic_decimal.h"
+#include "alioth/util/endian.h"
+#include "alioth/util/macros.h"
+#include "alioth/util/visibility.h"
 
 namespace arrow {
 

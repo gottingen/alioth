@@ -15,17 +15,17 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/array/builder_decimal.h"
+#include "alioth/array/builder_decimal.h"
 
 #include <cstdint>
 #include <memory>
 
-#include "arrow/array/data.h"
-#include "arrow/buffer.h"
-#include "arrow/buffer_builder.h"
-#include "arrow/status.h"
-#include "arrow/util/checked_cast.h"
-#include "arrow/util/decimal.h"
+#include "alioth/array/data.h"
+#include "alioth/buffer.h"
+#include "alioth/buffer_builder.h"
+#include "alioth/status.h"
+#include "alioth/util/checked_cast.h"
+#include "alioth/util/decimal.h"
 
 namespace arrow {
 

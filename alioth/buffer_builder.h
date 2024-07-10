@@ -24,14 +24,14 @@
 #include <string>
 #include <utility>
 
-#include "arrow/buffer.h"
-#include "arrow/status.h"
-#include "arrow/util/bit_util.h"
-#include "arrow/util/bitmap_generate.h"
-#include "arrow/util/bitmap_ops.h"
-#include "arrow/util/macros.h"
-#include "arrow/util/ubsan.h"
-#include "arrow/util/visibility.h"
+#include "alioth/buffer.h"
+#include "alioth/status.h"
+#include "alioth/util/bit_util.h"
+#include "alioth/util/bitmap_generate.h"
+#include "alioth/util/bitmap_ops.h"
+#include "alioth/util/macros.h"
+#include "alioth/util/ubsan.h"
+#include "alioth/util/visibility.h"
 
 namespace arrow {
 

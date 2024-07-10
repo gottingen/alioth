@@ -14,10 +14,10 @@
 // KIND, either express or implied.  See the License for the
 // specific language governing permissions and limitations
 // under the License.
-
-#include "arrow/memory_pool_internal.h"
-#include "arrow/util/io_util.h"
-#include "arrow/util/logging.h"  // IWYU pragma: keep
+#ifdef ARROW_JEMALLOC
+#include "alioth/memory_pool_internal.h"
+#include "alioth/util/io_util.h"
+#include "alioth/util/logging.h"  // IWYU pragma: keep
 
 // We can't put the jemalloc memory pool implementation into
 // memory_pool.c because jemalloc.h may redefine malloc() and its
@@ -223,3 +223,4 @@ Status jemalloc_stats_print(std::function<void(const char*)> write_cb, const cha
 }
 
 }  // namespace arrow
+#endif

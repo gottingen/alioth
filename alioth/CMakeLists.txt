@@ -17,115 +17,18 @@
 # below are examples, after initialization, modify it to your own.
 ###########################################################################
 ###carbin_example
+file(GLOB_RECURSE SRC_LIST "*.cc")
 carbin_cc_library(
         NAMESPACE alioth
-        NAME foo
-        SOURCES
-        foo.cc
+        NAME alioth
+        SOURCES ${SRC_LIST}
         CXXOPTS
         ${CARBIN_CXX_OPTIONS}
+        DEFINES
+        -DARROW_HAVE_RUNTIME_AVX2
         PLINKS
         ${CARBIN_DEPS_LINK}
         PUBLIC
-)
-
-carbin_cc_library(
-        NAMESPACE alioth
-        NAME object
-        SOURCES
-        object.cc
-        CXXOPTS
-        ${CARBIN_CXX_OPTIONS}
-        PLINKS
-        ${CARBIN_DEPS_LINK}
-        PUBLIC
-)
-
-carbin_cc_library(
-        NAMESPACE alioth
-        NAME share
-        SOURCES
-        shared.cc
-        CXXOPTS
-        ${CARBIN_CXX_OPTIONS}
-        DEPS
-        alioth::object
-        PLINKS
-        ${CARBIN_DEPS_LINK}
-        alioth::object
-        PUBLIC
-)
-
-carbin_cc_interface(
-        NAMESPACE alioth
-        NAME api
-        HEADERS
-        api.h
-        CXXOPTS
-        ${CARBIN_CXX_OPTIONS}
-        PUBLIC
-)
-
-carbin_cc_binary(
-        NAMESPACE alioth
-        NAME shared_main
-        SOURCES
-        main.cc
-        CXXOPTS
-        ${CARBIN_CXX_OPTIONS}
-        DEPS
-        alioth::share
-        LINKS
-        ${CARBIN_DEPS_LINK}
-        alioth::share
-        PUBLIC
-)
-
-carbin_cc_object(
-        NAMESPACE alioth
-        NAME obj1
-        SOURCES object1.cc
-        CXXOPTS
-        ${CARBIN_CXX_OPTIONS}
-        DEPS
-        alioth::object
-)
-
-carbin_cc_object(
-        NAMESPACE alioth
-        NAME obj2
-        SOURCES object2.cc
-        CXXOPTS
-        ${CARBIN_CXX_OPTIONS}
-        DEPS
-        alioth::object
-)
-
-carbin_cc_library(
-        NAMESPACE alioth
-        NAME obm_source
-        OBJECTS obj1 obj2
-        SOURCES shared.cc
-        CXXOPTS
-        ${CARBIN_CXX_OPTIONS}
-        DEPS
-        alioth::object
-        PLINKS
-        ${CARBIN_DEPS_LINK}
-        alioth::object
-)
-
-carbin_cc_library(
-        NAMESPACE alioth
-        NAME obm_no_source
-        OBJECTS obj1 obj2
-        CXXOPTS
-        ${CARBIN_CXX_OPTIONS}
-        DEPS
-        alioth::object
-        PLINKS
-        ${CARBIN_DEPS_LINK}
-        alioth::object
 )
 
 ###carbin_example

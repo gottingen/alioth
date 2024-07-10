@@ -23,7 +23,7 @@
 #include <memory>
 #include <type_traits>
 
-#include "arrow/util/macros.h"
+#include "alioth/util/macros.h"
 
 namespace arrow {
 namespace util {

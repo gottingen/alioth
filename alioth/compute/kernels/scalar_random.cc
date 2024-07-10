@@ -19,11 +19,11 @@
 #include <mutex>
 #include <random>
 
-#include "arrow/compute/api_scalar.h"
-#include "arrow/compute/kernel.h"
-#include "arrow/compute/kernels/common_internal.h"
-#include "arrow/compute/registry.h"
-#include "arrow/util/pcg_random.h"
+#include "alioth/compute/api_scalar.h"
+#include "alioth/compute/kernel.h"
+#include "alioth/compute/kernels/common_internal.h"
+#include "alioth/compute/registry.h"
+#include "alioth/util/pcg_random.h"
 
 namespace arrow {
 namespace compute {

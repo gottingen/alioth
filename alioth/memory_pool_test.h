@@ -24,9 +24,9 @@
 
 #include <gtest/gtest.h>
 
-#include "arrow/memory_pool.h"
-#include "arrow/status.h"
-#include "arrow/testing/gtest_util.h"
+#include "alioth/memory_pool.h"
+#include "alioth/status.h"
+#include "alioth/testing/gtest_util.h"
 
 namespace arrow {
 

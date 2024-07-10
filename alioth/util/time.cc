@@ -17,9 +17,9 @@
 
 #include <memory>
 
-#include "arrow/type.h"
-#include "arrow/util/checked_cast.h"
-#include "arrow/util/time.h"
+#include "alioth/type.h"
+#include "alioth/util/checked_cast.h"
+#include "alioth/util/time.h"
 
 namespace arrow {
 

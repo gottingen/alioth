@@ -22,8 +22,8 @@
 #include <type_traits>
 #include <vector>
 
-#include "arrow/type.h"
-#include "arrow/util/bit_util.h"
+#include "alioth/type.h"
+#include "alioth/util/bit_util.h"
 
 namespace arrow {
 

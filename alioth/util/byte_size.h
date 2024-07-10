@@ -19,7 +19,7 @@
 
 #include <cstdint>
 
-#include "arrow/type_fwd.h"
+#include "alioth/type_fwd.h"
 
 namespace arrow {
 

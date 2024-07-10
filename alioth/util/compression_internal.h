@@ -19,7 +19,7 @@
 
 #include <memory>
 
-#include "arrow/util/compression.h"  // IWYU pragma: export
+#include "alioth/util/compression.h"  // IWYU pragma: export
 
 namespace arrow {
 namespace util {

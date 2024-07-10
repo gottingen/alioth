@@ -15,22 +15,22 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/compute/kernel.h"
+#include "alioth/compute/kernel.h"
 
 #include <cstddef>
 #include <memory>
 #include <sstream>
 #include <string>
 
-#include "arrow/buffer.h"
-#include "arrow/compute/exec.h"
-#include "arrow/result.h"
-#include "arrow/type_traits.h"
-#include "arrow/util/bit_util.h"
-#include "arrow/util/checked_cast.h"
-#include "arrow/util/hash_util.h"
-#include "arrow/util/logging.h"
-#include "arrow/util/macros.h"
+#include "alioth/buffer.h"
+#include "alioth/compute/exec.h"
+#include "alioth/result.h"
+#include "alioth/type_traits.h"
+#include "alioth/util/bit_util.h"
+#include "alioth/util/checked_cast.h"
+#include "alioth/util/hash_util.h"
+#include "alioth/util/logging.h"
+#include "alioth/util/macros.h"
 
 namespace arrow {
 

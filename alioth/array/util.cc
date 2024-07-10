@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/array/util.h"
+#include "alioth/array/util.h"
 
 #include <algorithm>
 #include <array>
@@ -27,26 +27,26 @@
 #include <utility>
 #include <vector>
 
-#include "arrow/array.h"
-#include "arrow/array/builder_base.h"
-#include "arrow/array/concatenate.h"
-#include "arrow/buffer.h"
-#include "arrow/buffer_builder.h"
-#include "arrow/extension_type.h"
-#include "arrow/result.h"
-#include "arrow/scalar.h"
-#include "arrow/status.h"
-#include "arrow/type.h"
-#include "arrow/type_traits.h"
-#include "arrow/util/bit_util.h"
-#include "arrow/util/checked_cast.h"
-#include "arrow/util/decimal.h"
-#include "arrow/util/endian.h"
-#include "arrow/util/logging.h"
-#include "arrow/util/sort.h"
-#include "arrow/util/span.h"
-#include "arrow/visit_data_inline.h"
-#include "arrow/visit_type_inline.h"
+#include "alioth/array.h"
+#include "alioth/array/builder_base.h"
+#include "alioth/array/concatenate.h"
+#include "alioth/buffer.h"
+#include "alioth/buffer_builder.h"
+#include "alioth/extension_type.h"
+#include "alioth/result.h"
+#include "alioth/scalar.h"
+#include "alioth/status.h"
+#include "alioth/type.h"
+#include "alioth/type_traits.h"
+#include "alioth/util/bit_util.h"
+#include "alioth/util/checked_cast.h"
+#include "alioth/util/decimal.h"
+#include "alioth/util/endian.h"
+#include "alioth/util/logging.h"
+#include "alioth/util/sort.h"
+#include "alioth/util/span.h"
+#include "alioth/visit_data_inline.h"
+#include "alioth/visit_type_inline.h"
 
 namespace arrow {
 

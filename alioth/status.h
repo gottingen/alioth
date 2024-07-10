@@ -20,10 +20,10 @@
 #include <string>
 #include <utility>
 
-#include "arrow/util/compare.h"
-#include "arrow/util/macros.h"
-#include "arrow/util/string_builder.h"
-#include "arrow/util/visibility.h"
+#include "alioth/util/compare.h"
+#include "alioth/util/macros.h"
+#include "alioth/util/string_builder.h"
+#include "alioth/util/visibility.h"
 
 #ifdef ARROW_EXTRA_ERROR_CONTEXT
 

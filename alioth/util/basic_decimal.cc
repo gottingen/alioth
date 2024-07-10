@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/util/basic_decimal.h"
+#include "alioth/util/basic_decimal.h"
 
 #include <algorithm>
 #include <array>
@@ -27,14 +27,14 @@
 #include <limits>
 #include <string>
 
-#include "arrow/util/bit_util.h"
-#include "arrow/util/config.h"  // for ARROW_USE_NATIVE_INT128
-#include "arrow/util/decimal_internal.h"
-#include "arrow/util/endian.h"
-#include "arrow/util/int128_internal.h"
-#include "arrow/util/int_util_overflow.h"
-#include "arrow/util/logging.h"
-#include "arrow/util/macros.h"
+#include "alioth/util/bit_util.h"
+#include "alioth/util/config.h"  // for ARROW_USE_NATIVE_INT128
+#include "alioth/util/decimal_internal.h"
+#include "alioth/util/endian.h"
+#include "alioth/util/int128_internal.h"
+#include "alioth/util/int_util_overflow.h"
+#include "alioth/util/logging.h"
+#include "alioth/util/macros.h"
 
 namespace arrow {
 

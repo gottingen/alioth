@@ -28,19 +28,19 @@
 
 #include <flatbuffers/flatbuffers.h>
 
-#include "arrow/buffer.h"
-#include "arrow/io/type_fwd.h"
-#include "arrow/ipc/message.h"
-#include "arrow/result.h"
-#include "arrow/sparse_tensor.h"
-#include "arrow/status.h"
-#include "arrow/type_fwd.h"
-#include "arrow/util/macros.h"
-#include "arrow/util/visibility.h"
+#include "alioth/buffer.h"
+#include "alioth/io/type_fwd.h"
+#include "alioth/ipc/message.h"
+#include "alioth/result.h"
+#include "alioth/sparse_tensor.h"
+#include "alioth/status.h"
+#include "alioth/type_fwd.h"
+#include "alioth/util/macros.h"
+#include "alioth/util/visibility.h"
 
-#include "generated/Message_generated.h"
-#include "generated/Schema_generated.h"
-#include "generated/SparseTensor_generated.h"  // IWYU pragma: keep
+#include "alioth/generated/Message_generated.h"
+#include "alioth/generated/Schema_generated.h"
+#include "alioth/generated/SparseTensor_generated.h"  // IWYU pragma: keep
 
 namespace arrow {
 

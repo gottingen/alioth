@@ -16,7 +16,7 @@
 // under the License.
 
 #include <cstdint>
-#include "arrow/array/data.h"
+#include "alioth/array/data.h"
 
 namespace arrow {
 namespace union_util {

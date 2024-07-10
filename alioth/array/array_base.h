@@ -23,16 +23,16 @@
 #include <string>
 #include <vector>
 
-#include "arrow/array/data.h"
-#include "arrow/buffer.h"
-#include "arrow/compare.h"
-#include "arrow/result.h"
-#include "arrow/status.h"
-#include "arrow/type.h"
-#include "arrow/util/bit_util.h"
-#include "arrow/util/macros.h"
-#include "arrow/util/visibility.h"
-#include "arrow/visitor.h"
+#include "alioth/array/data.h"
+#include "alioth/buffer.h"
+#include "alioth/compare.h"
+#include "alioth/result.h"
+#include "alioth/status.h"
+#include "alioth/type.h"
+#include "alioth/util/bit_util.h"
+#include "alioth/util/macros.h"
+#include "alioth/util/visibility.h"
+#include "alioth/visitor.h"
 
 namespace arrow {
 

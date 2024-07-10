@@ -18,20 +18,20 @@
 #include <limits>
 #include <optional>
 
-#include "arrow/array/array_base.h"
-#include "arrow/array/builder_binary.h"
-#include "arrow/compute/kernels/base_arithmetic_internal.h"
-#include "arrow/compute/kernels/codegen_internal.h"
-#include "arrow/compute/kernels/common_internal.h"
-#include "arrow/compute/kernels/scalar_cast_internal.h"
-#include "arrow/compute/kernels/temporal_internal.h"
-#include "arrow/result.h"
-#include "arrow/type.h"
-#include "arrow/type_traits.h"
-#include "arrow/util/formatting.h"
-#include "arrow/util/int_util.h"
-#include "arrow/util/utf8_internal.h"
-#include "arrow/visit_data_inline.h"
+#include "alioth/array/array_base.h"
+#include "alioth/array/builder_binary.h"
+#include "alioth/compute/kernels/base_arithmetic_internal.h"
+#include "alioth/compute/kernels/codegen_internal.h"
+#include "alioth/compute/kernels/common_internal.h"
+#include "alioth/compute/kernels/scalar_cast_internal.h"
+#include "alioth/compute/kernels/temporal_internal.h"
+#include "alioth/result.h"
+#include "alioth/type.h"
+#include "alioth/type_traits.h"
+#include "alioth/util/formatting.h"
+#include "alioth/util/int_util.h"
+#include "alioth/util/utf8_internal.h"
+#include "alioth/visit_data_inline.h"
 
 namespace arrow {
 

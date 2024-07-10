@@ -15,19 +15,19 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/array/builder_run_end.h"
-#include "arrow/array/builder_primitive.h"
+#include "alioth/array/builder_run_end.h"
+#include "alioth/array/builder_primitive.h"
 
 #include <cstddef>
 #include <cstdint>
 #include <utility>
 #include <vector>
 
-#include "arrow/scalar.h"
-#include "arrow/util/checked_cast.h"
-#include "arrow/util/int_util_overflow.h"
-#include "arrow/util/logging.h"
-#include "arrow/util/ree_util.h"
+#include "alioth/scalar.h"
+#include "alioth/util/checked_cast.h"
+#include "alioth/util/int_util_overflow.h"
+#include "alioth/util/logging.h"
+#include "alioth/util/ree_util.h"
 
 namespace arrow {
 namespace internal {

@@ -17,8 +17,8 @@
 
 #include <immintrin.h>
 
-#include "arrow/compute/key_hash_internal.h"
-#include "arrow/util/bit_util.h"
+#include "alioth/compute/key_hash_internal.h"
+#include "alioth/util/bit_util.h"
 
 namespace arrow {
 namespace compute {

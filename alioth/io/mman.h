@@ -7,7 +7,7 @@
 
 #pragma once
 
-#include "arrow/util/windows_compatibility.h"
+#include "alioth/util/windows_compatibility.h"
 
 #include <errno.h>
 #include <io.h>

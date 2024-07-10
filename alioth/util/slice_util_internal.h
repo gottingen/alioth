@@ -17,7 +17,7 @@
 
 #pragma once
 
-#include "arrow/util/int_util_overflow.h"
+#include "alioth/util/int_util_overflow.h"
 
 namespace arrow {
 namespace internal {

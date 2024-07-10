@@ -20,7 +20,7 @@
 #include <memory>
 
 // Pick up ARROW_WITH_OPENTELEMETRY first
-#include "arrow/util/config.h"
+#include "alioth/util/config.h"
 
 #ifdef ARROW_WITH_OPENTELEMETRY
 #ifdef _MSC_VER
@@ -34,11 +34,11 @@
 #endif
 #endif
 
-#include "arrow/memory_pool.h"
-#include "arrow/util/async_generator.h"
-#include "arrow/util/iterator.h"
-#include "arrow/util/tracing.h"
-#include "arrow/util/visibility.h"
+#include "alioth/memory_pool.h"
+#include "alioth/util/async_generator.h"
+#include "alioth/util/iterator.h"
+#include "alioth/util/tracing.h"
+#include "alioth/util/visibility.h"
 
 namespace arrow {
 namespace internal {

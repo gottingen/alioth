@@ -22,14 +22,14 @@
 #include <string>
 #include <vector>
 
-#include "arrow/array/array_nested.h"
-#include "arrow/array/builder_base.h"
-#include "arrow/array/data.h"
-#include "arrow/buffer_builder.h"
-#include "arrow/memory_pool.h"
-#include "arrow/status.h"
-#include "arrow/type.h"
-#include "arrow/util/visibility.h"
+#include "alioth/array/array_nested.h"
+#include "alioth/array/builder_base.h"
+#include "alioth/array/data.h"
+#include "alioth/buffer_builder.h"
+#include "alioth/memory_pool.h"
+#include "alioth/status.h"
+#include "alioth/type.h"
+#include "alioth/util/visibility.h"
 
 namespace arrow {
 

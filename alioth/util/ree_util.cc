@@ -18,10 +18,10 @@
 #include <algorithm>
 #include <cstdint>
 
-#include "arrow/builder.h"
-#include "arrow/util/bit_util.h"
-#include "arrow/util/logging.h"
-#include "arrow/util/ree_util.h"
+#include "alioth/builder.h"
+#include "alioth/util/bit_util.h"
+#include "alioth/util/logging.h"
+#include "alioth/util/ree_util.h"
 
 namespace arrow {
 namespace ree_util {

@@ -21,13 +21,13 @@
 #include <type_traits>
 #include <utility>
 
-#include "arrow/array/util.h"
-#include "arrow/buffer.h"
-#include "arrow/compute/kernels/codegen_internal.h"
-#include "arrow/compute/type_fwd.h"
-#include "arrow/util/bit_run_reader.h"
-#include "arrow/util/bitmap_ops.h"
-#include "arrow/util/math_constants.h"
+#include "alioth/array/util.h"
+#include "alioth/buffer.h"
+#include "alioth/compute/kernels/codegen_internal.h"
+#include "alioth/compute/type_fwd.h"
+#include "alioth/util/bit_run_reader.h"
+#include "alioth/util/bitmap_ops.h"
+#include "alioth/util/math_constants.h"
 
 namespace arrow {
 

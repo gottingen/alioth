@@ -15,15 +15,15 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/visitor.h"
+#include "alioth/visitor.h"
 
 #include <memory>
 
-#include "arrow/array.h"  // IWYU pragma: keep
-#include "arrow/extension_type.h"
-#include "arrow/scalar.h"  // IWYU pragma: keep
-#include "arrow/status.h"
-#include "arrow/type.h"
+#include "alioth/array.h"  // IWYU pragma: keep
+#include "alioth/extension_type.h"
+#include "alioth/scalar.h"  // IWYU pragma: keep
+#include "alioth/status.h"
+#include "alioth/type.h"
 
 namespace arrow {
 

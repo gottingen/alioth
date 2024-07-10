@@ -20,8 +20,8 @@
 #include <string_view>
 #include <utility>
 
-#include "arrow/type.h"
-#include "arrow/util/span.h"
+#include "alioth/type.h"
+#include "alioth/util/span.h"
 
 namespace arrow::util {
 

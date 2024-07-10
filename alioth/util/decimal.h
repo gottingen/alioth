@@ -24,10 +24,10 @@
 #include <string_view>
 #include <utility>
 
-#include "arrow/result.h"
-#include "arrow/status.h"
-#include "arrow/type_fwd.h"
-#include "arrow/util/basic_decimal.h"
+#include "alioth/result.h"
+#include "alioth/status.h"
+#include "alioth/type_fwd.h"
+#include "alioth/util/basic_decimal.h"
 
 namespace arrow {
 

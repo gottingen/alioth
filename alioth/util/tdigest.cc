@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/util/tdigest.h"
+#include "alioth/util/tdigest.h"
 
 #include <algorithm>
 #include <cmath>
@@ -25,8 +25,8 @@
 #include <tuple>
 #include <vector>
 
-#include "arrow/status.h"
-#include "arrow/util/math_constants.h"
+#include "alioth/status.h"
+#include "alioth/util/math_constants.h"
 
 namespace arrow {
 namespace internal {

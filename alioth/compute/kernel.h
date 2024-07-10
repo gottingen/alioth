@@ -28,15 +28,15 @@
 #include <utility>
 #include <vector>
 
-#include "arrow/buffer.h"
-#include "arrow/compute/exec.h"
-#include "arrow/datum.h"
-#include "arrow/memory_pool.h"
-#include "arrow/result.h"
-#include "arrow/status.h"
-#include "arrow/type.h"
-#include "arrow/util/macros.h"
-#include "arrow/util/visibility.h"
+#include "alioth/buffer.h"
+#include "alioth/compute/exec.h"
+#include "alioth/datum.h"
+#include "alioth/memory_pool.h"
+#include "alioth/result.h"
+#include "alioth/status.h"
+#include "alioth/type.h"
+#include "alioth/util/macros.h"
+#include "alioth/util/visibility.h"
 
 // macOS defines PREALLOCATE as a preprocessor macro in the header sys/vnode.h.
 // No other BSD seems to do so. The name is used as an identifier in MemAllocation enum.

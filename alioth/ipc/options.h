@@ -21,12 +21,12 @@
 #include <optional>
 #include <vector>
 
-#include "arrow/io/caching.h"
-#include "arrow/ipc/type_fwd.h"
-#include "arrow/status.h"
-#include "arrow/type_fwd.h"
-#include "arrow/util/compression.h"
-#include "arrow/util/visibility.h"
+#include "alioth/io/caching.h"
+#include "alioth/ipc/type_fwd.h"
+#include "alioth/status.h"
+#include "alioth/type_fwd.h"
+#include "alioth/util/compression.h"
+#include "alioth/util/visibility.h"
 
 namespace arrow {
 

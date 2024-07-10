@@ -15,13 +15,13 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/c/dlpack.h"
+#include "alioth/c/dlpack.h"
 
-#include "arrow/array/array_base.h"
-#include "arrow/c/dlpack_abi.h"
-#include "arrow/device.h"
-#include "arrow/type.h"
-#include "arrow/type_traits.h"
+#include "alioth/array/array_base.h"
+#include "alioth/c/dlpack_abi.h"
+#include "alioth/device.h"
+#include "alioth/type.h"
+#include "alioth/type_traits.h"
 
 namespace arrow::dlpack {
 

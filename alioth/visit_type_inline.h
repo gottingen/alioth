@@ -17,10 +17,10 @@
 
 #pragma once
 
-#include "arrow/extension_type.h"
-#include "arrow/type.h"
-#include "arrow/util/macros.h"
-#include "arrow/visitor_generate.h"
+#include "alioth/extension_type.h"
+#include "alioth/type.h"
+#include "alioth/util/macros.h"
+#include "alioth/visitor_generate.h"
 
 namespace arrow {
 

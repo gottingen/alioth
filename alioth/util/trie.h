@@ -27,9 +27,9 @@
 #include <utility>
 #include <vector>
 
-#include "arrow/status.h"
-#include "arrow/util/macros.h"
-#include "arrow/util/visibility.h"
+#include "alioth/status.h"
+#include "alioth/util/macros.h"
+#include "alioth/util/visibility.h"
 
 namespace arrow {
 namespace internal {

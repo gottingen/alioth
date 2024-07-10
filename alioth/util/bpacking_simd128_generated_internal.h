@@ -22,10 +22,10 @@
 #include <cstdint>
 #include <cstring>
 
-#include <xsimd/xsimd.hpp>
+#include <collie/simd/simd.h>
 
-#include "arrow/util/dispatch.h"
-#include "arrow/util/ubsan.h"
+#include "alioth/util/dispatch.h"
+#include "alioth/util/ubsan.h"
 
 namespace arrow {
 namespace internal {
@@ -36,7 +36,7 @@ using ::arrow::util::SafeLoad;
 template <DispatchLevel level>
 struct UnpackBits128 {
 
-using simd_batch = xsimd::make_sized_batch_t<uint32_t, 4>;
+using simd_batch = collie::simd::make_sized_batch_t<uint32_t, 4>;
 
 inline static const uint32_t* unpack0_32(const uint32_t* in, uint32_t* out) {
   memset(out, 0x0, 32 * sizeof(*out));

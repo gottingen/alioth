@@ -15,18 +15,18 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/builder.h"
+#include "alioth/builder.h"
 
 #include <memory>
 #include <string>
 #include <utility>
 #include <vector>
 
-#include "arrow/status.h"
-#include "arrow/type.h"
-#include "arrow/util/checked_cast.h"
-#include "arrow/util/hashing.h"
-#include "arrow/visit_type_inline.h"
+#include "alioth/status.h"
+#include "alioth/type.h"
+#include "alioth/util/checked_cast.h"
+#include "alioth/util/hashing.h"
+#include "alioth/visit_type_inline.h"
 
 namespace arrow {
 

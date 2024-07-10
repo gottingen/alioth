@@ -25,15 +25,15 @@
 #include <string_view>
 
 #if defined(ARROW_HAVE_NEON) || defined(ARROW_HAVE_SSE4_2)
-#include <xsimd/xsimd.hpp>
+#include <collie/simd/simd.h>
 #endif
 
-#include "arrow/type_fwd.h"
-#include "arrow/util/macros.h"
-#include "arrow/util/simd.h"
-#include "arrow/util/ubsan.h"
-#include "arrow/util/utf8.h"
-#include "arrow/util/visibility.h"
+#include "alioth/type_fwd.h"
+#include "alioth/util/macros.h"
+#include "alioth/util/simd.h"
+#include "alioth/util/ubsan.h"
+#include "alioth/util/utf8.h"
+#include "alioth/util/visibility.h"
 
 namespace arrow {
 namespace util {
@@ -232,7 +232,7 @@ static inline bool ValidateAsciiSw(const uint8_t* data, int64_t len) {
 
 #if defined(ARROW_HAVE_NEON) || defined(ARROW_HAVE_SSE4_2)
 static inline bool ValidateAsciiSimd(const uint8_t* data, int64_t len) {
-  using simd_batch = xsimd::make_sized_batch_t<int8_t, 16>;
+  using simd_batch = collie::simd::make_sized_batch_t<int8_t, 16>;
 
   if (len >= 32) {
     const simd_batch zero(static_cast<int8_t>(0));
@@ -249,7 +249,7 @@ static inline bool ValidateAsciiSimd(const uint8_t* data, int64_t len) {
 
     // To test for upper bit in all bytes, test whether any of them is negative
     or1 |= or2;
-    if (xsimd::any(or1 < zero)) {
+    if (collie::simd::any(or1 < zero)) {
       return false;
     }
   }

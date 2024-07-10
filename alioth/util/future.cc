@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/util/future.h"
+#include "alioth/util/future.h"
 
 #include <algorithm>
 #include <atomic>
@@ -24,11 +24,11 @@
 #include <mutex>
 #include <numeric>
 
-#include "arrow/util/checked_cast.h"
-#include "arrow/util/config.h"
-#include "arrow/util/logging.h"
-#include "arrow/util/thread_pool.h"
-#include "arrow/util/tracing_internal.h"
+#include "alioth/util/checked_cast.h"
+#include "alioth/util/config.h"
+#include "alioth/util/logging.h"
+#include "alioth/util/thread_pool.h"
+#include "alioth/util/tracing_internal.h"
 
 namespace arrow {
 

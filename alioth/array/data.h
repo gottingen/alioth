@@ -24,14 +24,14 @@
 #include <utility>
 #include <vector>
 
-#include "arrow/buffer.h"
-#include "arrow/result.h"
-#include "arrow/type.h"
-#include "arrow/type_fwd.h"
-#include "arrow/util/bit_util.h"
-#include "arrow/util/macros.h"
-#include "arrow/util/span.h"
-#include "arrow/util/visibility.h"
+#include "alioth/buffer.h"
+#include "alioth/result.h"
+#include "alioth/type.h"
+#include "alioth/type_fwd.h"
+#include "alioth/util/bit_util.h"
+#include "alioth/util/macros.h"
+#include "alioth/util/span.h"
+#include "alioth/util/visibility.h"
 
 namespace arrow {
 

@@ -15,19 +15,19 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/device.h"
+#include "alioth/device.h"
 
 #include <cstring>
 #include <mutex>
 #include <unordered_map>
 #include <utility>
 
-#include "arrow/array.h"
-#include "arrow/buffer.h"
-#include "arrow/io/memory.h"
-#include "arrow/record_batch.h"
-#include "arrow/result.h"
-#include "arrow/util/logging.h"
+#include "alioth/array.h"
+#include "alioth/buffer.h"
+#include "alioth/io/memory.h"
+#include "alioth/record_batch.h"
+#include "alioth/result.h"
+#include "alioth/util/logging.h"
 
 namespace arrow {
 

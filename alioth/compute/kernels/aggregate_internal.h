@@ -17,12 +17,12 @@
 
 #pragma once
 
-#include "arrow/compute/kernels/util_internal.h"
-#include "arrow/type.h"
-#include "arrow/type_traits.h"
-#include "arrow/util/bit_run_reader.h"
-#include "arrow/util/int128_internal.h"
-#include "arrow/util/logging.h"
+#include "alioth/compute/kernels/util_internal.h"
+#include "alioth/type.h"
+#include "alioth/type_traits.h"
+#include "alioth/util/bit_run_reader.h"
+#include "alioth/util/int128_internal.h"
+#include "alioth/util/logging.h"
 
 namespace arrow {
 namespace compute {

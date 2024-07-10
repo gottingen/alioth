@@ -15,20 +15,20 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/util/byte_size.h"
+#include "alioth/util/byte_size.h"
 
 #include <cstdint>
 #include <unordered_set>
 
-#include "arrow/array.h"
-#include "arrow/array/builder_primitive.h"
-#include "arrow/buffer.h"
-#include "arrow/chunked_array.h"
-#include "arrow/record_batch.h"
-#include "arrow/table.h"
-#include "arrow/util/logging.h"
-#include "arrow/util/ree_util.h"
-#include "arrow/visit_type_inline.h"
+#include "alioth/array.h"
+#include "alioth/array/builder_primitive.h"
+#include "alioth/buffer.h"
+#include "alioth/chunked_array.h"
+#include "alioth/record_batch.h"
+#include "alioth/table.h"
+#include "alioth/util/logging.h"
+#include "alioth/util/ree_util.h"
+#include "alioth/visit_type_inline.h"
 
 namespace arrow {
 

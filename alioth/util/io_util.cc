@@ -31,7 +31,7 @@
 #define __EXTENSIONS__
 #endif
 
-#include "arrow/util/windows_compatibility.h"  // IWYU pragma: keep
+#include "alioth/util/windows_compatibility.h"  // IWYU pragma: keep
 
 #include <algorithm>
 #include <array>
@@ -68,7 +68,7 @@
 #endif
 
 #ifdef _WIN32
-#include "arrow/io/mman.h"
+#include "alioth/io/mman.h"
 #undef Realloc
 #undef Free
 #else  // POSIX-like platforms
@@ -91,18 +91,18 @@
 
 #endif
 
-#include "arrow/buffer.h"
-#include "arrow/result.h"
-#include "arrow/util/atfork_internal.h"
-#include "arrow/util/checked_cast.h"
-#include "arrow/util/config.h"
-#include "arrow/util/io_util.h"
-#include "arrow/util/logging.h"
-#include "arrow/util/mutex.h"
+#include "alioth/buffer.h"
+#include "alioth/result.h"
+#include "alioth/util/atfork_internal.h"
+#include "alioth/util/checked_cast.h"
+#include "alioth/util/config.h"
+#include "alioth/util/io_util.h"
+#include "alioth/util/logging.h"
+#include "alioth/util/mutex.h"
 
 // For filename conversion
 #if defined(_WIN32)
-#include "arrow/util/utf8.h"
+#include "alioth/util/utf8.h"
 #endif
 
 #ifdef _WIN32

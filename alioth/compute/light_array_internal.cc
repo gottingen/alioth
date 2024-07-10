@@ -15,13 +15,13 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/compute/light_array_internal.h"
+#include "alioth/compute/light_array_internal.h"
 
 #include <type_traits>
 
-#include "arrow/util/bitmap_ops.h"
-#include "arrow/util/int_util_overflow.h"
-#include "arrow/util/macros.h"
+#include "alioth/util/bitmap_ops.h"
+#include "alioth/util/int_util_overflow.h"
+#include "alioth/util/macros.h"
 
 namespace arrow {
 namespace compute {

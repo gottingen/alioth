@@ -24,17 +24,17 @@
 #include <unordered_map>
 #include <vector>
 
-#include "arrow/buffer.h"
-#include "arrow/compute/expression.h"
-#include "arrow/compute/type_fwd.h"
-#include "arrow/memory_pool.h"
-#include "arrow/result.h"
-#include "arrow/status.h"
-#include "arrow/util/bit_util.h"
-#include "arrow/util/cpu_info.h"
-#include "arrow/util/mutex.h"
-#include "arrow/util/thread_pool.h"
-#include "arrow/util/type_fwd.h"
+#include "alioth/buffer.h"
+#include "alioth/compute/expression.h"
+#include "alioth/compute/type_fwd.h"
+#include "alioth/memory_pool.h"
+#include "alioth/result.h"
+#include "alioth/status.h"
+#include "alioth/util/bit_util.h"
+#include "alioth/util/cpu_info.h"
+#include "alioth/util/mutex.h"
+#include "alioth/util/thread_pool.h"
+#include "alioth/util/type_fwd.h"
 
 #if defined(__clang__) || defined(__GNUC__)
 #define BYTESWAP(x) __builtin_bswap64(x)

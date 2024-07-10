@@ -26,12 +26,12 @@
 #include <utility>
 #include <vector>
 
-#include "arrow/device.h"
-#include "arrow/status.h"
-#include "arrow/type_fwd.h"
-#include "arrow/util/macros.h"
-#include "arrow/util/span.h"
-#include "arrow/util/visibility.h"
+#include "alioth/device.h"
+#include "alioth/status.h"
+#include "alioth/type_fwd.h"
+#include "alioth/util/macros.h"
+#include "alioth/util/span.h"
+#include "alioth/util/visibility.h"
 
 namespace arrow {
 

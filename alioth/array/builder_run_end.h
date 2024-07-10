@@ -23,8 +23,8 @@
 #include <utility>
 #include <vector>
 
-#include "arrow/array.h"
-#include "arrow/array/builder_base.h"
+#include "alioth/array.h"
+#include "alioth/array/builder_base.h"
 
 namespace arrow {
 

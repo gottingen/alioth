@@ -17,15 +17,15 @@
 
 // Implementation of casting to integer, floating point, or decimal types
 
-#include "arrow/array/builder_primitive.h"
-#include "arrow/compute/kernels/common_internal.h"
-#include "arrow/compute/kernels/scalar_cast_internal.h"
-#include "arrow/compute/kernels/util_internal.h"
-#include "arrow/scalar.h"
-#include "arrow/util/bit_block_counter.h"
-#include "arrow/util/float16.h"
-#include "arrow/util/int_util.h"
-#include "arrow/util/value_parsing.h"
+#include "alioth/array/builder_primitive.h"
+#include "alioth/compute/kernels/common_internal.h"
+#include "alioth/compute/kernels/scalar_cast_internal.h"
+#include "alioth/compute/kernels/util_internal.h"
+#include "alioth/scalar.h"
+#include "alioth/util/bit_block_counter.h"
+#include "alioth/util/float16.h"
+#include "alioth/util/int_util.h"
+#include "alioth/util/value_parsing.h"
 
 namespace arrow {
 

@@ -28,15 +28,15 @@
 #include <utility>
 #include <vector>
 
-#include "arrow/buffer.h"
-#include "arrow/io/hdfs.h"
-#include "arrow/io/hdfs_internal.h"
-#include "arrow/io/interfaces.h"
-#include "arrow/memory_pool.h"
-#include "arrow/result.h"
-#include "arrow/status.h"
-#include "arrow/util/io_util.h"
-#include "arrow/util/logging.h"
+#include "alioth/buffer.h"
+#include "alioth/io/hdfs.h"
+#include "alioth/io/hdfs_internal.h"
+#include "alioth/io/interfaces.h"
+#include "alioth/memory_pool.h"
+#include "alioth/result.h"
+#include "alioth/status.h"
+#include "alioth/util/io_util.h"
+#include "alioth/util/logging.h"
 
 using std::size_t;
 

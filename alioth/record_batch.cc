@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/record_batch.h"
+#include "alioth/record_batch.h"
 
 #include <algorithm>
 #include <cmath>
@@ -25,19 +25,19 @@
 #include <string>
 #include <utility>
 
-#include "arrow/array.h"
-#include "arrow/array/concatenate.h"
-#include "arrow/array/validate.h"
-#include "arrow/pretty_print.h"
-#include "arrow/status.h"
-#include "arrow/table.h"
-#include "arrow/tensor.h"
-#include "arrow/type.h"
-#include "arrow/util/iterator.h"
-#include "arrow/util/logging.h"
-#include "arrow/util/unreachable.h"
-#include "arrow/util/vector.h"
-#include "arrow/visit_type_inline.h"
+#include "alioth/array.h"
+#include "alioth/array/concatenate.h"
+#include "alioth/array/validate.h"
+#include "alioth/pretty_print.h"
+#include "alioth/status.h"
+#include "alioth/table.h"
+#include "alioth/tensor.h"
+#include "alioth/type.h"
+#include "alioth/util/iterator.h"
+#include "alioth/util/logging.h"
+#include "alioth/util/unreachable.h"
+#include "alioth/util/vector.h"
+#include "alioth/visit_type_inline.h"
 
 namespace arrow {
 

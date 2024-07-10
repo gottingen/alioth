@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/array/builder_binary.h"
+#include "alioth/array/builder_binary.h"
 
 #include <algorithm>
 #include <cstddef>
@@ -26,16 +26,16 @@
 #include <utility>
 #include <vector>
 
-#include "arrow/array.h"
-#include "arrow/buffer.h"
-#include "arrow/status.h"
-#include "arrow/type.h"
-#include "arrow/type_traits.h"
-#include "arrow/util/bit_util.h"
-#include "arrow/util/checked_cast.h"
-#include "arrow/util/decimal.h"
-#include "arrow/util/logging.h"
-#include "arrow/visit_data_inline.h"
+#include "alioth/array.h"
+#include "alioth/buffer.h"
+#include "alioth/status.h"
+#include "alioth/type.h"
+#include "alioth/type_traits.h"
+#include "alioth/util/bit_util.h"
+#include "alioth/util/checked_cast.h"
+#include "alioth/util/decimal.h"
+#include "alioth/util/logging.h"
+#include "alioth/visit_data_inline.h"
 
 namespace arrow {
 

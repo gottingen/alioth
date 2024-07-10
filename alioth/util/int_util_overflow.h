@@ -21,15 +21,15 @@
 #include <limits>
 #include <type_traits>
 
-#include "arrow/status.h"
-#include "arrow/util/macros.h"
-#include "arrow/util/visibility.h"
+#include "alioth/status.h"
+#include "alioth/util/macros.h"
+#include "alioth/util/visibility.h"
 
 // "safe-math.h" includes <intsafe.h> from the Windows headers.
-#include "arrow/util/windows_compatibility.h"
-#include "arrow/vendored/portable-snippets/safe-math.h"
+#include "alioth/util/windows_compatibility.h"
+#include "alioth/vendored/portable-snippets/safe-math.h"
 // clang-format off (avoid include reordering)
-#include "arrow/util/windows_fixup.h"
+#include "alioth/util/windows_fixup.h"
 // clang-format on
 
 namespace arrow {

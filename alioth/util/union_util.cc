@@ -15,13 +15,13 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/util/union_util.h"
+#include "alioth/util/union_util.h"
 
 #include <cstdint>
 
-#include "arrow/array/data.h"
-#include "arrow/util/checked_cast.h"
-#include "arrow/util/logging.h"
+#include "alioth/array/data.h"
+#include "alioth/util/checked_cast.h"
+#include "alioth/util/logging.h"
 
 namespace arrow::union_util {
 

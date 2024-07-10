@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/compute/registry.h"
+#include "alioth/compute/registry.h"
 
 #include <algorithm>
 #include <memory>
@@ -23,12 +23,12 @@
 #include <unordered_map>
 #include <utility>
 
-#include "arrow/compute/function.h"
-#include "arrow/compute/function_internal.h"
-#include "arrow/compute/registry_internal.h"
-#include "arrow/status.h"
-#include "arrow/util/config.h"  // For ARROW_COMPUTE
-#include "arrow/util/logging.h"
+#include "alioth/compute/function.h"
+#include "alioth/compute/function_internal.h"
+#include "alioth/compute/registry_internal.h"
+#include "alioth/status.h"
+#include "alioth/util/config.h"  // For ARROW_COMPUTE
+#include "alioth/util/logging.h"
 
 namespace arrow {
 namespace compute {

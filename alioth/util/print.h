@@ -18,7 +18,7 @@
 #pragma once
 
 #include <tuple>
-#include "arrow/util/string.h"
+#include "alioth/util/string.h"
 
 using arrow::internal::ToChars;
 

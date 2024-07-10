@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/util/atfork_internal.h"
+#include "alioth/util/atfork_internal.h"
 
 #include <algorithm>
 #include <atomic>
@@ -26,8 +26,8 @@
 #include <pthread.h>
 #endif
 
-#include "arrow/util/io_util.h"
-#include "arrow/util/logging.h"
+#include "alioth/util/io_util.h"
+#include "alioth/util/logging.h"
 
 namespace arrow {
 namespace internal {

@@ -29,15 +29,15 @@
 #include <type_traits>
 #include <utility>
 
-#include "arrow/status.h"
-#include "arrow/type.h"
-#include "arrow/type_traits.h"
-#include "arrow/util/double_conversion.h"
-#include "arrow/util/macros.h"
-#include "arrow/util/string.h"
-#include "arrow/util/time.h"
-#include "arrow/util/visibility.h"
-#include "arrow/vendored/datetime.h"
+#include "alioth/status.h"
+#include "alioth/type.h"
+#include "alioth/type_traits.h"
+#include "alioth/util/double_conversion.h"
+#include "alioth/util/macros.h"
+#include "alioth/util/string.h"
+#include "alioth/util/time.h"
+#include "alioth/util/visibility.h"
+#include "alioth/vendored/datetime.h"
 
 namespace arrow {
 namespace internal {

@@ -15,16 +15,16 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/compute/key_hash_internal.h"
+#include "alioth/compute/key_hash_internal.h"
 
 #include <memory.h>
 
 #include <algorithm>
 #include <cstdint>
 
-#include "arrow/compute/light_array_internal.h"
-#include "arrow/util/bit_util.h"
-#include "arrow/util/ubsan.h"
+#include "alioth/compute/light_array_internal.h"
+#include "alioth/util/bit_util.h"
+#include "alioth/util/ubsan.h"
 
 namespace arrow {
 namespace compute {

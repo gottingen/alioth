@@ -15,14 +15,14 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/compute/util.h"
+#include "alioth/compute/util.h"
 
-#include "arrow/table.h"
-#include "arrow/util/bit_util.h"
-#include "arrow/util/bitmap_ops.h"
-#include "arrow/util/logging.h"
-#include "arrow/util/tracing_internal.h"
-#include "arrow/util/ubsan.h"
+#include "alioth/table.h"
+#include "alioth/util/bit_util.h"
+#include "alioth/util/bitmap_ops.h"
+#include "alioth/util/logging.h"
+#include "alioth/util/tracing_internal.h"
+#include "alioth/util/ubsan.h"
 
 namespace arrow {
 

@@ -22,22 +22,22 @@
 #include <memory>
 #include <type_traits>
 
-#include "arrow/array/array_base.h"
-#include "arrow/array/array_binary.h"
-#include "arrow/array/builder_adaptive.h"   // IWYU pragma: export
-#include "arrow/array/builder_base.h"       // IWYU pragma: export
-#include "arrow/array/builder_primitive.h"  // IWYU pragma: export
-#include "arrow/array/data.h"
-#include "arrow/array/util.h"
-#include "arrow/scalar.h"
-#include "arrow/status.h"
-#include "arrow/type.h"
-#include "arrow/type_traits.h"
-#include "arrow/util/bit_block_counter.h"
-#include "arrow/util/checked_cast.h"
-#include "arrow/util/decimal.h"
-#include "arrow/util/macros.h"
-#include "arrow/util/visibility.h"
+#include "alioth/array/array_base.h"
+#include "alioth/array/array_binary.h"
+#include "alioth/array/builder_adaptive.h"   // IWYU pragma: export
+#include "alioth/array/builder_base.h"       // IWYU pragma: export
+#include "alioth/array/builder_primitive.h"  // IWYU pragma: export
+#include "alioth/array/data.h"
+#include "alioth/array/util.h"
+#include "alioth/scalar.h"
+#include "alioth/status.h"
+#include "alioth/type.h"
+#include "alioth/type_traits.h"
+#include "alioth/util/bit_block_counter.h"
+#include "alioth/util/checked_cast.h"
+#include "alioth/util/decimal.h"
+#include "alioth/util/macros.h"
+#include "alioth/util/visibility.h"
 
 namespace arrow {
 

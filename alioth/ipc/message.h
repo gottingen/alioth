@@ -25,13 +25,13 @@
 #include <string>
 #include <utility>
 
-#include "arrow/io/type_fwd.h"
-#include "arrow/ipc/type_fwd.h"
-#include "arrow/result.h"
-#include "arrow/status.h"
-#include "arrow/type_fwd.h"
-#include "arrow/util/macros.h"
-#include "arrow/util/visibility.h"
+#include "alioth/io/type_fwd.h"
+#include "alioth/ipc/type_fwd.h"
+#include "alioth/result.h"
+#include "alioth/status.h"
+#include "alioth/type_fwd.h"
+#include "alioth/util/macros.h"
+#include "alioth/util/visibility.h"
 
 namespace arrow {
 namespace ipc {

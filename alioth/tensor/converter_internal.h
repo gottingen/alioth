@@ -17,7 +17,7 @@
 
 #pragma once
 
-#include "arrow/tensor/converter.h"
+#include "alioth/tensor/converter.h"
 
 #define DISPATCH(ACTION, index_elsize, value_elsize, ...) \
   switch (index_elsize) {                                 \

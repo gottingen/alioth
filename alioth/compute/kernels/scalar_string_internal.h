@@ -19,8 +19,8 @@
 
 #include <sstream>
 
-#include "arrow/compute/api_scalar.h"
-#include "arrow/compute/kernels/common_internal.h"
+#include "alioth/compute/api_scalar.h"
+#include "alioth/compute/kernels/common_internal.h"
 
 namespace arrow {
 namespace compute {

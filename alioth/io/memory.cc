@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/io/memory.h"
+#include "alioth/io/memory.h"
 
 #include <algorithm>
 #include <cstdint>
@@ -23,15 +23,15 @@
 #include <mutex>
 #include <utility>
 
-#include "arrow/buffer.h"
-#include "arrow/io/util_internal.h"
-#include "arrow/memory_pool.h"
-#include "arrow/status.h"
-#include "arrow/util/future.h"
-#include "arrow/util/io_util.h"
-#include "arrow/util/logging.h"
-#include "arrow/util/macros.h"
-#include "arrow/util/memory.h"
+#include "alioth/buffer.h"
+#include "alioth/io/util_internal.h"
+#include "alioth/memory_pool.h"
+#include "alioth/status.h"
+#include "alioth/util/future.h"
+#include "alioth/util/io_util.h"
+#include "alioth/util/logging.h"
+#include "alioth/util/macros.h"
+#include "alioth/util/memory.h"
 
 namespace arrow {
 namespace io {

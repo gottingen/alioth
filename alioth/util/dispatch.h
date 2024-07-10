@@ -20,8 +20,8 @@
 #include <utility>
 #include <vector>
 
-#include "arrow/status.h"
-#include "arrow/util/cpu_info.h"
+#include "alioth/status.h"
+#include "alioth/util/cpu_info.h"
 
 namespace arrow {
 namespace internal {

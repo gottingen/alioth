@@ -22,8 +22,8 @@
 #include <cstdint>
 #include <vector>
 
-#include "arrow/type_fwd.h"
-#include "arrow/util/macros.h"
+#include "alioth/type_fwd.h"
+#include "alioth/util/macros.h"
 
 namespace arrow::internal {
 

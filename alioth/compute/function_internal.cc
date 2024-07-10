@@ -15,17 +15,17 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/compute/function_internal.h"
+#include "alioth/compute/function_internal.h"
 
-#include "arrow/array/util.h"
-#include "arrow/compute/function.h"
-#include "arrow/compute/registry.h"
-#include "arrow/io/memory.h"
-#include "arrow/ipc/reader.h"
-#include "arrow/ipc/writer.h"
-#include "arrow/record_batch.h"
-#include "arrow/scalar.h"
-#include "arrow/util/checked_cast.h"
+#include "alioth/array/util.h"
+#include "alioth/compute/function.h"
+#include "alioth/compute/registry.h"
+#include "alioth/io/memory.h"
+#include "alioth/ipc/reader.h"
+#include "alioth/ipc/writer.h"
+#include "alioth/record_batch.h"
+#include "alioth/scalar.h"
+#include "alioth/util/checked_cast.h"
 
 namespace arrow {
 namespace compute {

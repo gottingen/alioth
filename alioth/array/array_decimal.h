@@ -21,10 +21,10 @@
 #include <memory>
 #include <string>
 
-#include "arrow/array/array_binary.h"
-#include "arrow/array/data.h"
-#include "arrow/type.h"
-#include "arrow/util/visibility.h"
+#include "alioth/array/array_binary.h"
+#include "alioth/array/data.h"
+#include "alioth/type.h"
+#include "alioth/util/visibility.h"
 
 namespace arrow {
 

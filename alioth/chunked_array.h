@@ -23,13 +23,13 @@
 #include <utility>
 #include <vector>
 
-#include "arrow/chunk_resolver.h"
-#include "arrow/compare.h"
-#include "arrow/result.h"
-#include "arrow/status.h"
-#include "arrow/type_fwd.h"
-#include "arrow/util/macros.h"
-#include "arrow/util/visibility.h"
+#include "alioth/chunk_resolver.h"
+#include "alioth/compare.h"
+#include "alioth/result.h"
+#include "alioth/status.h"
+#include "alioth/type_fwd.h"
+#include "alioth/util/macros.h"
+#include "alioth/util/visibility.h"
 
 namespace arrow {
 

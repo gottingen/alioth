@@ -15,17 +15,17 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/compute/row/compare_internal.h"
+#include "alioth/compute/row/compare_internal.h"
 
 #include <memory.h>
 
 #include <algorithm>
 #include <cstdint>
 
-#include "arrow/compute/util.h"
-#include "arrow/compute/util_internal.h"
-#include "arrow/util/bit_util.h"
-#include "arrow/util/ubsan.h"
+#include "alioth/compute/util.h"
+#include "alioth/compute/util_internal.h"
+#include "alioth/util/bit_util.h"
+#include "alioth/util/ubsan.h"
 
 namespace arrow {
 namespace compute {

@@ -19,10 +19,10 @@
 #include <numeric>
 #include <vector>
 
-#include "arrow/compute/api_aggregate.h"
-#include "arrow/compute/kernels/common_internal.h"
-#include "arrow/compute/kernels/util_internal.h"
-#include "arrow/stl_allocator.h"
+#include "alioth/compute/api_aggregate.h"
+#include "alioth/compute/kernels/common_internal.h"
+#include "alioth/compute/kernels/util_internal.h"
+#include "alioth/stl_allocator.h"
 
 namespace arrow {
 namespace compute {

@@ -25,10 +25,10 @@
 #include <string>
 #include <vector>
 
-#include "arrow/ipc/options.h"
-#include "arrow/type_fwd.h"
-#include "arrow/util/compression.h"
-#include "arrow/util/visibility.h"
+#include "alioth/ipc/options.h"
+#include "alioth/type_fwd.h"
+#include "alioth/util/compression.h"
+#include "alioth/util/visibility.h"
 
 namespace arrow {
 

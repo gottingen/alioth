@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/memory_pool_internal.h"
+#include "alioth/memory_pool_internal.h"
 
 #include <algorithm>  // IWYU pragma: keep
 #include <atomic>
@@ -31,19 +31,19 @@
 #include <stdlib.h>
 #endif
 
-#include "arrow/buffer.h"
-#include "arrow/io/util_internal.h"
-#include "arrow/result.h"
-#include "arrow/status.h"
-#include "arrow/util/bit_util.h"
-#include "arrow/util/config.h"
-#include "arrow/util/debug.h"
-#include "arrow/util/int_util_overflow.h"
-#include "arrow/util/io_util.h"
-#include "arrow/util/logging.h"  // IWYU pragma: keep
-#include "arrow/util/string.h"
-#include "arrow/util/thread_pool.h"
-#include "arrow/util/ubsan.h"
+#include "alioth/buffer.h"
+#include "alioth/io/util_internal.h"
+#include "alioth/result.h"
+#include "alioth/status.h"
+#include "alioth/util/bit_util.h"
+#include "alioth/util/config.h"
+#include "alioth/util/debug.h"
+#include "alioth/util/int_util_overflow.h"
+#include "alioth/util/io_util.h"
+#include "alioth/util/logging.h"  // IWYU pragma: keep
+#include "alioth/util/string.h"
+#include "alioth/util/thread_pool.h"
+#include "alioth/util/ubsan.h"
 
 #ifdef __GLIBC__
 #include <malloc.h>

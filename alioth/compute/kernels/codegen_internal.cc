@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-#include "arrow/compute/kernels/codegen_internal.h"
+#include "alioth/compute/kernels/codegen_internal.h"
 
 #include <cmath>
 #include <functional>
@@ -23,7 +23,7 @@
 #include <mutex>
 #include <vector>
 
-#include "arrow/type_fwd.h"
+#include "alioth/type_fwd.h"
 
 namespace arrow {
 namespace compute {
